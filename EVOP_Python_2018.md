@@ -2886,9 +2886,13 @@ print(genes)
 
 Output:
 
-```
+```bash
 {'TP53': 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC', 'BRCA1': 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA'}
 ```
+
+![try it](images/Try-It-Now.jpg)
+
+1. Let's do it! Use sequence_data.txt to read in the gene information and create a dictionary.
 
 ### Regular Expressions
 
@@ -2950,7 +2954,9 @@ We could test for each of these, or use regular expressions. This is exactly wha
   <_sre.SRE_Match object; span=(7, 10), match='ACG'>
 ```
 
-> Here you can see in the returned information that ACG starts at string postion 7 (nt 8). The first position following the end of the match is at string postion 10 (nt 11).
+> Here you can see in the returned information that ACG starts at string postion 7 (nt 8). 
+>
+> The first position following the end of the match is at string postion 10 (nt 11).
 
 What about other potential matches in our DNA string? We can use `findall()` function to find all matches.
 
@@ -2970,7 +2976,29 @@ A quick count of all the matching sites can be done by counting the length of th
   7
 ```
 
-> There are 7 methylation sites.Here we have another example of nesting. We call the `findall()` function, searching for all the matches of a methylation site. This function returns a list, the list is past to the `len()` function, which in turn returns the number of elements in the list.
+> There are 7 methylation sites.
+>
+> Here we have another example of nesting. 
+>
+> We call the `findall()` function, searching for all the matches of a methylation site. 
+>
+> This function returns a list, the list is past to the `len()` function, which in turn returns the number of elements in the list.
+
+
+
+![try it](images/Try-It-Now.jpg)
+
+1. If you want to find just the first occurrence of a pattern, what method do you use?
+
+2. If you want to find all the occurrences of a pattern, what method do you use?
+
+3. What operator have we seen that will report if an exact match is in a sequence (string, list, dictionary, etc)?
+
+4. What string method have we seen that will count the number of occurrences of an exact match in a string?
+
+   ​
+
+
 
 Let's talk a bit more about all the new characters we see in the pattern.
 
@@ -3090,7 +3118,10 @@ Examples:
 
 > matches US telephone numbers (no extra text allowed).
 
-Something to think about.  1) What would be a pattern to recognize an email address?2) What would be a pattern to recognize the ID portion of a sequence record in a FASTA file?
+![try it](images/Try-It-Now.jpg)
+
+1. What would be a pattern to recognize an email address?
+2. What would be a pattern to recognize the ID portion of a sequence record in a FASTA file?
 
 #### Variables and Patterns
 
@@ -3112,9 +3143,21 @@ A pipe '|' can be used to indicated that either the pattern before or after the 
   big bad (wolf|sheep)
 ```
 
-> This pattern must match a string that contains "big" followed by a space followed by "bad" followed by a space followed by *either* "wolf" or "sheep" This would match, "big bad wolf"Or "big bad sheep"
+> This pattern must match a string that contains:
+>
+> - "big" followed by a space followed by 
+> - "bad" followed by 
+> - a space followed by 
+> - *either* "wolf" or "sheep"
+>
+>  This would match:
+>
+> - "big bad wolf"
+> - "big bad sheep"
 
-Something to think about.1) What would a pattern to match 'ATG' followed by a C or a T look like?
+![try it](images/Try-It-Now.jpg)
+
+1. What would a pattern to match 'ATG' followed by a C or a T look like?
 
 #### Subpatterns
 
@@ -3132,9 +3175,18 @@ You can combine parenthesis and quantifiers to quantify entire subpatterns.
   Who's afraid of the big (bad )?wolf\?
 ```
 
-> This matches "Who's afraid of the big bad wolf?".As well as "Who's afraid of the big wolf?".The 'bad ' is optional, it can be present 0 or 1 times in our string.This also shows how to literally match special characters. Use a '\' in to escape them.
+> This matches:
+>
+> - "Who's afraid of the big bad wolf?"
+> - .As well as "Who's afraid of the big wolf?".
+>
+> The 'bad ' is optional, it can be present 0 or 1 times in our string.
+>
+> This also shows how to literally match special characters. Use a '\' in to escape them.
 
-Something to think about:How would you create a pattern to capture the ID in a sequence record of a FASTA file in a subpattern.
+![try it](images/Try-It-Now.jpg)
+
+1. What pattern could you use to capture the ID in a sequence record of a FASTA file in a subpattern.
 
 Example FASTA sequence record.
 
@@ -3157,7 +3209,16 @@ Once a subpattern matches, you can refer to it within the same regular expressio
   Who's afraid of the big bad w(.)\1f
 ```
 
-> This would match "Who's afraid of the big bad woof""Who's afraid of the big bad weef""Who's afraid of the big bad waaf"But Not, "Who's afraid of the big bad wolf" Or, "Who's afraid of the big bad wife"
+> This would match:
+>
+> -  "Who's afraid of the big bad woof"
+> - "Who's afraid of the big bad weef"
+> -  "Who's afraid of the big bad waaf"  
+>
+> But Not:
+>
+> - "Who's afraid of the big bad wolf"
+> -  "Who's afraid of the big bad wife"
 
 In a similar vein, 
 
@@ -3165,7 +3226,14 @@ In a similar vein,
   \b(\w+)s love \1 food\b
 ```
 
-> This pattern will match "dogs love dog food"But not "dogs love monkey food".We were able to use the subpattern within the regular expression by using `\1` If there were more subpatterns they would be `\2`, `\3` , `\4`, etc
+> This pattern will match 
+>
+> - "dogs love dog food"  
+> - But not "dogs love monkey food".  
+>
+> We were able to use the subpattern within the regular expression by using `\1`
+>
+>  If there were more subpatterns they would be `\2`, `\3` , `\4`, etc
 
 #### Using Subpatterns Outside the Regular Expression
 
@@ -3191,7 +3259,9 @@ Example:
   CCGGTTTCCAAAGACAGTCTTCTAA
 ```
 
-> 1) This pattern will recognize a consensus transcription start site (TATTAT) 2) And store the 50 base pairs upstream of the site 3) And the 25 base pairs downstream of the site
+> 1. This pattern will recognize a consensus transcription start site (TATTAT) 
+> 2. And store the 50 base pairs upstream of the site 
+> 3. And the 25 base pairs downstream of the site
 
 If you want to find the upstream and downstream sequence of ALL 'TATTAT' sites, use the `findall()` function.
 
@@ -3218,7 +3288,16 @@ Another option for retrieving the upstream and downstream subpatterns is to put 
   downstream: CCGGTTTCCAAAGACAGTCTTCTAA
 ```
 
-> 1) This code executes the `findall()` function once  2) The subpatterns are returned   3) The subpatterns are stored in the variables upstream and downstream  4) The for block of code is executed  5) The `findall()` searches again  6) A match is found  7) New subpatterns are returned and stored in the variables upstream and downstream8) The for block of code gets executed again  9) The `findall()` searches again, but no match is found  10) The for loop ends  
+> 1. This code executes the `findall()` function once 
+> 2. The subpatterns are returned   
+> 3. The subpatterns are stored in the variables upstream and downstream  
+> 4. The for block of code is executed  
+> 5. The `findall()` searches again  
+> 6. A match is found 
+> 7.  New subpatterns are returned and stored in the variables upstream and downstream
+> 8. The for block of code gets executed again 
+> 9.  The `findall()` searches again, but no match is found  
+> 10. The for loop ends  
 
 Another way to get this done is with an iterator, use the `finditer()` function in a for loop. This allows you to not store all the matches in memory. `finditer()` also allows you to retrieve the postion of the match.
 
@@ -3234,7 +3313,14 @@ Another way to get this done is with an iterator, use the `finditer()` function 
   downstream: CCGGTTTCCAAAGACAGTCTTCTAA
 ```
 
-> 1) This code executes `finditer()` function once.  2) The match object is returned. A match object will have all the information about the match  3) In the for block we call the `group()` method on the first match object returned  4) We print out the first and second subpattern using the `group()` method  5) The `finditer()` function is executed a second time and a match is found  6) The second match object is returned  7) The second subpatterns are retrieved from the match object using the `group()` method  8) The `finditer()` function is executed again, but no matches found, so the loop ends  
+> 1. This code executes `finditer()` function once. 
+> 2. The match object is returned. A match object will have all the information about the match.
+> 3.  In the for block we call the `group()` method on the first match object returned
+> 4. We print out the first and second subpattern using the `group()` method
+> 5. The `finditer()` function is executed a second time and a match is found
+> 6. The second match object is returned
+> 7.  The second subpatterns are retrieved from the match object using the `group()` method 
+> 8. The `finditer()` function is executed again, but no matches found, so the loop ends  
 
 #### Get position of the subpattern with `finditer()`
 
@@ -3324,6 +3410,10 @@ Or you can use a for loop to do something to each match.
 
 > `finditer()` would also work in this for loop.   Each codon can be accessed by using the `group()` method.
 
+![try it](images/Try-It-Now.jpg)
+
+1. Open 
+
   ### Truth and Regular Expression Matches
 
 The `search()`, `match()`, `findall()`, and `finditer()` can be used in conditional tests. If a match is not found an empty list or 'None' is returned. These both are False.
@@ -3396,7 +3486,9 @@ Sometimes you want to find a pattern and use it in the replacement.
 
 > We found two words before 'wolf' and swapped the order.\2 refers to the second subpattern\1 refers to the first subpattern
 
-Something to think about.  How would you use regular expressions to find all occurrences of 'ATG' and replace with '-M-' in this sequence 'GCAGAGGTGATGGACTCCGTAATGGCCAAATGACACGT'? 
+![try it](images/Try-It-Now.jpg)
+
+1. Create a regular expressions to find all occurrences of 'ATG' and replace with '-M-' in this sequence 'GCAGAGGTGATGGACTCCGTAATGGCCAAATGACACGT'? 
 
 #### Regular Expression Option Modifiers
 
