@@ -87,7 +87,7 @@ Hello, EVOP2018!
 
 > Note: `print` is a function. Function names are followed by (), so formally, the function is `print()`
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 
 
@@ -156,7 +156,7 @@ Hello, EVOP2018!
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 
 
@@ -272,7 +272,7 @@ message = "Welcome to Python" # this is a string
 
 Collections of data can also be stored in special data types, i.e., tuples, lists, sets, and dictionaries. Generally, you should try to store like with like, so each element in the data type should be the same kind of data, like an expression value from RNA-seq or a count of how many exons are in a gene or a read sequence.  
 
- ![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+ ![try it](images/Try-It-Now.jpg)
 
 1. In the interpreter, create and assign (`=`) values to variables with the following names: 
    1. name
@@ -308,7 +308,7 @@ codons = [ 'atg' , 'aaa' , 'agg' ]
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interpreter, create a list and assign it to a variable.
    1. Play close attention to the the square brackets `[]` and the quotes `''`. (Either single or double quotes can be used here.)
@@ -377,7 +377,7 @@ genes = { 'TP53' : 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTT
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 
 
@@ -423,7 +423,7 @@ print(friend1,'and',friend2,'are friends')
 The advantage of getting input from the user from the command line is that you can write a script that is general. It can print a message with any input the user provides. This makes it flexible. 
 The user also supplies all the data the script needs on the command line so the script doesn't have to ask the user to input a name and wait til the user does this. The script can run on its own with no further interaction from the user. This frees the user to work on something else. Very handy!
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Using your text editor, create a new python script. Be sure to include `#!/usr/bin/env python3` on the very first line. Make sure you give the script a name that ends with '.py'
 2. Import the sys module by typing `import sys`.
@@ -453,7 +453,7 @@ We'll cover `dir()` in more detail later
 <class 'int'>
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interpreter create a list, assign it to a variable named 'experiment'.
 2. Use the `type()` function to help you determine what kind of object you have.
@@ -478,7 +478,7 @@ In Python we can write statements that perform mathematical calculations. To do 
 | `**`     | Exponent                                 | `3**2`             | 9      |
 | `//`     | Floor Division (result is the quotient with digits after the decimal point removed. If one of the operands is negative, the result is floored, i.e., rounded away from zero | `3//2`  ; `-11//3` | 1 ; -4 |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interactive interpreter try a few of the above examples with new values.
 2. How would you use modulus '(%)' to determine if a number is odd or even? Try `3%2` and `10%2`.  Need help? [Google It](http://lmgtfy.com/?q=python3+modulus+even+odd).
@@ -500,7 +500,7 @@ We use assignment operators to assign values to variables. You have been using t
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interactive interpreter try a few of the above examples with new values.
 
@@ -521,7 +521,7 @@ These operators compare two values and returns true or false.
 | `>=`     | greater than or equal | `3 >= 2` | True   |
 | `<=`     | less than or equal    | `3 <= 2` | False  |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interactive interpreter try a few of the above examples with new values.
 
@@ -537,7 +537,7 @@ Logical operators allow you to combine two or more sets of comparisons. You can 
 | `or`     | True if left operand is True or right operand is True | `3==2 or 2<3`  | True   |
 | `not`    | Reverses the logical status              | `not False`    | True   |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interactive interpreter try a few of the above examples with new values.
 
@@ -570,7 +570,7 @@ False
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Use the Interactive Interpretor to test to see if you can find an 'CAA' in the following DNA string:
 
@@ -606,7 +606,7 @@ Operators are listed in order of precedence. Highest listed first. Not all the o
 | `not in`                                 | Negative membership operator             |
 | `not` `or` `and`                         | logical operators                        |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Without using the computer, what is the value of this expression: `3+5*2-5`
 2. Test your answer in the interpreter
@@ -674,7 +674,7 @@ False
 False
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interpretor use `bool()` to test a variety of values like '', 0, 0.0, FALSE, false, True, true, 'True', 'False' to see if they evaluate to True or False.
 
@@ -710,7 +710,7 @@ found AGC in your dna sequence
 
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In your text editor create a script that prints 'FOUND IT!!' `if` this string of nucleotides: 'TTCGTATT', is found `in` this string of DNA: 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA' 
 
@@ -735,7 +735,7 @@ did not find ATG in your dna sequence
 
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Using a text editor, write a script that 
    - Assigns a value to a variable
@@ -772,7 +772,7 @@ Returns:
 
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Change the variable count to 20, which statement block gets executed?  
 2. Change count to 50, what happens? 
@@ -933,7 +933,7 @@ ValueError: math domain error
 1.70293863659264
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interactive interpreter try a few of the above examples with new values.
 
@@ -974,7 +974,7 @@ You can ask what the length of any sequence is
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. What is the length of this sequence?
 
@@ -1097,7 +1097,7 @@ ATGGGTCTAC
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interpreter use the `print()` function to print a comma separated list of arguments.
 2. Print the same two strings, but instead of separating the arguments with a comma use a '+'.
@@ -1205,7 +1205,7 @@ value1\tvalue2\tvalue3
 
 > Our escape characters '\t' remain as we typed them, they are not converted to actual tab characters.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the intepreter, use the `print()` function to print a string that is stored in a variable (dna="ATGCGGTGGT") and a literal string ("My DNA Fragment is:").
 2. What happens if you put quotes around "dna"? Why?
@@ -1276,7 +1276,7 @@ The lenth of the DNA sequence: TAGCTATATAAAATCATAAT is 20
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Concatenate two strings and store in a variable then print the new string.
 
@@ -1371,7 +1371,7 @@ How do you know what methods are available? Use the `dir()` function.
 
 > The number of times 'T' is found is returned. The string stored in 'dna' is not altered.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Count the number of As in a DNA string (dna = 'ATGCTGCATT').
 2. Lowercase and print the DNA string.
@@ -1461,7 +1461,7 @@ CCC
 
 > When the second argument is left blank and the first argument is negative (-X), X characters from the end of the string are returned.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Extract the first 6 nucleotides from this DNA string: ATTAAAGGGCCC and save the substring in a variable.
 2. Replace all Ts with U's. Print the new string.
@@ -1494,7 +1494,7 @@ Since these are methods, be sure to use in this format string.method().
 | `s.split('delim')`             | splits the string on the given exact delimiter. Returns a list of substrings. If no argument is supplied, the string will be split on whitespace. |
 | `s.join(list)`                 | opposite of `split()`. The elements of a list will be concatenated together using the string stored in 's' as a delimiter. |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Try out the `split()` method on this string 'one,two,three,four,five and six'. Split the string on commas ','.
 
@@ -1542,7 +1542,7 @@ You can also directly call the format function on a string inside a print functi
 This sequence: TGAACATCTAAAAGATGAAGTTT is 23 nucleotides long and is found in Brca1.
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Try out the `format()` method.  Use the following string and the variables from the above example. Type it, don't copy it.
 
@@ -1671,7 +1671,7 @@ IndexError: list assignment index out of range
 
 > codon[5] does not exist, and when we try to assign a value to this index we get an IndexError. If you want to add new elements to the end of a list use  `codons.append('taa')` or `codons.extend(list)`. See below for more details.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In the interpreter create a list of your favorite things.
 2. Use the `print()` function print out the middle element. 
@@ -1775,7 +1775,7 @@ Let's copy the list using the `copy()` method.
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 
 
@@ -1918,7 +1918,7 @@ Output:
 
 > What caused the expression to always be `True`? The statement that increments the count is missing, so it will always be smaller than 5. To stop the code from forever printing use ctrl+c.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In your text editor create a script that uses a  `while` loop to print out the numbers 1 to 100.
 2. CHALLENGE QUESTION: Write a script that uses a `while loop` to calculate the [factorial](https://en.wikipedia.org/wiki/Factorial) of 1000.
@@ -2063,7 +2063,7 @@ Output:
   4
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Write a script that iterate through and prints each element of this list using a `for` loop: [101,2,15,22,95,33,2,27,72,15,52]
    - Now print out only the values that are even (use modulus operator).
@@ -2289,7 +2289,7 @@ The value can be accessed and passed directly to a function or stored in a varia
   GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Create a dictionary of your favorite color, book, song, and organism. Use the these as the keys:  color, book, song, organism.
 
@@ -2347,7 +2347,7 @@ Other assignment operators can also be used to change a value of a dictionary ke
 
 > Here we have used the '+=' concatenation assignment operator. This is equivalent to  genes['TP53'] = genes['TP53'] + 'TAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTG'.
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Change the value of your favorite organism.
 
@@ -2376,7 +2376,7 @@ Once you have the key you can retrieve the value:
   BRCA1 GTACCTTGAT
 ```
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Use your text editor to create a script. Create a dictionary of genes (can be fake genes with fake sequences).
 2. Use a `for` loop to print each gene name. 
@@ -2442,7 +2442,7 @@ The best way to check whether a key exists is to use `in`
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In a text editor create a script that loads these sequences into a dictionary, with the gene name as the key and the sequence as the value.
 
@@ -2476,7 +2476,7 @@ If you want to print the contents of a dictionary, you probably want to sort the
 
 > This will print the same order of keys every time you run your script. 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Sort your dictionary from the last exercise. 
 2. Now sort by the sequences (values). Need help? [Google it.](http://lmgtfy.com/?q=python+3+sort+dictionary+by+value)
@@ -2505,7 +2505,7 @@ These functions work on several other data types too!
 | `dict.update(dict2)`                   | Adds dictionary dict2's key-values pairs to dict             |
 | `dict.values()`                        | Returns list of dictionary dict's values                     |
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. Return a list of gene names from your dictionary.
 2. Join your list on ', ' and print. Need Help? [Google it](http://lmgtfy.com/?q=python+3+join). [Read about `join() on TutorialsPoint`](https://www.tutorialspoint.com/python3/string_join.htm). Remember to think about where to place your string and your sequence (list).
@@ -2679,7 +2679,7 @@ Hi
 
 
 
-![try it](http://aci.info/wp-content/uploads/2015/01/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 1. In a text editor, create a script that asks the user for their name. 
 2. Uppercase all the letters and print out the name. Need help? [Google it](http://lmgtfy.com/?q=python+3+uppercase+a+string) 
