@@ -1,10 +1,8 @@
-# Python for EVOP
+# Python for EVOP 2018
 
-![try it](images/Try-It-Now.jpg)
+
 
 [TOC]
-
-
 
 ## Why Python?
 
@@ -1805,7 +1803,7 @@ Now that you have seen the `append()` function we can go over how to build a lis
 
 
 
-### Loops
+## Loops
 
 All of the coding that we have gone over so far has been executed line by line. Sometimes there are blocks of code that we want to execute more than once.
 
@@ -1835,7 +1833,7 @@ There are two loop types:
 1. while loop
 2. for loop
 
-#### While loop
+### While loop
 
 The while loop will continue to execute a block of code as long as the test expression evaluates to `True`. 
 
@@ -1923,7 +1921,7 @@ Output:
 1. In your text editor create a script that uses a  `while` loop to print out the numbers 1 to 100.
 2. CHALLENGE QUESTION: Write a script that uses a `while loop` to calculate the [factorial](https://en.wikipedia.org/wiki/Factorial) of 1000.
 
-#### For Loops
+### For Loops
 
 A for loop is a loop that executes the for block of code for every member of a sequence, for example the elements of a list or the letters in a string.
 
@@ -2074,8 +2072,7 @@ Output:
    - Print out the length and the sequence i.e., "4\tATGC\n"
 
 
-
-#### Loop Control
+### Loop Control
 
 Loops control statements allow for altering the normal flow of execution. 
 
@@ -2151,7 +2148,7 @@ Output:
 
 > When the count is equal to 3 the continue is executed. This causes all the lines within the loop block to be skipped. "line after our continue" is not printed when count is equal to 3. The next loop is executed normally.
 
-#### Iterators
+### Iterators
 
 An iterable is any data type that is can be iterated over, or can be used in iteration. An iterable can be made into an iterator with the `iter()` function. This means you can use the `next()` function.
 
@@ -2187,7 +2184,7 @@ Example of using an iterator in a for loop:
 
 > This is nice if you have a large large large list that you don't want to keep in memory. An iterator allows you to go through each element but not keep the entire list in memory. Without iterators the entire list is in memory.
 
-#### List Comprehension
+### List Comprehension
 
 List comprehension is a way to make a list without typing out each element. There are many many ways to use list comprehension to generate lists. Some are quite complex, yet useful. 
 
@@ -2235,7 +2232,7 @@ Here is an example of using mathematical operators to generate a list:
 
 > This creates a list of the of the product of [2^0 , 2^1, 2^2, 2^3, 2^4, 2^5, 2^6, 2^7, 2^8, 2^9 ]
 
-### Dictionaries
+## Dictionaries
 
 Dictionaries are another iterable, like a string and list. Unlike strings and lists, dictionaries are not a sequence, or in other words, they are unordered and the position is not important. 
 
@@ -2250,7 +2247,7 @@ Data that is appropriate for dictionaries are two pieces of information that nat
 | TP53  | GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC |
 | BRCA1 | GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA |
 
-#### Creating a Dictionary
+### Creating a Dictionary
 
 ```
   genes = { 'TP53' : 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC' , 'BRCA1' : 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA' }
@@ -2265,7 +2262,7 @@ Breaking up the key/value pairs over multiple lines make them easier to read.
            }
 ```
 
-#### Accessing Values in Dictionaries
+### Accessing Values in Dictionaries
 
 To retrieve a single value in a dictionary use the value's key in this format `dict[key]`. This will return the value at the specified key. 
 
@@ -2316,7 +2313,7 @@ The value can be accessed and passed directly to a function or stored in a varia
 
    ​
 
-#### Changing Values in a Dictionary
+### Changing Values in a Dictionary
 
 Individual values can be changed by using the key and the assignment operator.
 
@@ -2351,7 +2348,7 @@ Other assignment operators can also be used to change a value of a dictionary ke
 
 1. Change the value of your favorite organism.
 
-#### Accessing Each Dictionary Key/Value
+### Accessing Each Dictionary Key/Value
 
 Since a dictionary is a sequence we can iterate through its contents.
 
@@ -2388,7 +2385,7 @@ Once you have the key you can retrieve the value:
 8. Calculate and add the number of Cs to your print statment (name\tlength\tACount\tTCount\tGCount\tCCount)
 9. Calculate and add the percent GC to your print statement (name\tlength\tACount\tTCount\tGCount\tCCount\tGC%)
 
-#### Building a Dictionary one Key/Value at a Time
+### Building a Dictionary one Key/Value at a Time
 
 Building a dictionary one key/value at a time is akin to what we just saw when we change a key's value.Normally you won't do this. We'll talk about ways to build a dictionary from a file in a later lecture.
 
@@ -2404,7 +2401,7 @@ Building a dictionary one key/value at a time is akin to what we just saw when w
 
 > We start by creating an empty dictionary. Then we add each key/value pair using the same syntax as when we change a value.  dict[key] = new_value  
 
-#### Checking That Dictionary Keys Exist
+### Checking That Dictionary Keys Exist
 
 Python generates an error (NameError) if you try to access a key that does not exist.  
 
@@ -2415,7 +2412,7 @@ Python generates an error (NameError) if you try to access a key that does not e
   NameError: name 'HDAC' is not defined
 ```
 
-#### Dictionary Operators
+### Dictionary Operators
 
 | OPERATOR | DESCRIPTION                                                  |
 | -------- | ------------------------------------------------------------ |
@@ -2465,7 +2462,7 @@ The best way to check whether a key exists is to use `in`
 
    ​
 
-#### Sorting Dictionary Keys
+### Sorting Dictionary Keys
 
 If you want to print the contents of a dictionary, you probably want to sort the keys then iterate over the keys with a for loop. Why do you want to sort the keys?
 
@@ -2481,7 +2478,7 @@ If you want to print the contents of a dictionary, you probably want to sort the
 1. Sort your dictionary from the last exercise. 
 2. Now sort by the sequences (values). Need help? [Google it.](http://lmgtfy.com/?q=python+3+sort+dictionary+by+value)
 
-#### Dictionary Functions
+### Dictionary Functions
 
 | FUNCTION         | DESCRIPTION                                                  |
 | ---------------- | ------------------------------------------------------------ |
@@ -2491,7 +2488,7 @@ If you want to print the contents of a dictionary, you probably want to sort the
 
 These functions work on several other data types too!
 
-#### Dictionary Methods
+### Dictionary Methods
 
 | METHOD                                 | DESCRIPTION                                                  |
 | -------------------------------------- | ------------------------------------------------------------ |
@@ -2510,7 +2507,7 @@ These functions work on several other data types too!
 1. Return a list of gene names from your dictionary.
 2. Join your list on ', ' and print. Need Help? [Google it](http://lmgtfy.com/?q=python+3+join). [Read about `join() on TutorialsPoint`](https://www.tutorialspoint.com/python3/string_join.htm). Remember to think about where to place your string and your sequence (list).
 
-### Sets
+## Sets
 
 A set is another Python data type. It is essentially a dictionary with keys but no values.
 
@@ -2552,9 +2549,9 @@ Union, intersection, difference and symmetric difference can be done with sets
 
 > Sets contain unique elements, therefore, even if duplicate elements are provided they will be removed.
 
-#### Set Operators
+### Set Operators
 
-**Difference**
+#### Difference
 
 The difference between two sets are the elements that are unique to the set to the left of the `-` operator, with duplicates removed.
 
@@ -2569,7 +2566,7 @@ The difference between two sets are the elements that are unique to the set to t
 
 > This results the letters that are in a but not in b
 
-**Union**
+#### Union
 
 The union between two sets is a sequence of the all the elements of the first and second sets combined, with duplicates removed.
 
@@ -2584,7 +2581,7 @@ The union between two sets is a sequence of the all the elements of the first an
 
 > This returns letters that are in a or b both
 
-**Intersection**
+#### Intersection
 
 The intersection between two sets is a sequence of the elements which are in both sets, with duplicates removed.
 
@@ -2599,7 +2596,7 @@ The intersection between two sets is a sequence of the elements which are in bot
 
 > This returns letters that are in both a and b
 
-**Symmetric Difference**
+#### Symmetric Difference
 
 The symmetric difference is the elements that are only in the first set plus the elements that are only in the second set, with duplicates removed.
 
@@ -2614,7 +2611,7 @@ The symmetric difference is the elements that are only in the first set plus the
 
 > This returns the letters that are in a or b but not in both (also known as exclusive or)
 
-#### Set Functions
+### Set Functions
 
 | FUNCTION      | DESCRIPTION                                                  |
 | ------------- | ------------------------------------------------------------ |
@@ -2627,7 +2624,7 @@ The symmetric difference is the elements that are only in the first set plus the
 | `sorted()`    | returns a new sorted list from elements in the set (does not alter the original set). |
 | `sum()`       | returns the sum of all elements in the set.                  |
 
-#### Set Methods
+### Set Methods
 
 | METHOD                                  | DESCRIPTION                                                  |
 | --------------------------------------- | ------------------------------------------------------------ |
@@ -2649,11 +2646,11 @@ The symmetric difference is the elements that are only in the first set plus the
 | `set.union(sets)`                       | returns the union of set and the other provided sets         |
 | `set.update(set2)`                      | update set with the union of set and set2                    |
 
-### I/O and Files
+## I/O and Files
 
 I/O stands for input/output. The in and out refer to getting data into and out of your script. It might be a little surprising at first, but writing to the screen, reading from the keyboard, reading from a file, and writing to a file are all examples of I/O.
 
-#### Writing to the Screen
+### Writing to the Screen
 
 You should be well versed in writing to the screen. We have been using the `print()` function to do this.  
 
@@ -2664,7 +2661,7 @@ Hello, EVOP2018!
 
 > Remember this example from one of our first lessons?
 
-#### Reading input from the keyboard
+### Reading input from the keyboard
 
 This is something new. There is a function which prints a message to the screen and waits for input from the keyboard. This input can be stored in a variable. It always starts as a string. Convert to an int or float if you want a number.
 
@@ -2684,7 +2681,7 @@ Hi
 1. In a text editor, create a script that asks the user for their name. 
 2. Uppercase all the letters and print out the name. Need help? [Google it](http://lmgtfy.com/?q=python+3+uppercase+a+string) 
 
-#### Reading from a File
+### Reading from a File
 
 Most of the data we will be dealing with will be contained in files. 
 
@@ -2692,7 +2689,7 @@ The first thing to do with a file is open it. We can do this with the `open()` f
 
 The most common access modes are read (r) and write (w).
 
-#### Open a File
+### Open a File
 
 ```python
 >>> file_object = open("seq.nt","r")
@@ -2700,7 +2697,7 @@ The most common access modes are read (r) and write (w).
 
 > 'file_object' is a name of a variable. This can be anything, but make it a helpful name that describes what kind of file you are opening.
 
-#### Reading the contents of a file
+### Reading the contents of a file
 
 Now that we have opened a file and created a file object we can do things with it, like read it. Lets read all the contents at once.  
 
@@ -2775,7 +2772,7 @@ ACCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGG
 
 > Where do the newlines in the above output come from?
 
-#### Opening a file with `with open() as fh:`
+### Opening a file with `with open() as fh:`
 
 Many people add this because it closes the file for you automatically. Good programming practice. Your code will clean up as it runs. For more advanced coding, `with ... as ...` saves limited resources like filehandles and database connections. For now, we just need to know that the `with ... as ...:` does the same as `fh = open(...) ... fh.close()`. So here's what the adapted code looks like
 
@@ -2789,7 +2786,7 @@ with open("seq.nt","r") as file_object: #cleans up after exiting with block
 #file gets closed for you here.
 ```
 
-#### Writing to a File
+### Writing to a File
 
 Writing to a file is nothing more than opening a file for writing then using the `write()` method.  
 
@@ -2861,9 +2858,7 @@ Total: 142
 > At the end, we print out the total count of nts  
 > Finally we close each of the files  
 
-
-
-#### Building a Dictionary from a File
+### Building a Dictionary from a File
 
 This is a very common task. It will use a loop, file I/O and a dictionary.
 
@@ -2895,7 +2890,7 @@ Output:
 {'TP53': 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC', 'BRCA1': 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA'}
 ```
 
-### Regular Expressions
+## Regular Expressions
 
 Regular Expressions is a language for pattern matching. Many different computer languages incorporate regular expressions as well as some unix commands like grep and sed. So far we have seen a few functions for finding exact matches in strings, but this is not always sufficient.  
 
@@ -2981,14 +2976,14 @@ Let's talk a bit more about all the new characters we see in the pattern.
 
 The pattern in made up of atoms.  Each atom represents **ONE** character.
 
-#### Individual Characters
+### Individual Characters
 
 | ATOM                               | DESCRIPTION                                                  |
 | ---------------------------------- | ------------------------------------------------------------ |
 | a-z, A-Z, 0-9 and some punctuation | These are ordinary characters that match themselves          |
 | "."                                | The dot, or period. This matches any single character except for the newline. |
 
-#### Character Classes
+### Character Classes
 
 A group of characters that are allowed to be matched one time. There are a few predefined classes, symbol that means a series of characters.
 
@@ -3002,7 +2997,7 @@ A group of characters that are allowed to be matched one time. There are a few p
 | `\s`  | White space character. Also can be written `[ \r\t\n]`. Note the space character after the first `[` |
 | `\S`  | Not whitespace. Also `[^ \r\\t\n]`                           |
 
-#### Anchors
+### Anchors
 
 A pattern can be anchored to a region in the string:
 
@@ -3056,7 +3051,7 @@ Examples:
 
 > only text containing the word "cat".
 
-#### Quantifiers
+### Quantifiers
 
 Quantifiers quantify how many atoms are to be found. By default an atom matches only once. This behaviour can be modified following an atom with a quantifier.
 
@@ -3097,7 +3092,7 @@ Examples:
 
 Something to think about.  1) What would be a pattern to recognize an email address?2) What would be a pattern to recognize the ID portion of a sequence record in a FASTA file?
 
-#### Variables and Patterns
+### Variables and Patterns
 
 Variables can be used to store patterns.  
 
@@ -3109,7 +3104,7 @@ Variables can be used to store patterns.
 
 > In this example we stored our methylation pattern in the variable named 'pattern' and used it as the first argument to `findall`.
 
-#### Either Or
+### Either Or
 
 A pipe '|' can be used to indicated that either the pattern before or after the '|' can match. Enclose the two options in parenthesis.
 
@@ -3121,7 +3116,7 @@ A pipe '|' can be used to indicated that either the pattern before or after the 
 
 Something to think about.1) What would a pattern to match 'ATG' followed by a C or a T look like?
 
-#### Subpatterns
+### Subpatterns
 
 Subpatterns, or parts of the pattern enclosed in parenthesis can be extracted and stored for later use. 
 
@@ -3150,7 +3145,7 @@ Example FASTA sequence record.
   SEQUENCE 
 ```
 
-#### Using Subpatterns Inside the Regular Expression Match
+### Using Subpatterns Inside the Regular Expression Match
 
 This is helpful when you want to find a subpattern and then match the contents again. They can be used within the function call and used after the function call.
 
@@ -3172,7 +3167,7 @@ In a similar vein,
 
 > This pattern will match "dogs love dog food"But not "dogs love monkey food".We were able to use the subpattern within the regular expression by using `\1` If there were more subpatterns they would be `\2`, `\3` , `\4`, etc
 
-#### Using Subpatterns Outside the Regular Expression
+### Using Subpatterns Outside the Regular Expression
 
 Subpatterns can be retrieved after the `search()` function call, or outside the regular expression, by using the `group()` method. This is a method and it belongs to the object that is returned by the `search()` function.
 
@@ -3241,7 +3236,7 @@ Another way to get this done is with an iterator, use the `finditer()` function 
 
 > 1) This code executes `finditer()` function once.  2) The match object is returned. A match object will have all the information about the match  3) In the for block we call the `group()` method on the first match object returned  4) We print out the first and second subpattern using the `group()` method  5) The `finditer()` function is executed a second time and a match is found  6) The second match object is returned  7) The second subpatterns are retrieved from the match object using the `group()` method  8) The `finditer()` function is executed again, but no matches found, so the loop ends  
 
-#### Get position of the subpattern with `finditer()`
+### Get position of the subpattern with `finditer()`
 
 The match object contains information about the match that can be retrieved with match methods like `start()` and `end()`
 
@@ -3276,7 +3271,7 @@ The match object contains information about the match that can be retrieved with
 
 **FYI:** `match()` function is another regular expression function that looks for patterns. It is similar to search but it only looks at the beginning of the string for the pattern while `search()` looks in the entire string. Usually `finditer()` , `search()` and `findall()` will be more useful.
 
-#### Subpatterns and Greediness
+### Subpatterns and Greediness
 
 By default, regular expressions are "greedy".  They try to match as much as they can. Use the quantifier '?' to make the match not greedy. The not greedy match is called 'lazy' 
 
@@ -3299,7 +3294,7 @@ Let's make this match lazy by using '?'
 
 > The match is now lazy and will only match 'fox'
 
-#### Practical Example: Codons
+###Practical Example: Codons
 
 Extracting codons from a string of DNA can be accomplished by using a subpattern in a `findall()` function. Remember the `findall()` function will return a list of the matches.  
 
@@ -3329,9 +3324,7 @@ Or you can use a for loop to do something to each match.
 
 > `finditer()` would also work in this for loop.   Each codon can be accessed by using the `group()` method.
 
-  
-
-#### Truth and Regular Expression Matches
+  ### Truth and Regular Expression Matches
 
 The `search()`, `match()`, `findall()`, and `finditer()` can be used in conditional tests. If a match is not found an empty list or 'None' is returned. These both are False.
 
@@ -3363,7 +3356,7 @@ Nest it!
   None
 ```
 
-**Using Regular expressions in substitutions**
+### Using Regular expressions in substitutions
 
 Earlier we went over how to find an **exact pattern** and replace it using the `replace()` method. To find a pattern, or inexact match, and make a replacement the regular expression `sub()` function is used. This function takes the pattern, the replacement, the string to be searched, the number of times to do the replacement, and flags.
 
@@ -3390,7 +3383,7 @@ Let's save the returned new string in a variable
 
 > The characters between 'w' and 'f' have been replaced with 'goat'.  The new string is saved in new_str  
 
-#### Using subpatterns in the replacement
+### Using subpatterns in the replacement
 
 Sometimes you want to find a pattern and use it in the replacement. 
 
@@ -3405,7 +3398,7 @@ Sometimes you want to find a pattern and use it in the replacement.
 
 Something to think about.  How would you use regular expressions to find all occurrences of 'ATG' and replace with '-M-' in this sequence 'GCAGAGGTGATGGACTCCGTAATGGCCAAATGACACGT'? 
 
-#### Regular Expression Option Modifiers
+### Regular Expression Option Modifiers
 
 | MODIFIER               | DESCRIPTION                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -3430,7 +3423,7 @@ You can use more than one flag by concatenating them with `|`.  `re.search(r"ATG
 
 
 
-### Functions
+## Functions
 
 Functions consist of lines of code that do something useful and that you want to run more than once. You also give that function a name so you can refer to it in your code. This avoids copying and pasting the code to many places in your script and makes your code easier to read.
 
@@ -3460,7 +3453,7 @@ gc_content = (c_count + g_count) / dna_len # fraction from 0 to 1
 print(gc_content)
 ```
 
-#### Defining a Function that calculates GC Content
+### Defining a Function that calculates GC Content
 
 We use `def` do define our own function. It is followed by the name of the function (`gc_content`) and parameters it will take in parentheses. A colon is the last character on the `def` line. The parameter variables will be available for your code inside the function to use.
 
@@ -3516,7 +3509,7 @@ This sequence is 45.16% GC
 5. The next lines of code, the function body, needs to be indented. This code comprises what the function does.
 6. You can return a value as the last line of the function, but this is not required. This line `return gc_content` at the end of our function definition passes the value of gc_content back to the code that called the function in your main script.
 
-#### Naming Arguments
+### Naming Arguments
 
 You can name your argument variables anything you want, but they should describe the data they contain. The name needs to be consistent within your function. You could change `dna` to `seqeunce` like this
 
@@ -3529,7 +3522,7 @@ def gc_content(sequence):   # give our function a name and parameter 'sequence'
    return gc_content # return the value of gc_content to the code that called this function
 ```
 
-#### Keyword Arguments
+### Keyword Arguments
 
 Arguments can be named and these names can be used when the function is called. This name is called a 'keyword' 
 
@@ -3544,7 +3537,7 @@ Arguments can be named and these names can be used when the function is called. 
 
 > The keyword must be the same as the defined function argument. If a function has multiple arguments, using the keyword allows for calling the function with the arguments in any order.
 
-#### Default Values for Arguments
+### Default Values for Arguments
 
 As defined above, our function is expecting an argument (`dna`) in the definition. You get an error if you call the function without any parameters.
 
@@ -3570,7 +3563,7 @@ def gc_content(dna='A'):   # give our function a name and parameter 'dna'
 
 > If you call the function with no arguments, the default will be used. In this case a default is pretty useless, and the function will return '0' if called without providing a DNA sequence.
 
-#### Lambda expressions
+### Lambda expressions
 
 Lambda expressions can be used to define simple (one-line) anonymous functions. There are some uses for lambda which we won't go into here. We are showing it to you because sometimes you will come across it.
 
@@ -3596,7 +3589,9 @@ print(get_first_codon('ATGTTT'))
 
 List comprehensions can often be used instead of lambdas and may be easier to read. You can read more about `lambda`, particularly in relation to `map` which will perform an operation on a list, but generally  a `for` loop is easier to read.
 
-### Scope
+## Scope
+
+### Global Variables
 
 Almost all python variables are global. This means they are available everywhere in your code. The most important exception is variables thare are defined in functions which only exist inside their function. This is called 'local'. Remember that python blocks are defined as code at the same level of indentation.
 
@@ -3654,9 +3649,7 @@ n = 5
 show_n(n)
 ```
 
-
-
-#### Local Variables
+### Local Variables
 
 Variables inside functions are local and therefore can only been accessed from within the function block. This applies to arguments as well as variables defined inside a function.
 
@@ -3705,7 +3698,7 @@ y= 100
 
 > There is a global variable, `x` = 100, but when the function is called, it makes a new local variable, also called `x` with value = 5. This variable disappears after the function finishes and we go back to using the global variable `x` = 100. Same for `y`
 
-#### Global
+### Global
 
 You can make a local variable global with the statement `global`. Now a variable you use in a function is the same variable as in the rest of the code. It is best not to define any variables as global until you know you need to because you might modify the contents of a variable without meaning to.
 
@@ -3743,11 +3736,11 @@ greeting = I say hello
 
 > Note that the function has changed the value of the global variable. You might not want to do this.
 
-### Data Structures
+## Data Structures
 
 Sometimes a _simple_ list or dictionary just doesn't do what you want. Sometimes you need to organize data in a more _complex_ way.  You can nest any data type inside any other type. This lets you build multidimensional data tables easily.
 
-#### List of lists
+### List of lists
 
 List of lists, often called a matrix are important for organizing and accessing data
 
@@ -3811,7 +3804,7 @@ Get every nucleotide in a single column:
 
 > Retrieve each sequence from the aln list then the 3rd column for each sequence. 
 
-#### Lists of dictionaries
+### Lists of dictionaries
 
 You can nest dictionaries in lists as well:
 
@@ -3831,7 +3824,7 @@ You can nest dictionaries in lists as well:
 
 > Here you can retrieve the accession of one record at a time by using a combination of the outer index and the key 'accession'
 
-#### Dictionaries of lists
+### Dictionaries of lists
 
 And, if you haven't guessed, you can nest lists in dictionaries
 
@@ -3862,7 +3855,7 @@ You can also use the `get()` method to retrieve records.
 
 > These two statements returns the same results, but if the key does not exist you will get nothing and not an error.
 
-#### Dictionaries of dictionaries
+### Dictionaries of dictionaries
 
 Dictionaries of dictionaries is my favorite!! You can do so many useful things with this data structure. Here we are storing a gene name and some different types of information about that gene, such as its, sequence, length, description, nucleotide composition and length.
 
