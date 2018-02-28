@@ -1,6 +1,6 @@
 # Python for EVOP
 
-![try it](/images/Try-It-Now.jpg)
+![try it](images/Try-It-Now.jpg)
 
 [TOC]
 
