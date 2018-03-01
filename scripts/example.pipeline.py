@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 blastcmd = "blastx -query test.query -db ~/dbs/uniprot_sprot.fasta -outfmt 7 -out test.blastout.tab -evalue 1e-5"
-countcmd = 'grep \'hits found\' test.blastout.tab  | perl -ne \'m/(\d+)/; $count=$1; print $count,"\n"'
+countcmd = 'grep \'hits found\' test.blastout.tab  | perl -ne \'m/(\d+)/; $count=$1; print $count,"\n"\''
 
 blastcmd_run = subprocess.run(blastcmd, shell=True , stdout = subprocess.PIPE, stderr=subprocess.PIPE)
 if blastcmd_run.returncode == 0:
