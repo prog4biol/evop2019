@@ -1,0 +1,3327 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.5.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/smr/dbs/uniprot_sprot.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ENSMUST00000202211.1 cds chromosome:GRCm38:CHR_MG4249_PATCH:6537737:6542711:-1 gene:ENSMUSG00000107099.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Slc22a12 description:solute carrier family 22 (organic anion/cation transporter), member 12 [Source:EntrezGene;Acc:20521]</BlastOutput_query-def>
+  <BlastOutput_query-len>823</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>ENSMUST00000202211.1 cds chromosome:GRCm38:CHR_MG4249_PATCH:6537737:6542711:-1 gene:ENSMUSG00000107099.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Slc22a12 description:solute carrier family 22 (organic anion/cation transporter), member 12 [Source:EntrezGene;Acc:20521]</Iteration_query-def>
+  <Iteration_query-len>823</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q8CFZ5|S22AC_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 12 OS=Mus musculus GN=Slc22a12 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8CFZ5</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>1.47916e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRF</Hsp_hseq>
+      <Hsp_midline>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>1.20034e-74</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>822</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKTG</Hsp_qseq>
+      <Hsp_hseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKTG</Hsp_hseq>
+      <Hsp_midline>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKTG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q3ZAV1|S22AC_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 12 OS=Rattus norvegicus GN=Slc22a12 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q3ZAV1</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.538</Hsp_bit-score>
+      <Hsp_score>802</Hsp_score>
+      <Hsp_evalue>7.69823e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQLLQAVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDFGRDVLLAVSIPPGPDQRPHQCLRFRQPQWQLIESNTTATNWSDADTEPCEDGWVYDHSTFRSTIVTTWDLVCDSQALRPMAQSIFLAGILVGAAVCGHASDRF</Hsp_hseq>
+      <Hsp_midline>RFQL Q VALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGD G DVLLAVSIPPGPDQ+PHQCLRFRQPQWQL ESN TATNWSDA TEPCEDGWVYDHSTFRSTIVTTWDLVC+SQALRPMAQSIFLAGILVGAAVCGHASDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.31588e-62</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WLPESARWLITVGRLDQSLRELQRVAAVNRRKAEADTLTVEVLRSAMQEEPNGNQAGARLGTLLHTPGLRLRTFISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDLPVK</Hsp_hseq>
+      <Hsp_midline>WLPESARWLITVG+LDQ L+ELQRVAAVNRRKAE DTLT+EVLRSAM+EEP+ ++AGA LGTLLHTPGLR RT ISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVD PVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q96S37|S22AC_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 12 OS=Homo sapiens GN=SLC22A12 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q96S37</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>3.00718e-78</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQVLQTMALMVSIMWLCTQSMLENFSAAVPSHRCWAPLLDNSTAQASILGSLSPEALLAISIPPGPNQRPHQCRRFRQPQWQLLDPNATATSWSEADTEPCVDGWVYDRSIFTSTIVAKWNLVCDSHALKPMAQSIYLAGILVGAAACGPASDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+ QT+AL+  I+W+ TQ+MLENFSAAVP HRCW PLLDNST+QASI G L P+ LLA+SIPPGP+Q+PHQC RFRQPQWQL + NATAT+WS+A TEPC DGWVYD S F STIV  W+LVC+S AL+PMAQSI+LAGILVGAA CG ASDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>4.9569e-46</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>822</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKTG</Hsp_qseq>
+      <Hsp_hseq>WLAESARWLLTTGRLDWGLQELWRVAAINGKGAVQDTLTPEVLLSAMREELSMGQPPASLGTLLRMPGLRFRTCISTLCWFAFGFTFFGLALDLQALGSNIFLLQMFIGVVDIPAKMG</Hsp_hseq>
+      <Hsp_midline>WL ESARWL+T G+LD GLQEL RVAA+N + A  DTLT EVL SAM EE S  +  ASLGTLL  PGLR RT IS LCWFAFGFTF+GLALDLQALGSNIFLLQ  IG+VD P K G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q9NSA0|S22AB_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 11 OS=Homo sapiens GN=SLC22A11 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9NSA0</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>4.379e-59</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQTLQVLTFILPCLMIPSQMLLENFSAAIPGHRCWTHMLDNGSA---VSTNMTPKALLTISIPPGPNQGPHQCRRFRQPQWQLLDPNATATSWSEADTEPCVDGWVYDRSVFTSTIVAKWDLVCSSQGLKPLSQSIFMSGILVGSFIWGLLSYRF</Hsp_hseq>
+      <Hsp_midline>FQ  Q +  + P L + +Q +LENFSAA+P HRCW  +LDN ++   +  ++ P  LL +SIPPGP+Q PHQC RFRQPQWQL + NATAT+WS+A TEPC DGWVYD S F STIV  WDLVC+SQ L+P++QSIF++GILVG+ + G  S R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>6.63169e-25</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>807</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDF</Hsp_qseq>
+      <Hsp_hseq>WLPESARWLIIKGKPDQALQELRKVARINGHK-EAKNLTIEVLMSSVKEEVASAKEPRSVLDLFCVPVLRWRSCAMLVVNFSLLISYYGLVFDLQSLGRDIFLLQALFGAVDF</Hsp_hseq>
+      <Hsp_midline>WLPESARWLI  GK DQ LQEL++VA +N  K E   LT+EVL S+++EE +  K   S+  L   P LR R+   ++  F+   ++YGL  DLQ+LG +IFLLQAL G VDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q2KIV1|S22A9_BOVIN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 9 OS=Bos taurus GN=SLC22A9 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q2KIV1</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.16919e-49</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQILQMLLLCISSLITYPHILLENFTAAVPGHQCWVHILNNNTDSANATGTLSPDALLRISIPLDSNLRPEKCRRFSRPQWQLLNLNRTFPNITDLDTESCVDGWVYDQSIFTSTIVTEWDLVCESQSLKSMAKFLFMAGMLVGSIVYGHLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+ Q + L    L      +LENF+AAVP H+CWV +L+N+T  A+  G L PD LL +SIP   + +P +C RF +PQWQL   N T  N +D  TE C DGWVYD S F STIVT WDLVC SQ+L+ MA+ +F+AG+LVG+ V GH SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.78901e-27</Hsp_evalue>
+      <Hsp_query-from>460</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>SDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>SSRWLAESARWLIITNRPEEGLKELKKAAHRNGRKNAGDALTMEVLRSAMQEELEAAQIKSSVFDLFRTPNLRKRICLLSFVRFANFMSFFGLILHLQYMGSNVFLFQVLFGAVNLP</Hsp_hseq>
+      <Hsp_midline>S RWL ESARWLI   + ++GL+EL++ A  N RK  GD LTMEVLRSAM+EE    +  +S+  L  TP LR R  +     FA   +F+GL L LQ +GSN+FL Q L G V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q8IVM8|S22A9_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 9 OS=Homo sapiens GN=SLC22A9 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8IVM8</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>7.4769e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQILQTVFLSIFAVATYLHFMLENFTAFIPGHRCWVHILDNDTVSDNDTGALSQDALLRISIPLDSNMRPEKCRRFVHPQWQLLHLNGTFPNTSDADMEPCVDGWVYDRISFSSTIVTEWDLVCDSQSLTSVAKFVFMAGMMVGGILGGHLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+ QTV L    +      MLENF+A +P HRCWV +LDN T   +  G L  D LL +SIP   + +P +C RF  PQWQL   N T  N SDA  EPC DGWVYD  +F STIVT WDLVC+SQ+L  +A+ +F+AG++VG  + GH SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>7.93154e-18</Hsp_evalue>
+      <Hsp_query-from>460</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>SDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEE-PSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIV</Hsp_qseq>
+      <Hsp_hseq>TSSWLLESARWLIINNKPEEGLKELRKAAHRSGMKNARDTLTLEILKSTMKKELEAAQKKKPSLCEMLHMPNICKRISLLSFTRFANFMAYFGLNLHVQHLGNNVFLLQTLFGAV</Hsp_hseq>
+      <Hsp_midline>+  WL ESARWLI   K ++GL+EL++ A  +  K   DTLT+E+L+S M++E  +  K   SL  +LH P +  R  +     FA    ++GL L +Q LG+N+FLLQ L G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q76M72|S22AR_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 27 OS=Mus musculus GN=Slc22a27 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q76M72</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>8.2208e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>531</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQE</Hsp_qseq>
+      <Hsp_hseq>RFQILQIVFLLLLNAIVVPHIAMENFTAAIPNHRCWVPILDNDTASDNGSRILSQDDLLRISIPLDSNLRPEKCRRFAQPQWHLLHLNGTFSNVSEPDTEPCVDGWVYDRSNFLSTIVTEWDLVCESQALNSVTKFSFMIGLFIGGIICGHLSDRL---GRKFILTCALLQFAITE</Hsp_hseq>
+      <Hsp_midline>RFQ+ Q V L+     V     +ENF+AA+P+HRCWVP+LDN T+  +    L  D LL +SIP   + +P +C RF QPQW L   N T +N S+  TEPC DGWVYD S F STIVT WDLVC SQAL  + +  F+ G+ +G  +CGH SDR      ++++T   L   + E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>4.58388e-20</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>795</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>RWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIG</Hsp_qseq>
+      <Hsp_hseq>RWLSESARWLIVTNKPQKGLKELRKVAHMNGMKNSGD-LTMEIVRTSMKAELEAAKTKPSLRDLFHTSILRKRICVLSFMRLFFTVSIFGLAVHLQHLSSNIILLQFLIS</Hsp_hseq>
+      <Hsp_midline>RWL ESARWLI   K  +GL+EL++VA +N  K  GD LTME++R++M+ E    K   SL  L HT  LR R  +       F  + +GLA+ LQ L SNI LLQ LI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q63ZE4|S22AA_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 10 OS=Homo sapiens GN=SLC22A10 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q63ZE4</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>9.76472e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQMLHLVFILPSLMLLIPHILLENFAAAIPGHRCWVHMLDNNTGSGNETGILSEDALLRISIPLDSNLRPEKCRRFVHPQWQLLHLNGTIHSTSEADTEPCVDGWVYDQSYFPSTIVTKWDLVCDYQSLKSVVQFLLLTGMLVGGIIGGHVSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+   V ++  ++ +    +LENF+AA+P HRCWV +LDN+T   +  G L  D LL +SIP   + +P +C RF  PQWQL   N T  + S+A TEPC DGWVYD S F STIVT WDLVC+ Q+L+ + Q + L G+LVG  + GH SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.21117e-22</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>DRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>SRWLVESARWLIITNKLDEGLKALRKVARTNGIKNAEETLNIEVVRSTMQEELDAAQTKTTVCDLFRNPSMRKRICILVFLRFANTIPFYGTMVNLQHVGSNIFLLQVLYGAVALIVR</Hsp_hseq>
+      <Hsp_midline> RWL ESARWLI   KLD+GL+ L++VA  N  K   +TL +EV+RS M+EE    +   ++  L   P +R R  I +   FA    FYG  ++LQ +GSNIFLLQ L G V   V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q6T423|S22AP_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 25 OS=Homo sapiens GN=SLC22A25 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q6T423</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.417e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQILQMVFLIMFNVIVYHQTQLENFAAFILDHRCWVHILDNDTIPDNDPGTLSQDALLRISIPFDSNLRPEKCRRFVHPQWKLIHLNGTFPNTSEPDTEPCVDGWVYDQSSFPSTIVTKWDLVCESQPLNSVAKFLFMAGMMVGGNLYGHLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+ Q V L+   + V  Q  LENF+A +  HRCWV +LDN T   + PG L  D LL +SIP   + +P +C RF  PQW+L   N T  N S+  TEPC DGWVYD S+F STIVT WDLVC SQ L  +A+ +F+AG++VG  + GH SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.2991e-20</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>801</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>DRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIV</Hsp_qseq>
+      <Hsp_hseq>SRWLAESARWLIINNKPEEGLKELRKAAHRNGMKNAEDILTMEVLKSTMKQELEAAQKKHSLCELLRIPNICKRICFLSFVRFASTIPFWGLTLHLQHLGNNVFLLQTLFGAV</Hsp_hseq>
+      <Hsp_midline> RWL ESARWLI   K ++GL+EL++ A  N  K   D LTMEVL+S M++E    +   SL  LL  P +  R        FA    F+GL L LQ LG+N+FLLQ L G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q8N4F4|S22AO_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 24 OS=Homo sapiens GN=SLC22A24 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q8N4F4</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.47336e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQICLIAFFCITNILLFPNIVLENFTAFTPSHRCWVPLLDNDSVSDNDTGTLSKDDLLRISIPLDSNLRPQKCQRFIHPQWQLLHLNGTFPNTNEPDTEPCVDGWVYDRSSFLSTIVTEWDLVCESQSLKSMVQSLFMAGSLLGGLIYGHLSDR</Hsp_hseq>
+      <Hsp_midline>RFQ+          + +    +LENF+A  P HRCWVPLLDN +   +  G L  D LL +SIP   + +P +C RF  PQWQL   N T  N ++  TEPC DGWVYD S+F STIVT WDLVC SQ+L+ M QS+F+AG L+G  + GH SDR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q5RC45|S22AO_PONAB</Hit_id>
+  <Hit_def>Solute carrier family 22 member 24 OS=Pongo abelii GN=SLC22A24 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q5RC45</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.77334e-45</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQICLIAFFCIANILLFPNIVLENFTAFTPGHRCWVPLLDNDTVSDNDTGTLSKDDLLRISIPLDSNLRPQKCQRFIHPQWQLLHLKGTFPNTNETDTEPCVDGWVYDRTSFLSTIVTEWDLVCESQSLKSMVQSLFMAGSLLGGLIYGHLSDR</Hsp_hseq>
+      <Hsp_midline>RFQ+          + +    +LENF+A  P HRCWVPLLDN T   +  G L  D LL +SIP   + +P +C RF  PQWQL     T  N ++  TEPC DGWVYD ++F STIVT WDLVC SQ+L+ M QS+F+AG L+G  + GH SDR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q8VCA0|S22AJ_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 19 OS=Mus musculus GN=Slc22a19 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8VCA0</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>4.76077e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQILHMIFVLICHALSAPHTLLENFTAAIPSHRCWVPILDNDTASDNGSRILSQDDLLRISIPLDSNLRPDKCRRYIQPQWHLLHLNGTFPTVTEPDTEPCVDGWVYDQSTFLSTTVTQWDLVCGSQALNSVAKFIYMTGIFIGYIMGGHLSDKF</Hsp_hseq>
+      <Hsp_midline>RFQ+   + ++          +LENF+AA+P HRCWVP+LDN T+  +    L  D LL +SIP   + +P +C R+ QPQW L   N T    ++  TEPC DGWVYD STF ST VT WDLVC SQAL  +A+ I++ GI +G  + GH SD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>6.39257e-21</Hsp_evalue>
+      <Hsp_query-from>466</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>RWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>RWLSESARWLIMANKPQKSLKELKKAACVNRIKNSGDALTLEVVKTIMKEELEAAQTKPSPLDLFRTPNLRKRICLLSFVRFVSVMSLLGLLINIQYLSNNVFLLQCLYGVVCIP</Hsp_hseq>
+      <Hsp_midline>RWL ESARWLI   K  + L+EL++ A VNR K  GD LT+EV+++ M+EE    +   S   L  TP LR R  +     F    +  GL +++Q L +N+FLLQ L G+V  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|Q8R0S9|S22AM_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 22 OS=Mus musculus GN=Slc22a22 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8R0S9</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.04333e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQICMIILLNILSLVLSPHDVLENFTAAIPAHHCSINL-DNSRSEVSTDMNLTTEDLMKVSIPMGPNQKPEQCRRFRYTQWQFLDSNISTFNSTELETEPCLDGWTYDHSVFTSTIVTEWDLVCDFQSFKYYAQATSLAGHLVSCPLSGIISDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+   + L    L ++  ++LENF+AA+P H C + L DNS S+ S   +L  + L+ VSIP GP+Q+P QC RFR  QWQ  +SN +  N ++  TEPC DGW YDHS F STIVT WDLVC+ Q+ +  AQ+  LAG LV   + G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.43928e-19</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>819</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKT</Hsp_qseq>
+      <Hsp_hseq>WVPESVRWLIITGKTDQAWKELQRIASINGKKGIAQNLTTEDLRSKLKKDVNSTGKLFRIKDIFINPLIRKIVLSNSSLLFAELFSFVGLLLDVQLLGKNMFLTQIFLGAIDVPSKS</Hsp_hseq>
+      <Hsp_midline>W+PES RWLI  GK DQ  +ELQR+A++N +K     LT E LRS ++++ +       +  +   P +R   + +    FA  F+F GL LD+Q LG N+FL Q  +G +D P K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|O35956|S22A6_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Rattus norvegicus GN=Slc22a6 PE=1 SV=1</Hit_def>
+  <Hit_accession>O35956</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>5.54738e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQLIQVTMVVAPLLLMASHNTLQNFTAAIPPHHCRPP------ANANLSKDGG----LEAWLPLDKQGQPESCLRFTSPQWGPPFYNGTEANGTRV-TEPCIDGWVYDNSTFPSTIVTEWNLVCSHRAFRQLAQSLYMVGVLLGAMVFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQL Q   +V P+L + + N L+NF+AA+P H C  P      + A++  D G    L   +P     QP  CLRF  PQW     N T  N +   TEPC DGWVYD+STF STIVT W+LVC+ +A R +AQS+++ G+L+GA V G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.9653e-24</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWYSSSGRLDLTLRALQRVARINGKQEEGAKLSIEVLRTSLQKELTLSKGQASAMELLRCPTLRHLFLCLSMLWFATSFAYYGLVMDLQGFGVSMYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L++EVLR+++++E +  K  AS   LL  P LRH  +   + WFA  F +YGL +DLQ  G +++L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q66J52|S226B_XENLA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6-B OS=Xenopus laevis GN=slc22a6-b PE=2 SV=1</Hit_def>
+  <Hit_accession>Q66J52</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>2.35073e-34</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RYQVIHVVLLSLPVFMLASHNLMQNFTAATPSHHCRI----NGTYEET--NFTGP--WLRALLPMTPTGEFSKCLRYTTPQYELLENNLTQS-YDDLETEPCLDGWVYDHSEFASTIITQWDLVCNHRRMRQVAQSIYMAGVLVGSILFGGLSDKF</Hsp_hseq>
+      <Hsp_midline>R+Q+   V L  P+  + + N+++NF+AA P H C +    N T + +     GP   L   +P  P  +  +CLR+  PQ++L E+N T + + D  TEPC DGWVYDHS F STI+T WDLVCN + +R +AQSI++AG+LVG+ + G  SD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>7.47759e-22</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEE--PSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WIPESGRWLVLSGKPEVACKALKKVAQINGKKEAGEKLTVEILKSSMQREINASHNSTYSAL-DLVRTPVVRRISFCISCTWFSTSFAYYGLALDLQSFGVSIYIIQIIFGTVDIPAK</Hsp_hseq>
+      <Hsp_midline>W+PES RWL+  GK +   + L++VA +N +K  G+ LT+E+L+S+M+ E   S +   ++L  L+ TP +R  +      WF+  F +YGLALDLQ+ G +I+++Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q4U2R8|S22A6_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Homo sapiens GN=SLC22A6 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q4U2R8</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.88427e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQQIQVTLVVLPLLLMASHNTLQNFTAAIPTHHCRPPADANLSKNGG----------LEVWLPRDRQGQPESCLRFTSPQWGLPFLNGTEAN-GTGATEPCTDGWIYDNSTFPSTIVTEWDLVCSHRALRQLAQSLYMVGVLLGAMVFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   +V P+L + + N L+NF+AA+P H C  P   N +              L V +P     QP  CLRF  PQW L   N T  N    ATEPC DGW+YD+STF STIVT WDLVC+ +ALR +AQS+++ G+L+GA V G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.99476e-25</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWHSSSGRLDLTLRALQRVARINGKREEGAKLSMEVLRASLQKELTMGKGQASAMELLRCPTLRHLFLCLSMLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L+MEVLR+++++E +  K  AS   LL  P LRH  +   + WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q66J54|S226A_XENLA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6-A OS=Xenopus laevis GN=slc22a6-a PE=2 SV=1</Hit_def>
+  <Hit_accession>Q66J54</Hit_accession>
+  <Hit_len>558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>6.81013e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQITQVALMCFPILLMASHNLLQNFSAAIPDHKCKA---NDTWYQSNNTDRMG---YVRLSAPLDADGQPDRCLEYVEVQWMIAGTNRTWANSSQLATRPCTEGWEYSKDEFNSTIITEWDLVCGHKNRRQLAQSVYMGGVLVGAIILGGLSDRY</Hsp_hseq>
+      <Hsp_midline>RFQ+ Q   +  PIL + + N+L+NFSAA+P H+C     +++  Q++    +G    + +S P   D QP +CL + + QW +  +N T  N S  AT PC +GW Y    F STI+T WDLVC  +  R +AQS+++ G+LVGA + G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>8.12649e-24</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WFPESARWLVLSGKTERAVKEMKKVAKLNGKEEEGEKITLESMRSDMIKELACAKSSYTVIDLIRTSTIRRISCALSLVWFSTSFAYYGLAMDLQNFNVSIYLIQVIFGAVDFPAK</Hsp_hseq>
+      <Hsp_midline>W PESARWL+  GK ++ ++E+++VA +N ++ EG+ +T+E +RS M +E +  K+  ++  L+ T  +R  +    L WF+  F +YGLA+DLQ    +I+L+Q + G VDFP K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q5RCH6|S22A6_PONAB</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Pongo abelii GN=SLC22A6 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q5RCH6</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.66812e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQQIQVTLVVLPLLLMASHNTLQNFTAAIPTHHCRPPADANLSKNGG----------LEVWLPRDRKGQPESCLRFTSPQWGPPFPNGTEAN-GTGATEPCTDGWIYDNSTFPSTIVTEWDLVCSHRALRQLAQSLYMVGVLLGAMVFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   +V P+L + + N L+NF+AA+P H C  P   N +              L V +P     QP  CLRF  PQW     N T  N    ATEPC DGW+YD+STF STIVT WDLVC+ +ALR +AQS+++ G+L+GA V G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.33423e-25</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWHSSSGRLDLTLRALQRVARINGKREEGAKLSMEVLRASLQKELTMGKGQASAMELLRCPTLRHLFLCLSMLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L+MEVLR+++++E +  K  AS   LL  P LRH  +   + WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|Q4W8A3|S22A6_MACFA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Macaca fascicularis GN=SLC22A6 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q4W8A3</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>5.67735e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQQIQVTLVVLPLLLMASHNTVQNFTAAIPTHHCRPP------ANANLSKDGG----LEAWLPRDRQGQPESCLRFTSPQWGPPFPNGTEAN-GTGATEPCTDGWIYDNSTFPSTIVTEWDLVCSHRALRQLAQSLYMVGVLLGAMVFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   +V P+L + + N ++NF+AA+P H C  P      + A++  D G    L   +P     QP  CLRF  PQW     N T  N    ATEPC DGW+YD+STF STIVT WDLVC+ +ALR +AQS+++ G+L+GA V G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.30207e-25</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWHSSSGRLDLTLRALQRVARINGKREEGAKLSMEVLRASLQKELTMGKGQASAMELLRCPTLRHLFLCLSMLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L+MEVLR+++++E +  K  AS   LL  P LRH  +   + WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q8VC69|S22A6_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Mus musculus GN=Slc22a6 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8VC69</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>7.98384e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQLIQVTMVVAPLLLMASHNTLQNFTAAIPAHHCRPP------ANANLSKDGGLEAWL----PLDKQGRPESCLRFPFPH-NGTEANGTGV------TEPCLDGWVYDNSTFPSTIVTEWNLVCSHRAFRQLAQSLFMVGVLLGAMMFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQL Q   +V P+L + + N L+NF+AA+P H C  P      + A++  D G +  L    P     +P  CLRF  P    TE+N T        TEPC DGWVYD+STF STIVT W+LVC+ +A R +AQS+F+ G+L+GA + G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>8.58509e-23</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWYSSSGRLDLTLRALQRVARINGKQEEGAKLSIEVLQTSLQKELTLNKGQASAMELLRCPTLRRLFLCLSMLWFATSFAYYGLVMDLQGFGVSMYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L++EVL++++++E + +K  AS   LL  P LR   +   + WFA  F +YGL +DLQ  G +++L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|Q6NYN7|S22A6_DANRE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Danio rerio GN=slc22a6 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q6NYN7</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.28659e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAA----TEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQVLHVTLLSMPILMMASHNLLQNFVAAVPPHHC------QPHANLSMSSTDAVDVLRA-TVPLGLNGKLERCKRYTTPQWQILSLNTSESLWDESMAETETQSCEDGWFYNMTEMSSTIITEWDLVCDYRALKQMSQTTYMGGVLVGAIVFGGLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ+     L  PIL + + N+L+NF AAVP H C         +  S+      DVL A ++P G + +  +C R+  PQWQ+   N + + W ++     T+ CEDGW Y+ +   STI+T WDLVC+ +AL+ M+Q+ ++ G+LVGA V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>7.18428e-22</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WFLESARWLVLTKNPEQAVKNLKTVARINGRSAEGDKIDLEMLQESMKKEMACSKGSYSALDLLRTSTMRTITICLSAVWFSTSFAYYGLSMDLQKFGVSIYLIQIIFGAVDIPAK</Hsp_hseq>
+      <Hsp_midline>W  ESARWL+     +Q ++ L+ VA +N R AEGD + +E+L+ +M++E +  K   S   LL T  +R  TI     WF+  F +YGL++DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q5R9C4|S22A8_PONAB</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Pongo abelii GN=SLC22A8 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q5R9C4</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.87627e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQFLHVAILGLPILNMANHNLLQIFTAATPVHHCRPP--PNAST--------GPWVL-----PMGPNGKPERCLRFVHP------PNASLPNETQRATEPCLDGWVYNST--KDSIVTEWDLVCNSNKLKEMAQSIFMAGILIGGLVLGDLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ      L  PIL +   N+L+ F+AA P H C  P   N+++        GP VL     P GP+ +P +CLRF  P       NA+  N +  ATEPC DGWVY+ +  + +IVT WDLVCNS  L+ MAQSIF+AGIL+G  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>2.20276e-22</Hsp_evalue>
+      <Hsp_query-from>460</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>SDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>SSWWTPESIRWLVLSGKSSKALKILRRVAAFNGKKEEGERLSLEELKLNLQKEIALAKAKYTASDLFRIPMLRRMTFCLSLAWFATGFAYYSLAMGVEEFGVNLYILQIIFGGVDVPAK</Hsp_hseq>
+      <Hsp_midline>S  W PES RWL+  GK  + L+ L+RVAA N +K EG+ L++E L+  +++E +  KA  +   L   P LR  T    L WFA GF +Y LA+ ++  G N+++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|Q9TSY7|S22A6_RABIT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Oryctolagus cuniculus GN=SLC22A6 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q9TSY7</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>3.07812e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQRIQVTLVVLPLLLMASHNTLQNFTAAIPPHHCRPP------AHANLSKDGG----LQAWLPQDTQGRPKSCLRFTSPQERPPFLNGTEAN-GTGTTEPCTDGWIYDNSTFPSTIVTEWDLVCSHRALRQLGQSLYMAGVLIGAMVFGYLADR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   +V P+L + + N L+NF+AA+P H C  P      + A++  D G    L   +P     +P  CLRF  PQ +    N T  N     TEPC DGW+YD+STF STIVT WDLVC+ +ALR + QS+++AG+L+GA V G+ +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.3715e-25</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWYSTPGRLDLTLKALQKVARINGKQEEGAKLSMEVLRTNLQKELTMSKGQASAMELLRCPALRHLFLCLSLLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  T G+LD  L+ LQ+VA +N ++ EG  L+MEVLR+ +++E +  K  AS   LL  P LRH  +   L WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|Q4W8A2|S22A8_MACFA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Macaca fascicularis GN=SLC22A8 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q4W8A2</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>8.12098e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQFLHVAILGLPILNMANHNLLQIFTAATPVHHCRLP--PNASA--------GPWV-----IPMGPNGKPERCLRFVHP------SNASLPNDTQRSMEPCLDGWVYNST--KDSIVTEWNLVCNSNKLKEMAQSIFMAGILIGGLVLGDLSDRF</Hsp_hseq>
+      <Hsp_midline>RFQ      L  PIL +   N+L+ F+AA P H C +P   N+++        GP V     IP GP+ +P +CLRF  P      SNA+  N +  + EPC DGWVY+ +  + +IVT W+LVCNS  L+ MAQSIF+AGIL+G  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.38035e-23</Hsp_evalue>
+      <Hsp_query-from>460</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>SDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>SSWWTPESIRWLVLTGKSSKALKILRRVAAFNGKKEEGERLSLEELKLNLQKEISLAKAKYTAADLFRIPMLRRMTFCLSLAWFATGFAYYSLAMGVEEFGVNLYILQIIFGGVDIPAK</Hsp_hseq>
+      <Hsp_midline>S  W PES RWL+  GK  + L+ L+RVAA N +K EG+ L++E L+  +++E S  KA  +   L   P LR  T    L WFA GF +Y LA+ ++  G N+++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q864Z3|S22A6_BOVIN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Bos taurus GN=SLC22A6 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q864Z3</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>9.46439e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQKIQVTLVILPLILLASHNTLQNFTAAIPTHHCRPPADTN----------LSEDGDLEAWLPRDGQGRPESCLLFTSPQRGPPFPNGTETN-GTGATEPCPHGWIYDNSTFPSTIVTEWDLVCSHRALRQLAQSLYMMGVLLGAMTFGCLADR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   ++ P++ + + N L+NF+AA+P H C  P   N          L  D  L   +P     +P  CL F  PQ      N T TN    ATEPC  GW+YD+STF STIVT WDLVC+ +ALR +AQS+++ G+L+GA   G  +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>8.84813e-23</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWYASSGRLDLTLRNLQRVAWINGKQEEGANLSMEALQASLKKELTTGKSQASALELIRCPALRRLFLCLSMLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG  L+ME L++++++E +  K+ AS   L+  P LR   +   + WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|A6NK97|S22AK_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 20 OS=Homo sapiens GN=SLC22A20 PE=2 SV=1</Hit_def>
+  <Hit_accession>A6NK97</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.72054e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQLNHTALLLLPCGLLACHNFLQNFTAAVPPHHCRGP--ANHTEAST--NDSG--AWLRATIPLDQLGAPEPCRRFTKPQWALLSPNSSIPG---AATEGCKDGWVYNRSVFPSTIVMEWDLVCEARTLRDLAQSVYMAGVLVGAAVFGSLADR</Hsp_hseq>
+      <Hsp_midline>RFQL  T  L+ P   +   N L+NF+AAVP H C  P   N T  ++   D G    L  +IP      P  C RF +PQW L   N++      AATE C+DGWVY+ S F STIV  WDLVC ++ LR +AQS+++AG+LVGAAV G  +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>4.39103e-24</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>WLPESSRWLLLHGKSQLAVQNLQKVAAMNGRKEEGERLTKEVMSSYIQSEFASVCTSNSILDLFRTPAIRKVTCCLMVIWFSNSVAYYGLAMDLQKFGLSLYLVQALFGIINTP</Hsp_hseq>
+      <Hsp_midline>WLPES+RWL+  GK    +Q LQ+VAA+N RK EG+ LT EV+ S ++ E +      S+  L  TP +R  T   M+ WF+    +YGLA+DLQ  G +++L+QAL GI++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|Q8TCC7|S22A8_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Homo sapiens GN=SLC22A8 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8TCC7</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>8.93333e-29</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQFLHVAILGLPILNMANHNLLQIFTAATPVHHCRPP--HNAST--------GPWVL-----PMGPNGKPERCLRFVHP------PNASLPNDTQRAMEPCLDGWVYNST--KDSIVTEWDLVCNSNKLKEMAQSIFMAGILIGGLVLGDLSDRF</Hsp_hseq>
+      <Hsp_midline>FQ      L  PIL +   N+L+ F+AA P H C  P   N+++        GP VL     P GP+ +P +CLRF  P       NA+  N +  A EPC DGWVY+ +  + +IVT WDLVCNS  L+ MAQSIF+AGIL+G  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>3.02317e-22</Hsp_evalue>
+      <Hsp_query-from>460</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>SDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>SSWWTPESIRWLVLSGKSSKALKILRRVAVFNGKKEEGERLSLEELKLNLQKEISLAKAKYTASDLFRIPMLRRMTFCLSLAWFATGFAYYSLAMGVEEFGVNLYILQIIFGGVDVPAK</Hsp_hseq>
+      <Hsp_midline>S  W PES RWL+  GK  + L+ L+RVA  N +K EG+ L++E L+  +++E S  KA  +   L   P LR  T    L WFA GF +Y LA+ ++  G N+++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|Q80UJ1|S22AK_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 20 OS=Mus musculus GN=Slc22a20 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q80UJ1</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.13083e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQLVYTALLLLPCGLLACHTFLQNFTAAAPPHHCQHP--ANYTE----PTTNVSGVWLRAAIPLNQHGDPEPCRRYVEPQWALLKPNASS---HGVATEGCKDGWVYDRSIFPSTIVMEWDLVCEARTLRDLAQSIYMSGVLVGAALFGGLADR</Hsp_hseq>
+      <Hsp_midline>RFQL  T  L+ P   +     L+NF+AA P H C  P   N T     P      V L  +IP      P  C R+ +PQW L + NA++      ATE C+DGWVYD S F STIV  WDLVC ++ LR +AQSI+++G+LVGAA+ G  +DR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.29389e-26</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>WLPESSRWLLLHGKAQQAVQNLQKVAMMNGRKAEGERLTTEVVSSYIQDEFASVRTSNSILDLFRTPAIRRVTCCLMGVWFSNSVAYYGLAMDLQKFGLSIYLVQALFGIIDIP</Hsp_hseq>
+      <Hsp_midline>WLPES+RWL+  GK  Q +Q LQ+VA +N RKAEG+ LT EV+ S +++E +  +   S+  L  TP +R  T   M  WF+    +YGLA+DLQ  G +I+L+QAL GI+D P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|Q70BM6|S22A8_PIG</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Sus scrofa GN=SLC22A8 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q70BM6</Hit_accession>
+  <Hit_len>543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>5.43083e-28</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQLLHTVLLGLPILGMANHNLLQIFTAPTPAHHCRPP--PNASA--------GPWVL-----PTGLNGKPETCLRFVYPP------NASLPNDTRGATEPCLDGWIYNIVD-RDSIVTEWDLVCSSSKLKEMAQSVFMAGILVGGLVLGALSDRF</Hsp_hseq>
+      <Hsp_midline>FQL  TV L  PIL +   N+L+ F+A  P H C  P   N+++        GP VL     P G + +P  CLRF  P       NA+  N +  ATEPC DGW+Y+    R +IVT WDLVC+S  L+ MAQS+F+AGILVG  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.32801e-22</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WLPESIRWMVLSGKSSKALKTLRQVAIFNGKKEEGEKLSLEELKLNLQKEISLAKARHGIADLFRTPVLRRVTLCLSLAWFATGFAYYSLAMGVEEFGVNLYVLQLIFGGVDVPAK</Hsp_hseq>
+      <Hsp_midline>WLPES RW++  GK  + L+ L++VA  N +K EG+ L++E L+  +++E S  KA   +  L  TP LR  T+   L WFA GF +Y LA+ ++  G N+++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|O88909|S22A8_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Mus musculus GN=Slc22a8 PE=1 SV=2</Hit_def>
+  <Hit_accession>O88909</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>7.26336e-28</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQYLHVTLLALPILGIANHNLLQIFTATTPDHHCRPP--PNAS--------LEPWVL-----PLGPNGKPEKCLRFVH------LPNASLPNDTQGATEPCLDGWIYNST--RDTIVTEWDLVCGSNKLKEMAQSVFMAGILVGGPVFGELSDRF</Hsp_hseq>
+      <Hsp_midline>FQ      L  PIL +   N+L+ F+A  P H C  P   N++        L P VL     P GP+ +P +CLRF          NA+  N +  ATEPC DGW+Y+ +  R TIVT WDLVC S  L+ MAQS+F+AGILVG  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>8.97063e-23</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESIRWLVLSGKFSKALKTLQRVATFNGKKEEGEKLTVEELKFNLQKDITSAKVKYGLSDLFRVSILRRVTFCLSLAWFATGFAYYSLAMGVEEFGVNIYILQIIFGGVDIPAK</Hsp_hseq>
+      <Hsp_midline>W+PES RWL+  GK  + L+ LQRVA  N +K EG+ LT+E L+  ++++ +  K    L  L     LR  T    L WFA GF +Y LA+ ++  G NI++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|O57379|S22A6_PSEAM</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Pseudopleuronectes americanus GN=SLC22A6 PE=1 SV=1</Hit_def>
+  <Hit_accession>O57379</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>2.18954e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNAT--------ATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>RFQVLHVTLLCIPVLMMASHNLLQNFVATVPSHYC------NAHANLS-QARLSLEESLLITVPLDGAGKPQRCQRYAAPQWHLLGKNGTSGSGDLADATESMDAALQECSDGWSYNSTVRSSTIISEWHLVCDMHSFKQMGQTIYMGGVLVGALLFGGLSDRY</Hsp_hseq>
+      <Hsp_midline>RFQ+     L  P+L + + N+L+NF A VP H C      N+ +  S    L  +  L +++P     +P +C R+  PQW L   N T        AT   DAA + C DGW Y+ +   STI++ W LVC+  + + M Q+I++ G+LVGA + G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.06833e-19</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>819</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKT</Hsp_qseq>
+      <Hsp_hseq>WFHESSRWLALSNRTEHALKNLKSVARFNGRHEEAEKLDIKMLHESMKKEMSCTQGSYSILDLFNTPAMRKRTLCLSAVWLSTSFAYYGLAMDLDKFGVDIYLIQVIFGAVDIPAKV</Hsp_hseq>
+      <Hsp_midline>W  ES+RWL    + +  L+ L+ VA  N R  E + L +++L  +M++E S  +   S+  L +TP +R RT+     W +  F +YGLA+DL   G +I+L+Q + G VD P K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|Q9R1U7|S22A8_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Rattus norvegicus GN=Slc22a8 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9R1U7</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>4.89152e-27</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQYLHVTLLALPVLGIANHNLLQIFTATTPVHHCRPP------PNASI----GPWVL-----PLDPNGKPEKCLRF------VHLPNASLPNDTQRATEPCLDGWIYNST--RDTIVIEWDLVCSSNKLKEMAQSIFMAGILVGGPVIGELSDRF</Hsp_hseq>
+      <Hsp_midline>FQ      L  P+L +   N+L+ F+A  P H C  P        ASI    GP VL     P  P+ +P +CLRF      +   NA+  N +  ATEPC DGW+Y+ +  R TIV  WDLVC+S  L+ MAQSIF+AGILVG  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.92799e-22</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESIRWLVLSGKYSKALKTLQRVATFNGKKEEGKKLTIEELKFNLQKDITSAKVKYGLSDLFRVSILRRVTFCLSLAWFSTGFAYYSLAMGVEEFGVNIYILQIIFGGVDIPAK</Hsp_hseq>
+      <Hsp_midline>W+PES RWL+  GK  + L+ LQRVA  N +K EG  LT+E L+  ++++ +  K    L  L     LR  T    L WF+ GF +Y LA+ ++  G NI++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|Q8HY24|S22A8_RABIT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 8 OS=Oryctolagus cuniculus GN=SLC22A8 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q8HY24</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.58173e-26</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQFLHVALLGFPILGMANHNLLQIFTATTPSHHCRPP--PNASA--------GPWVL-----PVNQNGQTERCLRFVHP------PNASLPNDTQGATEPCLDGWVYNST--RDTIVTEWDLVCSSNKLKEMAQSIFMAGILIGGLVLGDLSDRF</Hsp_hseq>
+      <Hsp_midline>FQ      L  PIL +   N+L+ F+A  P H C  P   N+++        GP VL     P   + Q  +CLRF  P       NA+  N +  ATEPC DGWVY+ +  R TIVT WDLVC+S  L+ MAQSIF+AGIL+G  V G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.62805e-20</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WIPESIRWLVLAGKSSKALKILRRVATFNGKKEEGEKLSLEELKLSLQKDISLAKAKYSTADLFRTPILRRVTLCLSLAWFATGFAYYSLAMGVEEFGVNIYILQIIFGGVDIPAK</Hsp_hseq>
+      <Hsp_midline>W+PES RWL+  GK  + L+ L+RVA  N +K EG+ L++E L+ +++++ S  KA  S   L  TP LR  T+   L WFA GF +Y LA+ ++  G NI++LQ + G VD P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q8MK48|S22A6_PIG</Hit_id>
+  <Hit_def>Solute carrier family 22 member 6 OS=Sus scrofa GN=SLC22A6 PE=1 SV=2</Hit_def>
+  <Hit_accession>Q8MK48</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.11031e-25</Hsp_evalue>
+      <Hsp_query-from>478</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>ESARWYSSSGRLDLTLKALQRVAWINGKREEGASLSMEVLRASLNKELTMDKGQASAMELLRCPVLRRLFLCLSLLWFATSFAYYGLVMDLQGFGVSIYLIQVIFGAVDLPAK</Hsp_hseq>
+      <Hsp_midline>ESARW  + G+LD  L+ LQRVA +N ++ EG +L+MEVLR+++ +E + DK  AS   LL  P LR   +   L WFA  F +YGL +DLQ  G +I+L+Q + G VD P K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>8.65746e-24</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RFQQIQVTLVVLPLLLMASHNTLQNFTAAIPAHHCRPPADTN----------LSRDTELEAWLPRDGQGRPASCLRFTSPQ-RGPPFPNGTGTNGTGTTEPCTNGWIYDPGTFPSTIVTEWDLVCSRRALRQLAQSLYMVGVLLGAMIFGYLANR</Hsp_hseq>
+      <Hsp_midline>RFQ  Q   +V P+L + + N L+NF+AA+P H C  P   N          L  D  L   +P     +P  CLRF  PQ +               TEPC +GW+YD  TF STIVT WDLVC+ +ALR +AQS+++ G+L+GA + G+ ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|A6QLW8|S22A7_BOVIN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Bos taurus GN=SLC22A7 PE=2 SV=1</Hit_def>
+  <Hit_accession>A6QLW8</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>4.80411e-23</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>552</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTES-------NATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAV</Hsp_qseq>
+      <Hsp_hseq>FQLRNVALLALPRVLLPMHFLLPIFLAAVPAHRCALPGVPDNFSNE--------DAWLEAHLPREPDGRLSACLRFTHPQ-ALPNSTLWGEGQNSGEQPEGEPSTVPCPQGWEYNHSEFSSTIATEWDLVCEQKGLNKAISTFFFAGVLVGAEVYGYLSDRFGRRRLLLVAYVSSLALGLASAASVSYI</Hsp_hseq>
+      <Hsp_midline>FQL     L  P + +    +L  F AAVP HRC +P + ++ S          D  L   +P  PD +   CLRF  PQ  L  S       N+      + +T PC  GW Y+HS F STI T WDLVC  + L     + F AG+LVGA V G+ SDR+       +  V  L  GL     V+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.59154e-17</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESARWLLTQGRVEEAHRYLLRCARLNGPPVGEDSLSREALNKVAAAE--RMVRRPSYLDLFRTPRLRYISLCCMVVWFGVNFSYYGVSLDLSGLGLNVYLTQLVFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>W+PESARWL+T G++++  + L R A +N      D+L+ E L      E  R     S   L  TP LR+ ++  M+ WF   F++YG++LDL  LG N++L Q + G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|Q9Y694|S22A7_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Homo sapiens GN=SLC22A7 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9Y694</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>5.10092e-22</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>552</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQW----QLTESNATATNWSDA-ATEPCEDGWVYDHSTFRSTIVTT--WDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAV</Hsp_qseq>
+      <Hsp_hseq>FQLRNVALLALPRVLLPLHFLLPIFLAAVPAHRCALPGAPANFSHQ--------DVWLEAHLPREPDGTLSSCLRFAYPQALPNTTLGEERQSRGELEDEPATVPCSQGWEYDHSEFSSTIATESQWDLVCEQKGLNRAASTFFFAGVLVGAVAFGYLSDRFGRRRLLLVAYVSTLVLGLASAASVSYV</Hsp_hseq>
+      <Hsp_midline>FQL     L  P + +    +L  F AAVP HRC +P    + S          DV L   +P  PD     CLRF  PQ      L E   +     D  AT PC  GW YDHS F STI T   WDLVC  + L   A + F AG+LVGA   G+ SDR+       +  V  L  GL     V+ V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.89038e-15</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESARWLLTQGHVKEAHRYLLHCARLNGRPVCEDSFSQEAVSKVAAGE--RVVRRPSYLDLFRTPRLRHISLCCVVVWFGVNFSYYGLSLDVSGLGLNVYQTQLLFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>W+PESARWL+T G + +  + L   A +N R    D+ + E +      E  R     S   L  TP LRH ++  ++ WF   F++YGL+LD+  LG N++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|Q1RPP5|S22A7_PIG</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Sus scrofa GN=SLC22A7 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q1RPP5</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.87209e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQ-------WQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQLWNVALLALPRVLLPMHFLLPIFLTAVPAHRCALPGAPANFSHQ--------DAWLEAHLPREPDGRFSSCLRFTHSRALPNTTLWGLGQSPGEQLE-GEPSTVPCPQGWEYDHSEFSSTIATEWDLVCEQKGLNRATSTFFFAGVLVGAVAFGYLSDRF</Hsp_hseq>
+      <Hsp_midline>FQL+    L  P + +    +L  F  AVP HRC +P    + S          D  L   +P  PD +   CLRF   +       W L +S        + +T PC  GW YDHS F STI T WDLVC  + L     + F AG+LVGA   G+ SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.02504e-17</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESARWLLTQGRVEDAHRYLLRCARLNGRPVGEDGLSREALSKVAAAE--RVVRRPSYVDLFRTPRLRHISLCCMVVWFGVNFSYYGLSLDVSGLGLNVYQTQLLFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>W+PESARWL+T G+++   + L R A +N R    D L+ E L      E  R     S   L  TP LRH ++  M+ WF   F++YGL+LD+  LG N++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|Q5RLM2|S22A7_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Rattus norvegicus GN=Slc22a7 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q5RLM2</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>4.01662e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>555</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLG-PDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNAT-ATNWSDAA-------TEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVN</Hsp_qseq>
+      <Hsp_hseq>FQLRNLVLMALPRMLLPMHFLLPVFMAAVPAHHCALP---------GAPANLSHQDLWLEAHLPRETDGSFSSCLRFAYPQ---TVPNVTLGTEVSNSGEPEGEPLTVPCSQGWEYDRSEFSSTIATEWDLVCQQRGLNKITSTCFFIGVLVGAVVYGYLSDRF---GRRRLLLVAYVSSLVLGLMSAASIN</Hsp_hseq>
+      <Hsp_midline>FQL   V +  P + +    +L  F AAVP H C +P           P +L   D+ L   +P   D     CLRF  PQ   T  N T  T  S++        T PC  GW YD S F STI T WDLVC  + L  +  + F  G+LVGA V G+ SDR+     R L+ V  +   +  L   A++N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.46591e-16</Hsp_evalue>
+      <Hsp_query-from>445</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>VPGIISIWWVPESARWLLTQGRVEEAKKYLLSCAKLNGRPVGEGSLSQEALNNVVTMERALQRP--SYLDLFRTSQLRHISLCCMMVWFGVNFSYYGLTLDVSGLGLNVYQTQLLFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>V G  S  W+PESARWL+T G++++  + L   A +N R     +L+ E L + +  E +  +   S   L  T  LRH ++  M+ WF   F++YGL LD+  LG N++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|Q5R540|S22A7_PONAB</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Pongo abelii GN=SLC22A7 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q5R540</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>5.45494e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>552</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQW----QLTESNATATNWSDA-ATEPCEDGWVYDHSTFRSTIVTT--WDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAV</Hsp_qseq>
+      <Hsp_hseq>FQLRNVALLALPRVLLPLHFLLPIFLAAVPAHRCALPGAPANFSHQ--------DVWLEAHLPREPDGTLSSCLRFAYPQALPNTTLGEERQSRGELEDEPATVPCSQGWEYDRSEFSSTIATESQWDLVCEQKGLNRAASTFFFAGVLVGAVAFGYLSDRFGRRRLLLVAYVSTLVLGLASAASVSYV</Hsp_hseq>
+      <Hsp_midline>FQL     L  P + +    +L  F AAVP HRC +P    + S          DV L   +P  PD     CLRF  PQ      L E   +     D  AT PC  GW YD S F STI T   WDLVC  + L   A + F AG+LVGA   G+ SDR+       +  V  L  GL     V+ V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.13206e-15</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESARWLLTQGHVKEAHRYLLHCARLNGRPVCEDSLSQEAVSKVAAGE--RVVRRPSYLDLFRTPRLRHISLCCVVVWFGVNFSYYGLSLDVSGLGLNVYQTQLLFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>W+PESARWL+T G + +  + L   A +N R    D+L+ E +      E  R     S   L  TP LRH ++  ++ WF   F++YGL+LD+  LG N++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|Q91WU2|S22A7_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Mus musculus GN=Slc22a7 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q91WU2</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>3.67797e-20</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>555</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLG-PDVLLAVSIPPGPDQQPHQCLRFRQPQ-----WQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVN</Hsp_qseq>
+      <Hsp_hseq>FQLRNLVLLALPRFLLPMHFLLPIFMAAVPAHHCALP---------DAPANLSHQDLWLKTHLPRETDGSFSSCLRFAYPQALPNVTLGTEVYNSGEPEGEPLTVPCSQGWEYDRSEFSSTIATEWDLVCEQRGLNKVTSTCFFIGVLLGAVVYGYLSDRF---GRRRLLLVAYVSTLALGLMSAASVN</Hsp_hseq>
+      <Hsp_midline>FQL   V L  P   +    +L  F AAVP H C +P           P +L   D+ L   +P   D     CLRF  PQ        TE   +     +  T PC  GW YD S F STI T WDLVC  + L  +  + F  G+L+GA V G+ SDR+     R L+ V  +      L   A+VN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.67157e-16</Hsp_evalue>
+      <Hsp_query-from>445</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>VPGIISIWWVPESARWLLTQGRVEEAKKYLSICAKLNGRPISEDSLSQEALNKVITME--RVSQRPSYLDLFRTSQLRHVSLCCMMMWFGVNFSYYGLTLDASGLGLTVYQTQLLFGAVEVPSK</Hsp_hseq>
+      <Hsp_midline>V G  S  W+PESARWL+T G++++  + L   A +N R    D+L+ E L   +  E  R     S   L  T  LRH ++  M+ WF   F++YGL LD   LG  ++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|Q3YAW7|S22A7_RABIT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 7 OS=Oryctolagus cuniculus GN=SLC22A7 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q3YAW7</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.70574e-19</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>FQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLG-PDVLLAVSIPPGPDQQPHQCLRFRQPQW--QLT---ESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FQLRNLALLALPRILLPLHFLLPVFLAAVPAHRCALP---------GTPANLSFQDAWLEAYLPREADGTFSSCLRFTHPQAVPNITLGREGRSPGDLQGNRSSMPCTQGWEYDRSEFSSTIATEWDLVCEQKDLSRAASTFFFVGVLVGAVAFGYLSDRF</Hsp_hseq>
+      <Hsp_midline>FQL     L  P + +    +L  F AAVP HRC +P           P +L   D  L   +P   D     CLRF  PQ    +T   E  +      + ++ PC  GW YD S F STI T WDLVC  + L   A + F  G+LVGA   G+ SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>7.37303e-16</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>WVPESARWLLTQGRVEEAQRYLLRCARLNGRPVPQDGLSREALSEVAAGE--RVVRRPSYLDLFRTPRLRHISLCCMVVWFGVNFSYYGQSLAVSGLGLNVYQTQLLFGAVELPSK</Hsp_hseq>
+      <Hsp_midline>W+PESARWL+T G++++  + L R A +N R    D L+ E L      E  R     S   L  TP LRH ++  M+ WF   F++YG +L +  LG N++  Q L G V+ P K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|Q9Z0E8|S22A5_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 5 OS=Mus musculus GN=Slc22a5 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9Z0E8</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>5.39632e-17</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLC-WFAFGF</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCLVPHTVNLSSAWRNHSIPLE-----------TKDGRQVPQKCRRYRL---------ATIANFSELGLEPGRDVDLEQLEQESCLDGWEYDKDVFLSTIVTEWDLVCKDDWKAPLTTSLFFVGVLMGSFISGQLSDRFGRKNVLFL-TMG-MQTGFSFLQ-VFSVNF-----EMFTVLFVLVGM-GQISNYVAAFVLGTEILSKSIRIIFATLGVCIFYAFGF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     SIP +                Q P +C R+R          AT  N+S+   EP             C DGW YD   F STIVT WDLVC      P+  S+F  G+L+G+ + G  SDR+  ++  +L T+G +  G   LQ V +VN      +  T+  +   M  + S   A   LGT + +  +R       +C ++AFGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|Q9WTN6|S22AL_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 21 OS=Mus musculus GN=Slc22a21 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q9WTN6</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.46943e-16</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDL--GPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLTAIPEHRCRIPDTVNLSSAWRNHSIPMETKDGPEV-------------PQKCRRYRL---------ATIANFSELGLEPGRDVDLEQLEQENCLDGWEYDKDIFLSTIVTEWDLVCKDDWKAPLTTSFFYVGVLLGSFISGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F  A+P HRC +P   N +S     SIP +   GP+V             P +C R+R          AT  N+S+   EP             C DGW YD   F STIVT WDLVC      P+  S F  G+L+G+ + G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.08638e-08</Hsp_evalue>
+      <Hsp_query-from>394</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>RPMAQSIFLAGILVGAAVCGHASDRW--LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>RRLLLAITLPGVLCGAL--------WWFIPESPRWLISQGRIKEAEVIIRKAAKINGIVAP-STIFDPSETNKLQDDSSKKPQSHHIYDLVRTPNIRILTIMSIILWLTISVGYFGLSLDTPNLNGNIYVNCFLLAAVEVP</Hsp_hseq>
+      <Hsp_midline>R +  +I L G+L GA         W  +PES RWLI+ G++ +    +++ A +N   A   T+      + ++++ S+      +  L+ TP +R  TI+S++ W      ++GL+LD   L  NI++   L+  V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|O70594|S22A5_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 5 OS=Rattus norvegicus GN=Slc22a5 PE=1 SV=1</Hit_def>
+  <Hit_accession>O70594</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>4.44505e-15</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>723</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLC-WFAFGF</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCLVPHTVNLSSAWRNHSIPLE-----------TKDGRQVPQSCRRYRL---------ATIANFSALGLEPGRDVDLEQLEQENCLDGWEYNKDVFLSTIVTEWDLVCKDDWKAPLTTSLFFVGVLMGSFISGQLSDRFGRKNVLFL-TMG-MQTGFSFLQ-LFSVNF-----EMFTVLFVLVGM-GQISNYVAAFVLGTEILSKSIRIIFATLGVCIFYAFGF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     SIP +                Q P  C R+R          AT  N+S    EP             C DGW Y+   F STIVT WDLVC      P+  S+F  G+L+G+ + G  SDR+  ++  +L T+G +  G   LQ + +VN      +  T+  +   M  + S   A   LGT + +  +R       +C ++AFGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|Q9Z306|S22A4_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 4 OS=Mus musculus GN=Slc22a4 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9Z306</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.7029e-14</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCLVPDTVNLSSSWRNHSIPLE-----------TKDGRQVPQSCRRYRL---------ATIANFSAMGLEPGQDVDLEQLEQESCLDGWEYDKDIFLSTIVTEWNLVCEDDWKTPLTTSLFFVGVLCGSFVSGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     SIP +                Q P  C R+R          AT  N+S    EP             C DGW YD   F STIVT W+LVC      P+  S+F  G+L G+ V G  SDR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|Q9Y226|S22AD_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 13 OS=Homo sapiens GN=SLC22A13 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q9Y226</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.16716e-14</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>LPESARWLLTRGRMDEAIQLIQKAASVNRRK-----LSPELMNQLVPEK--TGPSGNALDLFRH-PQLRKVTLIIFCVWFVDSLGYYGLSLQVGDFGLDVYLTQLIFGAVEVPAR</Hsp_hseq>
+      <Hsp_midline>LPESARWL+T G++D+ +Q +Q+ A+VNRRK     L+ E++   + E+     +G +L    H P LR  T+I    WF     +YGL+L +   G +++L Q + G V+ P +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.8416e-09</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>PHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>PHH-CAVAWVKNHTFNLSAAEQL------VLSVPLDTAGHPEPCLMFRPPPANASLQDILSHRFNE--TQPCDMGWEYPENRLPS-LKNEFNLVCDRKHLKDTTQSVFMAGLLVGTLMFGPLCDR</Hsp_hseq>
+      <Hsp_midline>PHH C V  + N T   S    L       +S+P      P  CL FR P    +  +  +  +++  T+PC+ GW Y  +   S +   ++LVC+ + L+   QS+F+AG+LVG  + G   DR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|Q9R141|S22A4_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 4 OS=Rattus norvegicus GN=Slc22a4 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9R141</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>8.25159e-14</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCLVPHTVNLSSAWRNHSIPLE-----------TKDGRQVPQSCRRYRL---------ATIANFSALGLEPGLDVDLEQLEQESCLDGWEYSKDVFLSTIVTEWNLVCEDDWKTPLTTSLFFVGVLCGSFVSGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     SIP +                Q P  C R+R          AT  N+S    EP             C DGW Y    F STIVT W+LVC      P+  S+F  G+L G+ V G  SDR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|Q9H015|S22A4_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 4 OS=Homo sapiens GN=SLC22A4 PE=1 SV=3</Hit_def>
+  <Hit_accession>Q9H015</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.12319e-13</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCRVPDAANLSSAWRNNSVPLRLRDG-----------REVPHSCSRYRL---------ATIANFSALGLEPGRDVDLGQLEQESCLDGWEFSQDVYLSTVVTEWNLVCEDNWKVPLTTSLFFVGVLLGSFVSGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     S+P  L               + PH C R+R          AT  N+S    EP             C DGW +    + ST+VT W+LVC      P+  S+F  G+L+G+ V G  SDR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|A9CB25|S22A4_PAPAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 4 OS=Papio anubis GN=SLC22A4 PE=3 SV=1</Hit_def>
+  <Hit_accession>A9CB25</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.56162e-12</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDL--GPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLAGTPEHRCRVPDAANLSSAWRNNSVPLRLRDGREVL-------------HSCRRYRL---------ATIANFSALGLEPGRDVDLGQLEQESCLDGWEFSQDVYWSTVVTEWNLVCEDNWKVPLTTSLFFVGVLLGSFVSGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC VP   N +S     S+P  L  G +VL             H C R+R          AT  N+S    EP             C DGW +    + ST+VT W+LVC      P+  S+F  G+L+G+ V G  SDR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|O76082|S22A5_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 5 OS=Homo sapiens GN=SLC22A5 PE=1 SV=1</Hit_def>
+  <Hit_accession>O76082</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.5994e-12</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTS---QASIPGDL--GPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEP-------------CEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLIATPEHRCRVPDAANLSSAWRNHTVPLRLRDGREV-------------PHSCRRYRL---------ATIANFSALGLEPGRDVDLGQLEQESCLDGWEFSQDVYLSTIVTEWNLVCEDDWKAPLTISLFFVGVLLGSFISGQLSDRF</Hsp_hseq>
+      <Hsp_midline>F  A P HRC VP   N +S     ++P  L  G +V             PH C R+R          AT  N+S    EP             C DGW +    + STIVT W+LVC      P+  S+F  G+L+G+ + G  SDR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.99512e-06</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLR-SAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FIPESPRWLISQGRFEEAEVIIRKAA-----KANGIVVPSTIFDPSELQDLSSKKQQSHNILDLLRTWNIRMVTIMSIMLWMTISVGYFGLSLDTPNLHGDIFVNCFLSAMVEVP</Hsp_hseq>
+      <Hsp_midline>++PES RWLI+ G+ ++    +++ A     KA G  +   +   S +++  S+ +   ++  LL T  +R  TI+S++ W      ++GL+LD   L  +IF+   L  +V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>sp|Q17QN9|S22AG_BOVIN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 16 OS=Bos taurus GN=SLC22A16 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q17QN9</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.53963e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVP-------LLDNSTSQAS---IPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>RYQIFLYFICAFQNISCGIHYLASVFLSVSPQHTCRPPGNVSQVLFQDLSTWQLEDIWTQFSVGREDRILVQLQDGAIWELTSCQRFRRDD----QSSLDYEYSGQKSSFPCLDGYIYDRSKWLSTVVTQWDLVCNREWFGRLIQPTFMFGVLLGAVIFGYLSDR</Hsp_hseq>
+      <Hsp_midline>R+Q+F         +      +   F +  P H C  P         D ST Q         +G +  + V +  G   +   C RFR+      +S+         ++ PC DG++YD S + ST+VT WDLVCN +    + Q  F+ G+L+GA + G+ SDR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>sp|Q6A4L0|S22AD_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 13 OS=Mus musculus GN=Slc22a13 PE=1 SV=3</Hit_def>
+  <Hit_accession>Q6A4L0</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>6.54368e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>504</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITV</Hsp_qseq>
+      <Hsp_hseq>RFQVRLTILMGIPNFLAAFFIFGQVFMVLDEAHHCSVSWVKNHTFNLSAAEQL------AISIPNDTAGRPESCLMFRPPPDSASLEDILSHRFNE--TQACDSGWDYPENRPQS-LKKEFDLVCDRKNLKKTSQSVFMAGLLVGALVFGPVCD-WIGRRPSLLMQV</Hsp_hseq>
+      <Hsp_midline>RFQ+  T+ +  P          + F      H C V  + N T   S    L      A+SIP     +P  CL FR P    +  +  +  +++  T+ C+ GW Y  +  +S +   +DLVC+ + L+  +QS+F+AG+LVGA V G   D W+      L+ V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.53797e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>LPESPRWLLSQGRTEEAKQLVQKAALVN-----GRPLSPELLNQLVPEKTG--PSGNALDLFRH-PHLRKVTLILIAVWFVDSLVYYSLSFQVGDFGLDIYVTQLIFGAVEMP</Hsp_hseq>
+      <Hsp_midline>LPES RWL++ G+ ++  Q +Q+ A VN     G  L+ E+L   + E+     +G +L    H P LR  T+I +  WF     +Y L+  +   G +I++ Q + G V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>sp|Q86VW1|S22AG_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 16 OS=Homo sapiens GN=SLC22A16 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q86VW1</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.02212e-10</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVP-------LLDNSTSQASIPGDL---GPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATE-PCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>FMGVTPHHVCRPPGNVSQVVFHNHSNWSLEDTGALLSSGQKDYVTVQLQNGEIWELSRCSRNKREN-----TSSLGYEYTGSKKEFPCVDGYIYDQNTWKSTAVTQWNLVCDRKWLAMLIQPLFMFGVLLGSVTFGYFSDR</Hsp_hseq>
+      <Hsp_midline>F    PHH C  P         ++S       G L   G    + V +  G   +  +C R ++       +++    ++ +  E PC DG++YD +T++ST VT W+LVC+ + L  + Q +F+ G+L+G+   G+ SDR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>sp|Q66KG0|S22AG_XENLA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 16 OS=Xenopus laevis GN=slc22a16 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q66KG0</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.96989e-10</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>525</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATE--PCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGL</Hsp_qseq>
+      <Hsp_hseq>LVVQQENGDIWELNQCSRLKR------EDASYLTYFYDGNKTLFSCSNGYHYDKSNLESSIVTEWDLVCDREWLAKLIQPIFMLGVLIGAVIFGDIADRVGRRPIIWITSTGQFLFGI</Hsp_hseq>
+      <Hsp_midline>L V    G   + +QC R ++      E  +  T + D       C +G+ YD S   S+IVT WDLVC+ + L  + Q IF+ G+L+GA + G  +DR       W+ + G+   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>sp|Q9VIK2|CART_DROME</Hit_id>
+  <Hit_def>Carcinine transporter OS=Drosophila melanogaster GN=CarT PE=2 SV=1</Hit_def>
+  <Hit_accession>Q9VIK2</Hit_accession>
+  <Hit_len>674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.99728e-10</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRK-AEGDTLTMEV-LRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>MPESPRWLLMRGRLEEALKILERMAKVNGREFPEAVHLKLEAQIRRDKLKKQKKKMANVGLADLCRTPNMRLKTILITLSWFANETVYLGLSYYGPALGTNQYVSFFLSAVVELP</Hsp_hseq>
+      <Hsp_midline>+PES RWL+  G+L++ L+ L+R+A VN R+  E   L +E  +R    ++  +  A   L  L  TP +R +TI+  L WFA    + GL+    ALG+N ++   L  +V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>sp|O08966|S22A1_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Mus musculus GN=Slc22a1 PE=1 SV=2</Hit_def>
+  <Hit_accession>O08966</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.24409e-10</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FVPESPRWLLSQKRTTQAVRIMEQIAQKNRKVPPAD------LKMMCLEEDASERRSPSFADLFRTPSLRKHTLILMYLWFSCAVLYQGLIMHVGATGANLYLDFFYSSLVEFP</Hsp_hseq>
+      <Hsp_midline>++PES RWL++  +  Q ++ ++++A  NR+    D      L+    EE + ++   S   L  TP LR  T+I M  WF+    + GL + + A G+N++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>sp|O75751|S22A3_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 3 OS=Homo sapiens GN=SLC22A3 PE=1 SV=1</Hit_def>
+  <Hit_accession>O75751</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.3777e-09</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLITRKKGDKALQILRRIAKCNGKYLSSNYSEITV----TDEEVSNP----SFLDLVRTPQMRKCTLILMFAWFTSAVVYQGLVMRLGIIGGNLYIDFFISGVVELP</Hsp_hseq>
+      <Hsp_midline>+PES RWLIT  K D+ LQ L+R+A  N +    +   + V     +EE S      S   L+ TP +R  T+I M  WF     + GL + L  +G N+++   + G+V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>sp|Q497L8|S22AG_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 16 OS=Mus musculus GN=Slc22a16 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q497L8</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.23665e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>RFQLFQTVALVTPILWVTTQNMLENFSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQ-WQLTESNAT-ATNWSDAATE--------PCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARWLITVGKLDQGLQEL</Hsp_qseq>
+      <Hsp_hseq>RFQIVLYLICAYQSLSCGIHYLSSVFLSIIPEHACKPPGMVRKAVFHNVSAWRLEDILALRS----PEHKDHIMVELQDGEIWELTRCSRTWRENTSHLGYEYSGYKHDSPCFDGYVYDQSKWRNSAVRNFNLVCDQKWYARMIQPLIIFGVMLGSITFSYLSDRFGRRMALWCTSIGVFFFGIASL</Hsp_hseq>
+      <Hsp_midline>RFQ+   +      L      +   F + +P H C  P +       ++      D+L   S    P+ + H  +  +  + W+LT  + T   N S    E        PC DG+VYD S +R++ V  ++LVC+ +    M Q + + G+++G+    + SDR+    A W  ++G    G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>sp|Q63089|S22A1_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Rattus norvegicus GN=Slc22a1 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q63089</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.03707e-09</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FVPESPRWLLSQKRTTRAVRIMEQIAQKNGKVPPAD------LKMLCLEEDASEKRSPSFADLFRTPNLRKHTVILMYLWFSCAVLYQGLIMHVGATGANLYLDFFYSSLVEFP</Hsp_hseq>
+      <Hsp_midline>++PES RWL++  +  + ++ ++++A  N +    D      L+    EE + +K   S   L  TP LR  T+I M  WF+    + GL + + A G+N++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>sp|Q9VCA2|ORCT_DROME</Hit_id>
+  <Hit_def>Organic cation transporter protein OS=Drosophila melanogaster GN=Orct PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9VCA2</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>5.53116e-09</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>819</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDT---LTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVKT</Hsp_qseq>
+      <Hsp_hseq>IPESARWLLMKGRKDEAFVIIEKAAKENKVEVPNEIYEQLVDEVAEKKKQDEMAASQPAATVFDLLRYPNLRRKTLLIFFDWFVNSGVYYGLSWNTNNLGGNQLVNFMISGAVEIPGYT</Hsp_hseq>
+      <Hsp_midline>+PESARWL+  G+ D+    +++ A  N+ +   +    L  EV     ++E +  +  A++  LL  P LR +T++    WF     +YGL+ +   LG N  +   + G V+ P  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.87519e-06</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>SDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>SSNETKTCSS-YVYDRSKYLNSAVTEWNLVCSRSLLSATSDSLFMLGVLLGSLIFGQMSDK</Hsp_hseq>
+      <Hsp_midline>S   T+ C   +VYD S + ++ VT W+LVC+   L   + S+F+ G+L+G+ + G  SD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>sp|O15244|S22A2_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Homo sapiens GN=SLC22A2 PE=1 SV=2</Hit_def>
+  <Hit_accession>O15244</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>7.19125e-09</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIP-PGP--DQQPHQCLRFR----QPQWQLTESNATA-TNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPDHRCRSP----GVAELSLRCGWSPAEELNYTVPGPGPAGEASPRQCRRYEVDWNQSTFDCVDPLASLDTNRSRLPLGPCRDGWVYE--TPGSSIVTEFNLVCANSWMLDLFQSSVNVGFFIGSMSIGYIADRF</Hsp_hseq>
+      <Hsp_midline>F    P HRC  P      ++ S+     P   L  ++P PGP  +  P QC R+     Q  +   +  A+  TN S     PC DGWVY+  T  S+IVT ++LVC +  +  + QS    G  +G+   G+ +DR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.09637e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESPRWLISQNKNAEAMRIIKHIA-----KKNGKSLPASLQRLRLEEETGK-KLNPSFLDLVRTPQIRKHTMILMYNWFTSSVLYQGLIMHMGLAGDNIYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWLI+  K  + ++ ++ +A     K  G +L   + R  +EEE  + K   S   L+ TP +R  T+I M  WF     + GL + +   G NI+L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>sp|Q6NUB3|S22AF_XENLA</Hit_id>
+  <Hit_def>Solute carrier family 22 member 15 OS=Xenopus laevis GN=slc22a15 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q6NUB3</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.84566e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESPRWLYAQGRLHEAQESLVSLGRRNRKKFTSFTL---------RPRQKDSTHSANIITIYSNSILRHRTLVMMWVWFVCSLVYYGLTLSSGDLGGDIYLNLALSGLAELP</Hsp_hseq>
+      <Hsp_midline>+PES RWL   G+L +  + L  +   NR+K    TL                   A++ T+     LRHRT++ M  WF     +YGL L    LG +I+L  AL G+ + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>sp|Q6DFR1|S22AF_XENTR</Hit_id>
+  <Hit_def>Solute carrier family 22 member 15 OS=Xenopus tropicalis GN=slc22a15 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q6DFR1</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.74301e-08</Hsp_evalue>
+      <Hsp_query-from>436</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>GAAVCGHASDRWLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKA-GASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>GAAVL--ALSLCIPESPRWLHAQGRLREAQESLLSLGRRNRRKVTSFTLCPR----------QKDSAHSANILTIYSNAILRQRTLIMMWVWFVCSLVYYGLTLSSGDLGGDIYLNLALSGLAELP</Hsp_hseq>
+      <Hsp_midline>GAAV   A    +PES RWL   G+L +  + L  +   NRRK    TL              +D A  A++ T+     LR RT+I M  WF     +YGL L    LG +I+L  AL G+ + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>sp|Q9U539|OCT1_CAEEL</Hit_id>
+  <Hit_def>Organic cation transporter 1 OS=Caenorhabditis elegans GN=oct-1 PE=1 SV=3</Hit_def>
+  <Hit_accession>Q9U539</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.39166e-08</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DQQPHQCLRFRQPQWQLTE--SNATATNWSD-AATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>DTQILSCKQYNETQINVFRAFTSAPVDTYSDRISLVPCQNGWDYDNSTYLDSLVTEFNLVCDQQAWIEISTTSFYVGSFIGNCLFGYVADKF</Hsp_hseq>
+      <Hsp_midline>D Q   C ++ + Q  +    ++A    +SD  +  PC++GW YD+ST+  ++VT ++LVC+ QA   ++ + F  G  +G  + G+ +D++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.05964e-06</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVN-RRKAEGDTL--TMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FLPESPRWSVSVGKWADAKKQLKKIAKMNGKSNVDVDELVDSMKNHQNAAEEKET--KRSHNVTDLFKTPNLRRKTLIVTYIWVMNAIIYNGLTLNVSNLPVDDYWSFIINGAVELP</Hsp_hseq>
+      <Hsp_midline>+LPES RW ++VGK     ++L+++A +N +   + D L  +M+  ++A EE+ +  K   ++  L  TP LR +T+I    W      + GL L++  L  + +    + G V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>sp|O88446|S22A3_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 3 OS=Rattus norvegicus GN=Slc22a3 PE=2 SV=1</Hit_def>
+  <Hit_accession>O88446</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.40113e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLITRKQGEKALQILRRVAKCNGKHLSSNYSEITVTDEEVSNPSCLD--------LVRTPQMRKCTLILMFAWFTSAVVYQGLVMRLGLIGGNLYMDFFISGLVELP</Hsp_hseq>
+      <Hsp_midline>+PES RWLIT  + ++ LQ L+RVA  N +    +   + V    +      D        L+ TP +R  T+I M  WF     + GL + L  +G N+++   + G+V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>sp|Q9WTW5|S22A3_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 3 OS=Mus musculus GN=Slc22a3 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q9WTW5</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.7956e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLITRKQGEKALQILRRVAKCNGKHLSSNYSEITV----TDEEVSNP----SCLDLVRTPQMRKCTLILMFAWFTSAVVYQGLVMRLGLIGGNLYIDFFISGLVELP</Hsp_hseq>
+      <Hsp_midline>+PES RWLIT  + ++ LQ L+RVA  N +    +   + V     +EE S      S   L+ TP +R  T+I M  WF     + GL + L  +G N+++   + G+V+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>sp|O77504|S22A1_RABIT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Oryctolagus cuniculus GN=SLC22A1 PE=1 SV=1</Hit_def>
+  <Hit_accession>O77504</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.46373e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLLSQKRNTDAVKIMDNIAQKNGKLPPAD------LKMLSLDEDVTEKLSPSLADLFRTPNLRKHTFILMFLWFTCSVLYQGLILHMGATGGNVYLDFFYSSLVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWL++  +    ++ +  +A  N +    D      L+    +E   +K   SL  L  TP LR  T I M  WF     + GL L + A G N++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>sp|O02713|S22A2_PIG</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Sus scrofa GN=SLC22A2 PE=2 SV=1</Hit_def>
+  <Hit_accession>O02713</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>6.82784e-08</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQA--SIPGDLGPDVLLAVSIP-PGPDQQ--PHQCLRFRQPQWQLTESNAT------ATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFIPDHRCRSPGVAELSQRCGWSLAEELN------YTVPGPGPAGQAFPRQCRRY-EVDWNQSTLGCVDPLAGLAANSSHLPLGPCRYGWVYD--TPGSSIVTEFDLVCANSWLLDLFQSAVNVGFFIGSVGIGYIADRF</Hsp_hseq>
+      <Hsp_midline>F   +P HRC  P +   + +   S+  +L        ++P PGP  Q  P QC R+ +  W  +           A N S     PC  GWVYD  T  S+IVT +DLVC +  L  + QS    G  +G+   G+ +DR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.93141e-07</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLISQNKNAKAMSIIKHIA-----KKNGKSLPAS-LQSLRPDEEVGEKLKPSFLDLVRTPQIRKHTLILMYNWFTSAVLYQGLVMHMGLAGSNLYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWLI+  K  + +  ++ +A     K  G +L    L+S   +E   +K   S   L+ TP +R  T+I M  WF     + GL + +   GSN++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>sp|A7MBE0|S22A1_BOVIN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Bos taurus GN=SLC22A1 PE=2 SV=1</Hit_def>
+  <Hit_accession>A7MBE0</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>7.39466e-08</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQA--SIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQ------LTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLAFTPDHRCRSPGVAELSRRCGWSLAEELNYTV-------PGPGPE-SQCLRY-EVDWNQSTLGCLDPLASLATNGSPLPLGPCEQGWVYD--TPGSSIVTEFNLVCDDSWKVDLFQSCVNLGFFLGSLGVGYIADRF</Hsp_hseq>
+      <Hsp_midline>F A  P HRC  P +   + +   S+  +L   V       PGP  +  QCLR+ +  W       L    + ATN S     PCE GWVYD  T  S+IVT ++LVC+      + QS    G  +G+   G+ +DR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.22956e-07</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FVPESPRWLLSQKRNTEAIKIMDHIAQKNGKLPPAD------LKMLSLEEDVTEKLSPSFIDLFRTPNLRKYTFILMYLWFTSSVVYQGLIMHVGATGGNLYLDFLYSALVEFP</Hsp_hseq>
+      <Hsp_midline>++PES RWL++  +  + ++ +  +A  N +    D      L+    EE   +K   S   L  TP LR  T I M  WF     + GL + + A G N++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>sp|Q95R48|OCTL_DROME</Hit_id>
+  <Hit_def>Organic cation transporter-like protein OS=Drosophila melanogaster GN=Orct2 PE=2 SV=2</Hit_def>
+  <Hit_accession>Q95R48</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>9.31713e-08</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAG---------ASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESARWLLLKGRKDCAIANMQKAARFNKVEISDEALSELLDEGENSEEKAKQKLEDQELDEGPPPSVWDLFCYPNLRRKTLLIFLDWLVTSGVYYGLSWNTSNLGGNVLLNFVISGAVEIP</Hsp_hseq>
+      <Hsp_midline>+PESARWL+  G+ D  +  +Q+ A  N+ +   + L+  +      EE ++ K            S+  L   P LR +T++  L W      +YGL+ +   LG N+ L   + G V+ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.74847e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLLAKPDFRCALPFENGSSY------DL-PTHLWNLSYP-----ENERC-SYYDVDYTEEYLNGSIPRSSNE-TKTCSS-YVYDRSKYLNSAVTEWNLVCGRDFMAATSDSLFMLGVLLGSIVFGQLSDKY</Hsp_hseq>
+      <Hsp_midline>F  A P  RC +P  + S+       DL P  L  +S P     +  +C  +    +     N +    S+  T+ C   +VYD S + ++ VT W+LVC    +   + S+F+ G+L+G+ V G  SD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>sp|Q9R0W2|S22A2_RAT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Rattus norvegicus GN=Slc22a2 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q9R0W2</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.45742e-07</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESPRWLISQNKIVKAMKIIKHIA-----KKNGKSVPVS-LQNLTPDEDAGKKLNPSFLDLVRTPQIRKHTLILMYNWFTSSVLYQGLIMHMGLAGDNIYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWLI+  K+ + ++ ++ +A     K  G ++ +  L++   +E +  K   S   L+ TP +R  T+I M  WF     + GL + +   G NI+L      +V+FP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>4.36294e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIPP-GPDQQPH---QCLRFRQPQWQLTES-----NATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPDHHCWSP----GAAKLSQRCGWSQAEELNYTVPGLGPSDEASFLSQCMRYEVDWNQSTLDCVDPLSSLAADRNQLPLGPCEHGWVYN--TPGSSIVTEFNLVCAHSWMLDLFQSVVNVGFFIGAMMIGYLADRF</Hsp_hseq>
+      <Hsp_midline>F    P H CW P      ++ S          L  ++P  GP  +     QC+R+     Q T       ++ A + +     PCE GWVY+  T  S+IVT ++LVC    +  + QS+   G  +GA + G+ +DR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>sp|Q5R5H7|S22A2_PONAB</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Pongo abelii GN=SLC22A2 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q5R5H7</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.59657e-07</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESPRWLISQNKNAEAMRIIKHIAKKNGKSLPA---SLQCLRL---EEETGEKLNPSFLDLVRTPQIRKHTMILMYNWFTSSVLYQGLIMHMGLAGDNIYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWLI+  K  + ++ ++ +A  N +       +++ LR    EE + +K   S   L+ TP +R  T+I M  WF     + GL + +   G NI+L      +V+FP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.99398e-07</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIP-PGP--DQQPHQCLRFR----QPQWQLTESNATA-TNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPDHRCRSP----GVAELSLRCGWSPAEELNYTVPGPGPAGEASPRQCGRYEVDWNQSAFGCVDPLASLDTNRSRLPLGPCREGWVYE--TPGSSIVTEFNLVCANSWMLDLFQASVNVGFFFGSVSIGYIADRF</Hsp_hseq>
+      <Hsp_midline>F    P HRC  P      ++ S+     P   L  ++P PGP  +  P QC R+     Q  +   +  A+  TN S     PC +GWVY+  T  S+IVT ++LVC +  +  + Q+    G   G+   G+ +DR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>sp|Q9CAT6|OCT1_ARATH</Hit_id>
+  <Hit_def>Organic cation/carnitine transporter 1 OS=Arabidopsis thaliana GN=OCT1 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q9CAT6</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.48766e-07</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>VGAAVCGHASDRWLP---ESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>LGYAVC------LLPFAYESPRWLLVKGRNKEAMVVLKKLARLNGKQLPADL-------SLVDPIPERDDQTSSSEKFWKTKWAVKRIIMVMMAGFGSGFVYYGIQLNAENLNFNLYLTVAVNALMEFP</Hsp_hseq>
+      <Hsp_midline>+G AVC       LP   ES RWL+  G+  + +  L+++A +N ++   D        S ++  P RD   +S      T     R I+ M+  F  GF +YG+ L+ + L  N++L  A+  +++FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>sp|Q863T6|S22A1_PIG</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Sus scrofa GN=SLC22A1 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q863T6</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.96466e-07</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQA--SIPGDLGPDVLLAVSIPPGPDQQPHQCLRFRQPQWQLTES-----NATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRWLPESARW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPDHRCRSPGVAELSQRCGWSLAEELNYTV---PGLGPAGQAFPRQCRRYEVDWNQSTLGCEDPLAGLAANSSHLPLGPCQYGWVYD--TPGSSIVTEFNLVCEAAWKVDLFQSCVNVGFFVGSMGIGYIADRLVGSSASW</Hsp_hseq>
+      <Hsp_midline>F    P HRC  P +   + +   S+  +L   V     + P     P QC R+     Q T          A N S     PC+ GWVYD  T  S+IVT ++LVC +     + QS    G  VG+   G+ +DR +  SA W</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.65724e-07</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FVPESPRWLLSQKRNTQAIKIMDRIAQKNGKLPPADLKML-----SLEEEVVTERLSPSFLDLFRTQNLRKYTFILMYLWFTSSVLYQGLIMHVGATGGSLYLDFLYSALVEFP</Hsp_hseq>
+      <Hsp_midline>++PES RWL++  +  Q ++ + R+A  N +    D   +     ++EEE   ++   S   L  T  LR  T I M  WF     + GL + + A G +++L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>sp|O70577|S22A2_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Mus musculus GN=Slc22a2 PE=1 SV=1</Hit_def>
+  <Hit_accession>O70577</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>4.22523e-07</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>IPESPRWLISQNKNAKAMKIIKHIA-----KKNGKSVPVS-LQSLTADEDTGMKLNPSFLDLVRTPQIRKHTLILMYNWFTSSVLYQGLIMHMGLAGDNIYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+PES RWLI+  K  + ++ ++ +A     K  G ++ +  L+S   +E +  K   S   L+ TP +R  T+I M  WF     + GL + +   G NI+L      +V+FP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.79204e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIP----PGPDQQPHQCLRFRQPQWQLTES-----NATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPNHHCRSP----GVAELSQRCGWSPAEELNYTVPGLGSAGEVSFLSQCMRYEVDWNQSTLDCVDPLSSLAANRSHLPLSPCEHGWVYD--TPGSSIVTEFNLVCAHSWMLDLFQSLVNVGFFIGAVGIGYLADRF</Hsp_hseq>
+      <Hsp_midline>F    P+H C  P      ++ S      P   L  ++P     G      QC+R+     Q T       ++ A N S     PCE GWVYD  T  S+IVT ++LVC    +  + QS+   G  +GA   G+ +DR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>sp|Q8MJI6|S22A2_RABIT</Hit_id>
+  <Hit_def>Solute carrier family 22 member 2 OS=Oryctolagus cuniculus GN=SLC22A2 PE=1 SV=1</Hit_def>
+  <Hit_accession>Q8MJI6</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.65724e-07</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MAQSIFLAGILVGAAVCGHASDRW--------------------LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>LYQVAFTVGLLVLAGV-AYALPRWRWLQLTVTLPYFCFLLYYWCIPESPRWLISQNKNAKAMRIMEHIA---KKNGKSLPVSLQSLRAA---EDVGEKLNPSFLDLVRTPQIRKHTCILMYNWFTSSVLYQGLIMHLGLAGGDIYLDFFYSALVEFP</Hsp_hseq>
+      <Hsp_midline>+ Q  F  G+LV A V  +A  RW                    +PES RWLI+  K  + ++ ++ +A   ++  +   ++++ LR+A   E   +K   S   L+ TP +R  T I M  WF     + GL + L   G +I+L      +V+FP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>sp|Q8IZD6|S22AF_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 15 OS=Homo sapiens GN=SLC22A15 PE=2 SV=1</Hit_def>
+  <Hit_accession>Q8IZD6</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.83661e-07</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FIPESPRWLYSQGRLSEAEEALYLIAKRNRKLKCTFSLTHPANRSCRETGSFLD--------LFRYRVLLGHTLILMFIWFVCSLVYYGLTLSAGDLGGSIYANLALSGLIEIP</Hsp_hseq>
+      <Hsp_midline>++PES RWL + G+L +  + L  +A  NR+     +LT    RS  E     D        L     L   T+I M  WF     +YGL L    LG +I+   AL G+++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>sp|Q504N2|S22AF_MOUSE</Hit_id>
+  <Hit_def>Solute carrier family 22 member 15 OS=Mus musculus GN=Slc22a15 PE=2 SV=3</Hit_def>
+  <Hit_accession>Q504N2</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>9.86673e-07</Hsp_evalue>
+      <Hsp_query-from>469</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WLPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>FIPESPRWLYSQGRLSEAEEALYFIAKRNRKLKCTFSLTHPANRSY--------RATGSFLDLFRYRILLGHTLILMFIWFVCSLVYYGLTLSAGDLGGSIYANLALSGLIEIP</Hsp_hseq>
+      <Hsp_midline>++PES RWL + G+L +  + L  +A  NR+     +LT    RS         +A  S   L     L   T+I M  WF     +YGL L    LG +I+   AL G+++ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>sp|O15245|S22A1_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 1 OS=Homo sapiens GN=SLC22A1 PE=1 SV=2</Hit_def>
+  <Hit_accession>O15245</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.03072e-06</Hsp_evalue>
+      <Hsp_query-from>472</Hsp_query-from>
+      <Hsp_query-to>810</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFP</Hsp_qseq>
+      <Hsp_hseq>VPESPRWLLSQKRNTEAIKIMDHIAQKNGKLPPAD------LKMLSLEEDVTEKLSPSFADLFRTPRLRKRTFILMYLWFTDSVLYQGLILHMGATSGNLYLDFLYSALVEIP</Hsp_hseq>
+      <Hsp_midline>+PES RWL++  +  + ++ +  +A  N +    D      L+    EE   +K   S   L  TP LR RT I M  WF     + GL L + A   N++L      +V+ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.47635e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>FSAAVPHHRCWVPLLDNSTSQASIPGDLGPDVLLAVSIP---PGPDQQPHQCLRFRQPQWQLTESNAT------ATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDRW</Hsp_qseq>
+      <Hsp_hseq>FLGFTPDHHCQSP----GVAELSQRCGWSPAEELNYTVPGLGPAGEAFLGQCRRY-EVDWNQSALSCVDPLASLATNRSHLPLGPCQDGWVYD--TPGSSIVTEFNLVCADSWKLDLFQSCLNAGFLFGSLGVGYFADRF</Hsp_hseq>
+      <Hsp_midline>F    P H C  P      ++ S      P   L  ++P   P  +    QC R+ +  W  +  +        ATN S     PC+DGWVYD  T  S+IVT ++LVC       + QS   AG L G+   G+ +DR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>sp|Q9Y267|S22AE_HUMAN</Hit_id>
+  <Hit_def>Solute carrier family 22 member 14 OS=Homo sapiens GN=SLC22A14 PE=2 SV=4</Hit_def>
+  <Hit_accession>Q9Y267</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.35119e-06</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>PMAQSIFLAGILVGAAVCGHASDRW-LPESARWLITVGKLDQGLQELQRVAAVNRRKAEGDTLTMEVLRSAMEEEPSRDKAGASLGTLLHTPGLRHRTIISMLCWFAFGFTFYGLALDLQALGSNIFLLQALIGIVDFPVK</Hsp_qseq>
+      <Hsp_hseq>PHWQLLFLVG---GILVIPFISYIWILPESPRWLMMKGKVKEAKQVLCYAASVNKKTIPSNLLDELQL-------PRKKVTRASVLDFCKNRQLCKVTLVMSCVWFTVSYTYFTLSLRMRELGVSVHFRHVVPSIMEVPAR</Hsp_hseq>
+      <Hsp_midline>P  Q +FL G   G  V    S  W LPES RWL+  GK+ +  Q L   A+VN++    + L    L       P +    AS+        L   T++    WF   +T++ L+L ++ LG ++     +  I++ P +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.30785e-06</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LAVSIPPGPDQQPHQCLRFRQPQWQLTESNATATNWSDAATEPCEDGWVYDHSTFRSTIVTTWDLVCNSQALRPMAQSIFLAGILVGAAVCGHASDR</Hsp_qseq>
+      <Hsp_hseq>LNLTIPQAPNGSFLTCFMYLPVPWNLDSIIQFGLN----DTDTCQDGWIYPDAKKRS-LINEFDLVCGMETKKDTAQIMFMAGLPIGSLIFRLITDK</Hsp_hseq>
+      <Hsp_midline>L ++IP  P+     C  +    W L        N     T+ C+DGW+Y  +  RS ++  +DLVC  +  +  AQ +F+AG+ +G+ +    +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>556006</Statistics_db-num>
+      <Statistics_db-len>199234755</Statistics_db-len>
+      <Statistics_hsp-len>116</Statistics_hsp-len>
+      <Statistics_eff-space>21288613322</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

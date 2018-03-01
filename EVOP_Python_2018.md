@@ -2,7 +2,7 @@
 
 
 
-Sofia Robb  Ph.D.<br>Genomic Scientist @ Stowers Institute for Medical Research<br>[https://planosphere.stowers.org](https://planosphere.stowers.org)<br>[https://cuttingclass.stowers.org](https://cuttingclass.stowers.org)<br>[https://simrbase.stowers.org](https://simrbase.stowers.org)<br>[https://smedgd.stowers.org](https://smedgd.stowers.org)
+Sofia Robb  Ph.D.<br>Genomic Scientist @ Stowers Institute for Medical Research<br>[https://planosphere.stowers.org](https://planosphere.stowers.org), [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/28072387)<br>[https://cuttingclass.stowers.org](https://cuttingclass.stowers.org), [The American Biology Teacher](http://abt.ucpress.edu/content/79/3/208)<br>[https://simrbase.stowers.org](https://simrbase.stowers.org), [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5805609/)<br>[https://smedgd.stowers.org](https://smedgd.stowers.org), [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4867232/)
 
 
 
@@ -36,6 +36,7 @@ We only have 2 days. I am going to teach you the basics and more importantly tea
 
 1. [TutorialsPoint](https://www.tutorialspoint.com/python3/)
 2. [Anaconda](https://anaconda.org/anaconda/python)
+3. [BioPython](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
 
 ## Python Overview
 
@@ -3545,21 +3546,32 @@ You can use more than one flag by concatenating them with `|`.  `re.search(r"ATG
 Now that we have gone over these points we can build our first FASTA parser
 
 1. getting [arguments from the command line](#command-line-parameters-a-special-built-in-list) 
+
 2. [opening a file and reading every line](#open-a-file)
+
 3. [Building a dictionary one key/value pair at a time](#building-a-dictionary-one-keyvalue-at-a-time)
+
 4. [regular expressions](#regular-expression) to match a pattern
+
+   ​
+
+Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/srobb1/evop2018/blob/master/scripts/fasta_parser.py).
 
 ![try it](images/Try-It-Now.jpg)
 
 1. Try creating your on our own FASTA parser using your text editor.
-   1. get file name from the command line
+   1. get a FASTA file name from the command line
    2. create an empty dictionary
    3. open the file
    4. read the file line by line
-   5. check to see if the line is the id or sequecne
+   5. check to see if the line is the seqid or sequence
    6. add sequence lines to your dictionary using the id as the key
 2. **Remember to test your code often!!** The more lines you write without running and testing are more lines to debug.
 3. Need help? [Check out my basic FASTA parser](https://github.com/srobb1/evop2018/blob/master/scripts/fasta_parser.py).
+
+
+
+
 
 ### Functions
 
@@ -4045,32 +4057,84 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 ### Pipelines
 
-[good info](https://learnbyexample.gitbooks.io/python-basics/content/Executing_external_commands.html)
+Often you will want to run a series of programs, with the results of one required by the next. We can write a pipeline to do this. This is commonly written in bash as [shell script](https://www.shellscript.sh/), as a [make file](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/), or in a scripting language like Python on Perl.
 
+#### subprocess Module
 
+The subprocess module had a function called `run()` that can be used to
+
+- execute commands
+- get the exit status of the command
+  - 0 => Good
+  - anything else => Bad
+- get STDOUT and STDERR of the command
+  - STDOUT => regular output
+  - STDERR => any warning messages or error messages
+
+Let's run a command that we know will not have any errors:
 
 ```python
->>> cmd=subprocess.run(args=["ls" ,"-l" , , "system.log" ] , stdout=subprocess.PIPE, stderr=subprocess.PIPE)
->>> cmd.stdout
+>>> import subprocess
+>>>
+>>> cmd = subprocess.run(args=["ls" ,"-l" , "seq.nt" ] , stdout = subprocess.PIPE, stderr=subprocess.PIPE)
+>>>
 >>> cmd.stdout.decode('utf-8')
-'-rw-r-----@ 1 smr  wheel  424408 Feb 21 16:22 system.log\n'
+'-rw-r--r--  1 smr  SGC\\Domain Users  142 Feb 28 13:22 seq.nt\n'
+>>>
 >>> cmd.stderr.decode('utf-8')
 ''
+>>>
+>>> cmd.returncode
+0
+```
+
+> We have content in stdout
+>
+> We have nothing in sterr
+>
+> Our exit code is 0
+
+
+
+Let's see what happens when we introduce a problem. 'seq.aa' does not exist.
+
+```python
+>>> cmd = subprocess.run(args=["ls" ,"-l" , "seq.nt" , "seq.aa"] , stdout = subprocess.PIPE, stderr=subprocess.PIPE
+>>> cmd.stdout.decode('utf-8')
+'-rw-r--r--  1 smr  SGC\\Domain Users  142 Feb 28 13:22 seq.nt\n'
+>>> cmd.stderr.decode('utf-8')
+'ls: seq.aa: No such file or directory\n'
+>>> cmd.returncode
+1
+```
+
+>  We have content in stdout
+>
+> We have an error message in sterr
+>
+> Our exit code is 1
+
+
+
+#### shell=True
+
+If you use the option shell=True,  you can use a complete command, not broken into components like above
+
+```python
+>>> cmd = subprocess.run("echo atc | wc -c" , shell=True, stdout = subprocess.PIPE, stderr=subprocess.PIPE)
+>>> cmd.stdout.decode('utf-8')
+'       4\n'
 >>> cmd.returncode
 0
 ```
 
 
 
-```python
->>> cmd=subprocess.run(args=["ls" ,"-l" , "system.log" , "stuff.txt"] , stdout=subprocess.PIPE, stderr=subprocess.PIPE)
->>> cmd.stdout.decode('utf-8')
-'-rw-r-----@ 1 smr  wheel  424408 Feb 21 16:22 system.log\n'
->>> cmd.stderr.decode('utf-8')
-'ls: stuff.txt: No such file or directory\n'
->>> cmd.returncode
-1
-```
+#### Use Error Code to Control Pipeline
+
+If the error code is good (0) then we can proceed, if the error code is bad (!=0) stop.
+
+
 
 ## Biopython
 
@@ -4333,7 +4397,10 @@ len 209
 alphabet SingleLetterAlphabet()
 ```
 
+![try it](images/Try-It-Now.jpg)
 
+1. In your text editor write a FASTA parser using BioPython and SeqIO.
+2. Print out the ID\ttranlstion. Use `translate()` to translate the DNA into protein
 
 Here's a script to read fasta records and print out some information
 
@@ -4393,7 +4460,24 @@ Seq('ATGCTAACCAAAGTTTCAGTTCGGACGTGTCGATGAGCGACGCTCAAAAAGGAA...GGT', SingleLetter
 
 > need to use this format to get the string of the sequence: `str(id_dict['seq4'].seq)`
 
-Other methods set up a database or a way to read data as you need it.
+
+
+![try it](images/Try-It-Now.jpg)
+
+1. In your text editor create a new FASTA parser that uses `SeqIO.parse` to create a dictionary of all the sequences in your FASTA file.
+
+2. Find all the codons in the first frame. 
+
+3. Print out the codons of each sequence in FASTA format. 
+
+   ```
+   >my_seq
+   ATG TTC ATC
+   ```
+
+   ​
+
+4.  CHALLENGE QUESTION: Print out the codons of each sequence in all 6 frames.
 
 #### Seq methods
 
@@ -4464,8 +4548,8 @@ Many are straightforward, others are a little more complicated because the alpha
 ```python
 #!/usr/bin/env python3
 from Bio import SeqIO
-records = SeqIO.parse("files/seq.nt.fa", "fasta")  
-count = SeqIO.write(records , 'files/seqs.tab' , 'tab')
+fasta_records = SeqIO.parse("files/seq.nt.fa", "fasta")  
+tab_records = SeqIO.write(records , 'files/seqs.tab' , 'tab')
 ```
 
 
@@ -4485,7 +4569,7 @@ Even easier is the convert() method. Let's try fastq to fasta.
 ```python
 #!/usr/bin/env python3
 from Bio import SeqIO
-count = SeqIO.convert('files/sample.fastq', 'fastq', 'files/sample.converted.fa', 'fasta')
+fasta_records = SeqIO.convert('files/sample.fastq', 'fastq', 'files/sample.converted.fa', 'fasta')
 ```
 
 Hmm, was that easy or what??!??!!?
@@ -4502,7 +4586,7 @@ To parse the output, you'll write something like this
 
 ```python
 >>> from Bio.Blast import NCBIXML
->>> result_handle = open("my_blast.xml")
+>>> result_handle = open("files/test.blastout.xml")
 >>> blast_records = NCBIXML.parse(result_handle)
 >>> for blast_record in blast_records:
 >>>   for alignment in blast_record.alignments:
@@ -4515,26 +4599,15 @@ To parse the output, you'll write something like this
 
 
 
-#### You can also use the more general SearchIO
+![try it](images/Try-It-Now.jpg)
 
-The code exists, but is likely to change over the next few versions of biopython.
-
-It will handle other sequence search tools such as FASTA, HMMER etc as well as BLAST. ReturnsQuery objects that contain one or more Hit objects that contain one or more HSP objects, like in a blast report. Can handle blast tab-separated text output. 
-
-You'll write something like this
-
-```
->>> from Bio import SearchIO
->>> idx = SearchIO.index('tab_2226_tblastn_001.txt', 'blast-tab')
->>> sorted(idx.keys())
-['gi|11464971:4-101', 'gi|16080617|ref|NP_391444.1|']
->>> idx['gi|16080617|ref|NP_391444.1|']
-QueryResult(id='gi|16080617|ref|NP_391444.1|', 3 hits)
->>> idx.close()
-
-```
-
-
+1. Run BLAST with output in XML format. 
+   1. Query = [query.fa](files/query.fa)
+   2. Program = blastx
+   3. Database = Swissprot/UniProt
+      1. Already downloaded, path:
+      2. Don't do this now, but FYI: This DB can be downloaded from ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz 
+2. Parse the results and print the following "queryName\thitName\te-value\thitDesc" if the evalue is better than 1e-10. 
 
 ### There are many other uses for Biopython
 
