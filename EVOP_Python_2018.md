@@ -1856,7 +1856,7 @@ The while loop will continue to execute a block of code as long as the test expr
 
 Code: 
 
-```
+```python
   #!/usr/bin/env python3
   
   count = 0
@@ -1894,7 +1894,7 @@ Output:
 
 An infinite loop occurs when a while condition is always true. Here is an example of an infinite loop.
 
-```
+```python
   #!/usr/bin/env python3
   
   count = 0
@@ -1941,7 +1941,7 @@ An example of a sequence is a list. Let's use a for loop with a list of words.
 
 Code:
 
-```
+```python
   #!/usr/bin/env python3
   
   words = ['zero','one','two','three','four']
@@ -1966,7 +1966,7 @@ This is next example is using a for loop to iterating over a string. Remember a 
 
 Code:
 
-```
+```python
   #!/usr/bin/env python3
   
   dna = 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA'
@@ -3802,7 +3802,7 @@ show_n()
 
 The output is this `5` as you would expect, but this is better programming practice. Why? We'll see a little later.
 
-```python3
+```python
 def show_n(n):
   print(n)
 n = 5
@@ -4133,6 +4133,32 @@ If you use the option shell=True,  you can use a complete command, not broken in
 #### Use Error Code to Control Pipeline
 
 If the error code is good (0) then we can proceed, if the error code is bad (!=0) stop.
+
+```python
+#!/usr/bin/env python3
+import subprocess
+import sys
+
+blastcmd = "blastx -query test.query -db ~/dbs/uniprot_sprot.fasta -outfmt 7 -out test.blastout.tab -evalue 1e-5"
+countcmd = 'grep \'hits found\' test.blastout.tab  | perl -ne \'m/(\d+)/; $count=$1; print $count,"\n"\''
+
+blastcmd_run = subprocess.run(blastcmd, shell=True , stdout = subprocess.PIPE, stderr=subprocess.PIPE)
+if blastcmd_run.returncode == 0:
+  # run count cmd if blast exit code is 0  
+  countcmd_run = subprocess.run(countcmd,  shell=True , stdout = subprocess.PIPE, stderr=subprocess.PIPE)
+else:
+   sys.exit("BLAST had issues " + blastcmd_run.stderr.decode('utf-8'))
+
+
+if countcmd_run.returncode == 0:
+  if int(countcmd_run.stdout.decode('utf-8')) > 0:
+    # parse results
+    print("We will put parsing code here")
+  else:
+    sys.exit("no hits")
+else:
+  sys.exit("count had issues " + countcmd_run.stderr.decode('utf-8'))
+```
 
 
 
