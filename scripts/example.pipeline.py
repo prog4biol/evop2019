@@ -13,7 +13,7 @@ else:
 
   
 if countcmd_run.returncode == 0:
-  if countcmd_run.stdout.decode('utf-8') > 0:
+  if int(countcmd_run.stdout.decode('utf-8')) > 0:
     # parse results
     print("We will put parsing code here")
   else:
