@@ -19,5 +19,5 @@ if countcmd_run.returncode == 0:
   else:
     sys.exit("no hits")
 else:
-  sys.exit("count had issues " + blastcmd_run.stderr.decode('utf-8'))
+  sys.exit("count had issues " + countcmd.stderr.decode('utf-8'))
 
