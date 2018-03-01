@@ -3542,10 +3542,24 @@ You can use more than one flag by concatenating them with `|`.  `re.search(r"ATG
 
 ### Basic FASTA Parser
 
-Now that we have gone over 
+Now that we have gone over these points we can build our first FASTA parser
 
 1. getting [arguments from the command line](#command-line-parameters-a-special-built-in-list) 
-2. ​
+2. [opening a file and reading every line](#open-a-file)
+3. [Building a dictionary one key/value pair at a time](#building-a-dictionary-one-keyvalue-at-a-time)
+4. [regular expressions](#regular-expression) to match a pattern
+
+![try it](images/Try-It-Now.jpg)
+
+1. Try creating your on our own FASTA parser using your text editor.
+   1. get file name from the command line
+   2. create an empty dictionary
+   3. open the file
+   4. read the file line by line
+   5. check to see if the line is the id or sequecne
+   6. add sequence lines to your dictionary using the id as the key
+2. **Remember to test your code often!!** The more lines you write without running and testing are more lines to debug.
+3. Need help? [Check out my basic FASTA parser](https://github.com/srobb1/evop2018/blob/master/scripts/fasta_parser.py).
 
 ### Functions
 
