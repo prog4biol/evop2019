@@ -2,9 +2,9 @@
 ### Sofia Robb  
 
 
-Lecture Material [[pdf](EVOP_Python_2018.pdf)] [[markdown](EVOP_Python_2018.md)]   
-[Files](files)  
-[Scripts](scripts)  
+[Lecture Material](EVOP_Python_2018.md) [[pdf](EVOP_Python_2018.pdf)] [[markdown](EVOP_Python_2018.md)]   
+[Lecture Files](files)  
+[Lecture Scripts](scripts)  
 
 
 
