@@ -3907,7 +3907,7 @@ List of lists, often called a matrix are important for organizing and accessing 
 Here's a way to make a 3 x 3 table of values.
 
 ```python
->>> M = [[1,2,3], [4,5,6],[7,8,9]]
+>>> M = [[1,2,3] , [4,5,6] , [7,8,9]]
 >>> M[1] # second row (starts with index 0)
 [4,5,6]
 >>>M[1][2] # second row, third element
@@ -3928,10 +3928,12 @@ AA-TA
 The alignment in a list of lists.
 
 ```python
-aln = [['A', 'T', '-', 'T', 'G'],
-['A', 'A', 'T', 'A', 'G'],
-['T', '-', 'T', 'T', 'G'],
-['A', 'A', '-', 'T', 'A']]
+aln = [
+  ['A', 'T', '-', 'T', 'G'],
+  ['A', 'A', 'T', 'A', 'G'],
+  ['T', '-', 'T', 'T', 'G'],
+  ['A', 'A', '-', 'T', 'A']
+]
 ```
 
 Get an the full length of one sequence:
@@ -4160,7 +4162,11 @@ else:
   sys.exit("count had issues " + countcmd_run.stderr.decode('utf-8'))
 ```
 
+![try it](images/Try-It-Now.jpg)
 
+1. Create a script that runs a command. 
+2. Check the exit status
+3. If exit status is good, run a second command.
 
 ## Biopython
 
