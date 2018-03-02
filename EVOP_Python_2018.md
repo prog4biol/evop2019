@@ -4324,7 +4324,7 @@ ValueError: Proteins cannot be translated!
 
 > Thats better.
 
-#### Extracting a subsequence
+### Extracting a subsequence
 
 You can use a range [0:3] to get the first codon
 
@@ -4459,7 +4459,7 @@ Length 209
 
 ```
 
-#### Convert fasta file to python dictionary in one line
+### Convert fasta file to python dictionary in one line
 
 There are three ways of doing this that use up more memory if you want more flexibility. `Bio.SeqIO.to_dict()` is the most flexible but also reads the entire fasta file into memory as a python dictionary so might take a lot of time and memory.
 
@@ -4505,7 +4505,7 @@ Seq('ATGCTAACCAAAGTTTCAGTTCGGACGTGTCGATGAGCGACGCTCAAAAAGGAA...GGT', SingleLetter
 
 4.  CHALLENGE QUESTION: Print out the codons of each sequence in all 6 frames.
 
-#### Seq methods
+### Seq methods
 
 Visit biopython.org to read how [Sequences act like strings](http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc18)
 
@@ -4516,7 +4516,7 @@ seqobj.find("ATG") # find coordinate of ATG (-1 for not found)
 
 
 
-#### SeqRecord objects
+### SeqRecord objects
 
 SeqIO.Parse generates Bio.SeqRecord.SeqRecord objects. These are annotated Bio.Seq.Seq objects. 
 
@@ -4628,7 +4628,7 @@ To parse the output, you'll write something like this
 ![try it](images/Try-It-Now.jpg)
 
 1. Run BLAST with output in XML format. 
-   1. Query = [query.fa](files/query.fa)
+   1. Query = [query.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/query.fa)
    2. Program = blastx
    3. Database = Swissprot/UniProt
       1. Already downloaded, path:
