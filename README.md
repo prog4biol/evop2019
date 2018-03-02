@@ -6,6 +6,8 @@ Lecture Material [[pdf](EVOP_Python_2018.pdf)] [[markdown](EVOP_Python_2018.md)]
 [Files](files)  
 [Scripts](scripts)  
 
+
+
 Table of Contents
 =================
 
@@ -164,8 +166,8 @@ Table of Contents
          * [Installing Biopython](EVOP_Python_2018.md/#installing-biopython)
          * [Biopython documentation](EVOP_Python_2018.md/#biopython-documentation)
          * [Working with DNA and protein sequences](EVOP_Python_2018.md/#working-with-dna-and-protein-sequences)
-            * [From ... import ...](EVOP_Python_2018.md/#from--import-)
-               * [Bio.Alphabets](EVOP_Python_2018.md/#bioalphabets)
+         * [From ... import ...](EVOP_Python_2018.md/#from--import-)
+         * [Bio.Alphabets](EVOP_Python_2018.md/#bioalphabets)
             * [Extracting a subsequence](EVOP_Python_2018.md/#extracting-a-subsequence)
          * [Read a FASTA file](EVOP_Python_2018.md/#read-a-fasta-file)
             * [Convert fasta file to python dictionary in one line](EVOP_Python_2018.md/#convert-fasta-file-to-python-dictionary-in-one-line)
