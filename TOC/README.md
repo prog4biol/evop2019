@@ -8,7 +8,6 @@ Lecture Material [[pdf](EVOP_Python_2018.pdf)] [[markdown](EVOP_Python_2018.md)]
 
 
 
-
 Table of Contents
 =================
 
