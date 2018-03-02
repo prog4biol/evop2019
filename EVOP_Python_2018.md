@@ -4057,6 +4057,33 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 
 
+![try it](images/Try-It-Now.jpg)
+
+1. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+   1. Parse the FASTA to get each complete sequence.
+   2. Use `count()` to get the count of each A, T, G, C.
+   3. Store the counts in a dictionary similar to this example layout of a handy datastructure to store this information
+
+```python
+seqs[geneName][nucleotide]=count
+
+seqs['geneA']['A'] = 2
+seqs['geneA']['T'] = 3
+seqs['geneA']['G'] = 3
+seqs['geneA']['C'] = 1
+
+
+seqs['geneB']['A'] = 1
+seqs['geneB']['T'] = 5
+seqs['geneB']['G'] = 2
+seqs['geneB']['C'] = 2
+
+```
+
+2. Print out a list of gene names of genes with greater than 65% GC content.
+
+
+
 ### Pipelines
 
 Often you will want to run a series of programs, with the results of one required by the next. We can write a pipeline to do this. This is commonly written in bash as [shell script](https://www.shellscript.sh/), as a [make file](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/), or in a scripting language like Python on Perl.

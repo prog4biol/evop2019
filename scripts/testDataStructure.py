@@ -2,7 +2,7 @@
 #!/usr/bin/env python3
 
 from Bio import SeqIO
-fastas = SeqIO.to_dict(SeqIO.parse('files/sequences.nt.fa', 'fasta'))
+fastas = SeqIO.to_dict(SeqIO.parse('files/trinity.nt.fa', 'fasta'))
 
 records = [] #outermost data structure
 
