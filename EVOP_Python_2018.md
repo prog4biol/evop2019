@@ -3551,7 +3551,7 @@ Now that we have gone over these points we can build our first FASTA parser
 
 3. [Building a dictionary one key/value pair at a time](#building-a-dictionary-one-keyvalue-at-a-time)
 
-4. [regular expressions](#regular-expression) to match a pattern
+4. [regular expressions](#regular-expressions) to match a pattern
 
    ​
 
