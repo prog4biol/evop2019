@@ -1,12 +1,12 @@
 # Python for EVOP2018
 ### Sofia Robb  
 
-
 [Lecture Material](EVOP_Python_2018.md) [[pdf](EVOP_Python_2018.pdf)] [[markdown](EVOP_Python_2018.md)]   
 [Lecture Files](files)  
 [Lecture Scripts](scripts)  
 
-
+To download all files and scripts, run this command:  
+`git clone https://github.com/srobb1/evop2018.git`
 
 
 Table of Contents
