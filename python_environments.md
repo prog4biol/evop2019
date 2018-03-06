@@ -3,8 +3,8 @@
 - download and install python 3 from anaconda https://www.anaconda.com/download/#macos
 - `conda create -n py3.6`
 -  `conda search python`
--  locate the most recent version of python 2. At this writing (Oct 22, 2017) it was 2.7.13
-- `conda create -n py2.7.13 python=2.7.13`
+-  locate the most recent version of python 2. At this writing (March 6, 2018) it was 2.7.14
+- `conda create -n py2.7.14 python=2.7.14`
 
 now you can "activate" either python3 or python2 by typing"
   - `source activate py2.7.13` for python 2
