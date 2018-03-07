@@ -402,7 +402,7 @@ import sys
 Let's imagine we have a script called friends.py. If you write this on the command line:
 
 ```bash
-% friends.py Joe Anita
+% ./friends.py Joe Anita
 ```
 
 This happens inside the script:
