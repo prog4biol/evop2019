@@ -1467,7 +1467,7 @@ CCC
 ![try it](images/Try-It-Now.jpg)
 
 1. Extract the first 6 nucleotides from this DNA string: ATTAAAGGGCCC and save the substring in a variable.
-2. Replace all Ts with U's. Print the new string.
+2. Replace all Ts with U's in the substring. Print the new string.
 
 ##### Locate and Report
 
