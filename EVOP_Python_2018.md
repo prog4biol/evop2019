@@ -779,7 +779,7 @@ Returns:
 
 1. Change the variable count to 20, which statement block gets executed?  
 2. Change count to 50, what happens? 
-3. CHALLENGE QUESTION: Create a script that has a if/elif/else statement that (this will require nesting [Look it up](https://www.tutorialspoint.com/python/nested_if_statements_in_python.htm)
+3. CHALLENGE QUESTION: Create a script that has a if/elif/else statement that (this will require nesting [Look it up](https://www.tutorialspoint.com/python/nested_if_statements_in_python.htm))
    - Tests to see if a number is positive or negative
    - if it is positive also test if it is bigger or smaller than 50
      - if it is smaller also test if it is an even number
