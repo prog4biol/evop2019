@@ -2074,7 +2074,7 @@ Output:
 3. Make a list with the following data `['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']`. 
    - Use a `for` loop to iterate through each element of this list
    - Print out each element
-   - Print out the length and the sequence i.e., "4\tATGC\n"
+   - Print out the length and the sequence i.e., "4\tATGC"
 
 
 #### Loop Control
