@@ -2122,7 +2122,7 @@ When a `continue` is encounter the current iteration of the loop is done, nothin
 
 Code:
 
-```
+```python
   #!/usr/bin/env python3
   
   count = 0
@@ -2157,7 +2157,7 @@ Output:
 
 An iterable is any data type that is can be iterated over, or can be used in iteration. An iterable can be made into an iterator with the `iter()` function. This means you can use the `next()` function.
 
-```
+```python
   >>> codons = [ 'atg' , 'aaa' , 'agg' ]
   >>> codons_iterator=iter(codons)
   >>> next(codons_iterator)
@@ -2176,8 +2176,8 @@ An iterable is any data type that is can be iterated over, or can be used in ite
 
 Example of using an iterator in a for loop:
 
-```
-  codons = [ 'atg' , 'aaa' , 'agg' ]
+```python
+  >>> codons = [ 'atg' , 'aaa' , 'agg' ]
   >>> codons_it = iter(codons)
   >>> for codon in codons_it :
   ...   print( codon )
@@ -2195,7 +2195,7 @@ List comprehension is a way to make a list without typing out each element. Ther
 
 Here is an simple example:
 
-```
+```python
   >>> dna_list = ['TAGC', 'ACGTATGC', 'ATG', 'ACGGCTAG']
   >>> lengths = [len(dna) for dna in dna_list]
   >>> lengths
@@ -2204,7 +2204,7 @@ Here is an simple example:
 
 This is how you could do the same with a for loop:
 
-```
+```python
   >>> lengths = []
   >>> dna_list = ['TAGC', 'ACGTATGC', 'ATG', 'ACGGCTAG']
   >>> for dna in dna_list:
@@ -2218,7 +2218,7 @@ Using conditions:
 
 This will only return the length of an element that starts with 'A':
 
-```
+```python
   >>> dna_list = ['TAGC', 'ACGTATGC', 'ATG', 'ACGGCTAG']
   >>> lengths = [len(dna) for dna in dna_list if dna.startswith('A')]
   >>> lengths
@@ -2229,7 +2229,7 @@ This will only return the length of an element that starts with 'A':
 
 Here is an example of using mathematical operators to generate a list:
 
-```
+```python
   >>> two_power_list = [2 ** x for x in range(10)]
   >>> two_power_list
   [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
@@ -2254,13 +2254,13 @@ Data that is appropriate for dictionaries are two pieces of information that nat
 
 #### Creating a Dictionary
 
-```
+```python
   genes = { 'TP53' : 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC' , 'BRCA1' : 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA' }
 ```
 
 Breaking up the key/value pairs over multiple lines make them easier to read.
 
-```
+```python
   genes = { 
              'TP53' : 'GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTC' , 
              'BRCA1' : 'GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA' 
