@@ -167,7 +167,7 @@ Hello, EVOP2018!
 2. Use the `print()` function to print something to the screen.
 3. Save your script.
 4. Make it executable with `chmod +x`. (You only have to do this one time per script.)
-5. Run the script on the command line `./yourScript.pl` 
+5. Run the script on the command line `./yourScript.py` 
 
 ### Syntax
 
