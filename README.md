@@ -20,6 +20,7 @@ Table of Contents
       * [Python References](EVOP_Python_2018.md/#python-references)
             * [Books](EVOP_Python_2018.md/#books)
             * [Websites](EVOP_Python_2018.md/#websites)
+            * [Practice](EVOP_Python_2018.md/#practice)
       * [Python Overview](EVOP_Python_2018.md/#python-overview)
          * [Running Python](EVOP_Python_2018.md/#running-python)
             * [Interactive Interpretor](EVOP_Python_2018.md/#interactive-interpretor)

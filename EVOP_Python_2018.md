@@ -27,16 +27,19 @@ We only have 2 days. I am going to teach you the basics and more importantly tea
 
 ## Python References
 
-#### Books
+#### Books 
 
 1. Python for Biologist
 2. Learn Python in One Day and Learn it Well
 
-####  Websites
+####  Websites 
 
 1. [TutorialsPoint](https://www.tutorialspoint.com/python3/)
 2. [Anaconda](https://anaconda.org/anaconda/python)
 3. [BioPython](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
+
+#### Practice
+The only way to retain the information you are learning is to practice. [Rosalind](http://rosalind.info/problems/locations/) has a nice collection of problem sets. 
 
 ## Python Overview
 
