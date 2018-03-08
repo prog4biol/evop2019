@@ -2799,7 +2799,7 @@ The `write()` method is like the `print()` function. The biggest difference is t
 Let's write a few lines to a file named "writing.txt".  
 
 ```python
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 
 fo = open("writing.txt" , "w")
 fo.write("One line.\n")
@@ -2826,7 +2826,7 @@ One line.
 Now, let's get crazy! Lets read from one file a line at a time. Do something to each line and write the results to a new file.
 
 ```python
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 
 seq_read  = open("seq.nt","r")
 seq_write = open("nt.counts.txt","w")
@@ -2876,7 +2876,7 @@ BRCA1   GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA
 How can we read this whole file in to a dictionary? 
 
 ```python
-##!/usr/bin/env python3                                                                                    
+#!/usr/bin/env python3                                                                                    
 
 seq_read  = open("sequence_data.txt","r")
 genes = {}
