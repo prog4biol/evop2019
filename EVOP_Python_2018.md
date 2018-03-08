@@ -3923,6 +3923,16 @@ Here's a way to make a 3 x 3 table of values.
 6
 ```
 
+
+
+![try it](images/Try-It-Now.jpg)
+
+1. Create this list of lists `M = [[1,2,3] , [4,5,6] , [7,8,9]]`
+
+2. How would you retrieve the number `8` from the third list within the list?
+
+   ​
+
 Here's a way to store sequence alignment data:
 
 Four sequences aligned:
@@ -3981,11 +3991,11 @@ You can nest dictionaries in lists as well:
 
 ```python
 >>> records = [
-... {'name' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
-... {'name' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
-... {'name' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5}
+... {'seq' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
+... {'seq' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
+... {'seq' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5}
 ... ]
->>> records[0]['name']
+>>> records[0]['seq']
 'actgctagt'
 >>> records[0]['accession']
 'ABC123'
@@ -3994,6 +4004,23 @@ You can nest dictionaries in lists as well:
 ```
 
 > Here you can retrieve the accession of one record at a time by using a combination of the outer index and the key 'accession'
+
+![try it](images/Try-It-Now.jpg)
+
+	1. Create this list of a dictionary 
+
+```python
+records = [
+  {'seq' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
+  {'seq' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
+  {'seq' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5} 
+ ]
+
+```
+
+2. How would you retrieve and print the accession and the sequence of the 2nd record (index=1)?
+
+   ​
 
 #### Dictionaries of lists
 
@@ -4014,6 +4041,20 @@ Here is a dictionary of kmers. The key is the kmer and its values is a list of p
 ```
 
 > Here we can get a list of the positions of a kmer by using the kmer as the key. We can also do things to the returned list, like determining its length. The length will be the total count of this kmers.
+
+![try it](images/Try-It-Now.jpg)
+
+1. Create this dictionary of lists: 
+
+   ```python
+   kmers = {'ggaa': [4, 10], 'aatt': [0, 6, 12], 'gaat': [5, 11], 'tgga' : [3, 9], 'attg': [1, 7, 13], 'ttgg': [2, 8]}
+   ```
+
+   ​
+
+2. How would you retrieve and print the positions of the 'tgga' kier?
+
+
 
 You can also use the `get()` method to retrieve records.
 
@@ -4068,7 +4109,18 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 ![try it](images/Try-It-Now.jpg)
 
-1. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+1. Create this dictionary of dictionaries:
+
+   ```python
+   {'gene1': {'nt_comp': {'C': 2, 'G': 1, 'A': 1, 'T': 2}, 'desc': 'something', 'len': 6, 'seq': 'TATGCC'}, 'gene2': {'nt_comp': {'C': 1, 'G': 1, 'A': 3, 'T': 1}, 'desc': 'something', 'len': 6, 'seq': 'CAAATG'}}
+   ```
+
+   ​
+
+2. How would you print and retrieve the nucleotide composition of gene1?
+
+3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+
    1. Parse the FASTA to get each complete sequence.
    2. Use `count()` to get the count of each A, T, G, C.
    3. Store the counts in a dictionary similar to this example layout of a handy datastructure to store this information
