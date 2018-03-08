@@ -2756,8 +2756,7 @@ ACCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGG
 Let's use `rstrip()` method to remove the newline from our file input.
 
 ```python
-$ cat file_for_rstrip.py
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 
 file_object = open("seq.nt","r")
 for line in file_object:
@@ -2782,7 +2781,7 @@ ACCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGG
 Many people add this because it closes the file for you automatically. Good programming practice. Your code will clean up as it runs. For more advanced coding, `with ... as ...` saves limited resources like filehandles and database connections. For now, we just need to know that the `with ... as ...:` does the same as `fh = open(...) ... fh.close()`. So here's what the adapted code looks like
 
 ```python
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 
 with open("seq.nt","r") as file_object: #cleans up after exiting with block
   for line in file_object:
