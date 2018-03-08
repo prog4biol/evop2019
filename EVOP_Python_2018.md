@@ -3394,7 +3394,7 @@ Let's make this match lazy by using '?'
 
 > The match is now lazy and will only match 'fox'
 
-####Practical Example: Codons
+#### Practical Example: Codons
 
 Extracting codons from a string of DNA can be accomplished by using a subpattern in a `findall()` function. Remember the `findall()` function will return a list of the matches.  
 
