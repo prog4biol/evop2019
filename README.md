@@ -137,6 +137,7 @@ Table of Contents
             * [Using Subpatterns Outside the Regular Expression](EVOP_Python_2018.md/#using-subpatterns-outside-the-regular-expression)
             * [Get position of the subpattern with finditer()](EVOP_Python_2018.md/#get-position-of-the-subpattern-with-finditer)
             * [Subpatterns and Greediness](EVOP_Python_2018.md/#subpatterns-and-greediness)
+            * [Practical Example: Codons](EVOP_Python_2018.md/#practical-example-codons)
             * [Truth and Regular Expression Matches](EVOP_Python_2018.md/#truth-and-regular-expression-matches)
             * [Using Regular expressions in substitutions](EVOP_Python_2018.md/#using-regular-expressions-in-substitutions)
             * [Using subpatterns in the replacement](EVOP_Python_2018.md/#using-subpatterns-in-the-replacement)
