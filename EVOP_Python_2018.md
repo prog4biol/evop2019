@@ -4007,7 +4007,7 @@ You can nest dictionaries in lists as well:
 
 ![try it](images/Try-It-Now.jpg)
 
-	1. Create this list of a dictionary 
+	1. Create this list of a dictionaries:  
 
 ```python
 records = [
