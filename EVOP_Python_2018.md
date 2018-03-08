@@ -2950,7 +2950,17 @@ How about a non-exact match. Let's search for a methylation site that has to mat
 - followed by one of anything or nothing
 - followed by a G 
 
-This could match any of these:  GCAG  GCTG  GCGG  GCCG  GCG  ACAG  ACTG  ACGG  ACCG  ACG  
+This could match any of these:  
+- GCAG  
+- GCTG  
+- GCGG  
+- GCCG  
+- GCG  
+- ACAG  
+- ACTG  
+- ACGG  
+- ACCG  
+- ACG  
 
 We could test for each of these, or use regular expressions. This is exactly what regular expressions can do for us.  
 
@@ -3003,7 +3013,6 @@ A quick count of all the matching sites can be done by counting the length of th
 
 4. What string method have we seen that will count the number of occurrences of an exact match in a string?
 
-   ​
 
 
 
@@ -3185,7 +3194,7 @@ You can combine parenthesis and quantifiers to quantify entire subpatterns.
 > This matches:
 >
 > - "Who's afraid of the big bad wolf?"
-> - .As well as "Who's afraid of the big wolf?".
+> - As well as "Who's afraid of the big wolf?".
 >
 > The 'bad ' is optional, it can be present 0 or 1 times in our string.
 >
@@ -3349,9 +3358,7 @@ The match object contains information about the match that can be retrieved with
     dn_start = found.start(2) + 1
     dn_end   = found.end(2)   + 1
   
-    output = [ whole , up , str(up_start), str(up_end) , down , str(dn_start) , str(dn_end)  ]
-  
-    print( "\t".join(output) )
+    print( whole , up , up_start, up_end , down , dn_start , dn_end , sep="\t" )
 ```
 
 > we can use these match object methods `group()`, `start()`, `end()` to get the string, start position, and end position of each subpattern. 
