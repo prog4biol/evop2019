@@ -3009,7 +3009,7 @@ A quick count of all the matching sites can be done by counting the length of th
 
 2. If you want to find all the occurrences of a pattern, what method do you use?
 
-3. What operator have we seen that will report if an exact match is in a sequence (string, list, dictionary, etc)?
+3. What operator have we seen that will report if an exact match is in a sequence (string, list, etc)?
 
 4. What string method have we seen that will count the number of occurrences of an exact match in a string?
 
@@ -3040,6 +3040,9 @@ A group of characters that are allowed to be matched one time. There are a few p
 | `\W`  | Not a word character, or `[^A-Za-z0-9_]`                     |
 | `\s`  | White space character. Also can be written `[ \r\t\n]`. Note the space character after the first `[` |
 | `\S`  | Not whitespace. Also `[^ \r\\t\n]`                           |
+| `[^]` |a carat within a bracketed list of characters indicates anything but the characters that follows |
+
+ 
 
 #### Anchors
 
@@ -3063,25 +3066,25 @@ Examples:
   g[gatc][gatc]t
 ```
 
-> matches "gaat", "gttt", "gatt", and "gotta get an agatt" (once)</li>
+> matches "gaat", "gttt", "gatt", and "gotta get an agatt" (once)
 
 ```
-  \d\d\d-\d\d\d\d`
+  \d\d\d-\d\d\d\d
 ```
 
-> matches 376-8380, and 5128-8181but not 055-98-2818.
+> matches 376-8380, and 5128-8181 but not 055-98-2818.
 
 ```
   ^\d\d\d-\d\d\d\d
 ```
 
-> matches 376-8380 and 376-83801but not 5128-8181.
+> matches 376-8380 and 376-83801 but not 5128-8181.
 
 ```
   ^\d\d\d-\d\d\d\d$
 ```
 
-> only matches telephone numbers (without area code)
+> only matches 376-8380 (US telephone numbers without area code)
 
 ```
   \bcat
@@ -3198,7 +3201,7 @@ You can combine parenthesis and quantifiers to quantify entire subpatterns.
 >
 > The 'bad ' is optional, it can be present 0 or 1 times in our string.
 >
-> This also shows how to literally match special characters. Use a '\' in to escape them.
+> This also shows how to literally match special characters. Use a '\\' in to escape them.
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3305,7 +3308,7 @@ Another option for retrieving the upstream and downstream subpatterns is to put 
 ```
 
 > 1. This code executes the `findall()` function once 
-> 2. The subpatterns are returned   
+> 2. The subpatterns are returned in a tuple 
 > 3. The subpatterns are stored in the variables upstream and downstream  
 > 4. The for block of code is executed  
 > 5. The `findall()` searches again  
@@ -3505,7 +3508,7 @@ Sometimes you want to find a pattern and use it in the replacement.
   Who's afraid of the bad big wolf?
 ```
 
-> We found two words before 'wolf' and swapped the order.\2 refers to the second subpattern\1 refers to the first subpattern
+> We found two words before 'wolf' and swapped the order. \2 refers to the second subpattern \1 refers to the first subpattern
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -4268,13 +4271,7 @@ This is very straightforward once you have anaconda or minconda installed. I use
 
 ```bash
 % sudo conda install biopython
-WARNING: Improper use of the sudo command could lead to data loss
-or the deletion of important system files. Please double-check your
-typing when using sudo. Type "man sudo" for more information.
 
-To proceed, enter your password, or type Ctrl-C to abort.
-
-Password:
 Fetching package metadata ...........
 Solving package specifications: .
 
@@ -4315,21 +4312,13 @@ If we get no errors, biopython is installed correctly.
 
 ### Biopython documentation
 
-Biopython wiki page
+[Biopython wiki page](http://biopython.org/)
 
-http://biopython.org/
+[Getting started](http://biopython.org/wiki/Category%3AWiki_Documentation)
 
-Getting started
+[Biopython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#chapter:Bio.SeqIO)
 
-http://biopython.org/wiki/Category%3AWiki_Documentation
-
-Biopython tutorial
-
-ttp://biopython.org/DIST/docs/tutorial/Tutorial.html#chapter:Bio.SeqIO
-
-Complete tree of Biopython Classes
-
-http://biopython.org/DIST/docs/api/Bio-module.html
+[Complete tree of Biopython Classes](http://biopython.org/DIST/docs/api/Bio-module.html)
 
 
 
@@ -4371,7 +4360,7 @@ print('{} translates to {}'.format(seq_str,prot_str))
 produces
 
 ```
-ATGCGATCGAGC
+ATGCGATCGAGC translates to MRSS
 ```
 
 ### Bio.Alphabets
@@ -4449,7 +4438,7 @@ AGC
 
 ### Read a FASTA file
 
-We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use Python_05.fasta which looks like this
+We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/seq.nt.fa) which looks like this
 
 ```
 >seq1
@@ -4502,19 +4491,24 @@ Lets try it out!
 ...   print('ID {}'.format(record.id))
 ...   print('len {}'.format(len(record)))
 ...   print('alphabet {}'.format(record.seq.alphabet))
+...   print('translation {}'.format(record.seq.translate(to_stop=False)))
 ...
 ID seq1
 len 180
 alphabet SingleLetterAlphabet()
+translation KSSSR*CDRWR*SKCPMGHQLWCMSESLVRDSLSNCCTQ**HVEIP*ASRVVQ*NTPLVN
 ID seq2
 len 180
 alphabet SingleLetterAlphabet()
+translation ATEPRTPT*PNLT*PTV*S*P*G*EAMS*PACPNRPDLTGLT*PP*PNQANLTKP*KKES
 ID seq3
 len 98
 alphabet SingleLetterAlphabet()
+translation MKVT*RLFDA*IVQF*KLTFC*SQVLVYNIN*
 ID seq4
 len 209
 alphabet SingleLetterAlphabet()
+translation MLTKVSVRTCR*ATLKKETTCQIETINSAMEIRTTISLEIKIEITGTISLIT*CRIKGIINLIQVIRTE
 ```
 
 ![try it](images/Try-It-Now.jpg)
@@ -4669,7 +4663,7 @@ Many are straightforward, others are a little more complicated because the alpha
 #!/usr/bin/env python3
 from Bio import SeqIO
 fasta_records = SeqIO.parse("files/seq.nt.fa", "fasta")  
-tab_records = SeqIO.write(records , 'files/seqs.tab' , 'tab')
+tab_records = SeqIO.write(fasta_records , 'files/seqs.tab' , 'tab')
 ```
 
 
@@ -4717,7 +4711,7 @@ To parse the output, you'll write something like this
 
 ```
 
-
+> If you only want the information about the first HSP of each alignment add a `break` to the last loop `for hsp in alignment.hsps` 
 
 ![try it](images/Try-It-Now.jpg)
 
