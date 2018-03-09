@@ -3009,7 +3009,7 @@ A quick count of all the matching sites can be done by counting the length of th
 
 2. If you want to find all the occurrences of a pattern, what method do you use?
 
-3. What operator have we seen that will report if an exact match is in a sequence (string, list, dictionary, etc)?
+3. What operator have we seen that will report if an exact match is in a sequence (string, list, etc)?
 
 4. What string method have we seen that will count the number of occurrences of an exact match in a string?
 
@@ -3040,6 +3040,9 @@ A group of characters that are allowed to be matched one time. There are a few p
 | `\W`  | Not a word character, or `[^A-Za-z0-9_]`                     |
 | `\s`  | White space character. Also can be written `[ \r\t\n]`. Note the space character after the first `[` |
 | `\S`  | Not whitespace. Also `[^ \r\\t\n]`                           |
+| `[^]` |a carat within a bracketed list of characters indicates anything but the characters that follows |
+
+ 
 
 #### Anchors
 
@@ -3063,25 +3066,25 @@ Examples:
   g[gatc][gatc]t
 ```
 
-> matches "gaat", "gttt", "gatt", and "gotta get an agatt" (once)</li>
+> matches "gaat", "gttt", "gatt", and "gotta get an agatt" (once)
 
 ```
-  \d\d\d-\d\d\d\d`
+  \d\d\d-\d\d\d\d
 ```
 
-> matches 376-8380, and 5128-8181but not 055-98-2818.
+> matches 376-8380, and 5128-8181 but not 055-98-2818.
 
 ```
   ^\d\d\d-\d\d\d\d
 ```
 
-> matches 376-8380 and 376-83801but not 5128-8181.
+> matches 376-8380 and 376-83801 but not 5128-8181.
 
 ```
   ^\d\d\d-\d\d\d\d$
 ```
 
-> only matches telephone numbers (without area code)
+> only matches 376-8380 (US telephone numbers without area code)
 
 ```
   \bcat
@@ -3198,7 +3201,7 @@ You can combine parenthesis and quantifiers to quantify entire subpatterns.
 >
 > The 'bad ' is optional, it can be present 0 or 1 times in our string.
 >
-> This also shows how to literally match special characters. Use a '\' in to escape them.
+> This also shows how to literally match special characters. Use a '\\' in to escape them.
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3305,7 +3308,7 @@ Another option for retrieving the upstream and downstream subpatterns is to put 
 ```
 
 > 1. This code executes the `findall()` function once 
-> 2. The subpatterns are returned   
+> 2. The subpatterns are returned in a tuple 
 > 3. The subpatterns are stored in the variables upstream and downstream  
 > 4. The for block of code is executed  
 > 5. The `findall()` searches again  
@@ -3505,7 +3508,7 @@ Sometimes you want to find a pattern and use it in the replacement.
   Who's afraid of the bad big wolf?
 ```
 
-> We found two words before 'wolf' and swapped the order.\2 refers to the second subpattern\1 refers to the first subpattern
+> We found two words before 'wolf' and swapped the order. \2 refers to the second subpattern \1 refers to the first subpattern
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3923,6 +3926,16 @@ Here's a way to make a 3 x 3 table of values.
 6
 ```
 
+
+
+![try it](images/Try-It-Now.jpg)
+
+1. Create this list of lists `M = [[1,2,3] , [4,5,6] , [7,8,9]]`
+
+2. How would you retrieve the number `8` from the third list within the list?
+
+   ​
+
 Here's a way to store sequence alignment data:
 
 Four sequences aligned:
@@ -3981,11 +3994,11 @@ You can nest dictionaries in lists as well:
 
 ```python
 >>> records = [
-... {'name' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
-... {'name' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
-... {'name' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5}
+... {'seq' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
+... {'seq' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
+... {'seq' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5}
 ... ]
->>> records[0]['name']
+>>> records[0]['seq']
 'actgctagt'
 >>> records[0]['accession']
 'ABC123'
@@ -3994,6 +4007,23 @@ You can nest dictionaries in lists as well:
 ```
 
 > Here you can retrieve the accession of one record at a time by using a combination of the outer index and the key 'accession'
+
+![try it](images/Try-It-Now.jpg)
+
+	1. Create this list of a dictionaries:  
+
+```python
+records = [
+  {'seq' : 'actgctagt', 'accession' : 'ABC123', 'genetic_code' : 1},
+  {'seq' : 'ttaggttta', 'accession' : 'XYZ456', 'genetic_code' : 1},
+  {'seq' : 'cgcgatcgt', 'accession' : 'HIJ789', 'genetic_code' : 5} 
+ ]
+
+```
+
+2. How would you retrieve and print the accession and the sequence of the 2nd record (index=1)?
+
+   ​
 
 #### Dictionaries of lists
 
@@ -4014,6 +4044,20 @@ Here is a dictionary of kmers. The key is the kmer and its values is a list of p
 ```
 
 > Here we can get a list of the positions of a kmer by using the kmer as the key. We can also do things to the returned list, like determining its length. The length will be the total count of this kmers.
+
+![try it](images/Try-It-Now.jpg)
+
+1. Create this dictionary of lists: 
+
+   ```python
+   kmers = {'ggaa': [4, 10], 'aatt': [0, 6, 12], 'gaat': [5, 11], 'tgga' : [3, 9], 'attg': [1, 7, 13], 'ttgg': [2, 8]}
+   ```
+
+   ​
+
+2. How would you retrieve and print the positions of the 'tgga' kier?
+
+
 
 You can also use the `get()` method to retrieve records.
 
@@ -4068,7 +4112,18 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 ![try it](images/Try-It-Now.jpg)
 
-1. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+1. Create this dictionary of dictionaries:
+
+   ```python
+   {'gene1': {'nt_comp': {'C': 2, 'G': 1, 'A': 1, 'T': 2}, 'desc': 'something', 'len': 6, 'seq': 'TATGCC'}, 'gene2': {'nt_comp': {'C': 1, 'G': 1, 'A': 3, 'T': 1}, 'desc': 'something', 'len': 6, 'seq': 'CAAATG'}}
+   ```
+
+   ​
+
+2. How would you print and retrieve the nucleotide composition of gene1?
+
+3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+
    1. Parse the FASTA to get each complete sequence.
    2. Use `count()` to get the count of each A, T, G, C.
    3. Store the counts in a dictionary similar to this example layout of a handy datastructure to store this information
@@ -4216,13 +4271,7 @@ This is very straightforward once you have anaconda or minconda installed. I use
 
 ```bash
 % sudo conda install biopython
-WARNING: Improper use of the sudo command could lead to data loss
-or the deletion of important system files. Please double-check your
-typing when using sudo. Type "man sudo" for more information.
 
-To proceed, enter your password, or type Ctrl-C to abort.
-
-Password:
 Fetching package metadata ...........
 Solving package specifications: .
 
@@ -4263,21 +4312,13 @@ If we get no errors, biopython is installed correctly.
 
 ### Biopython documentation
 
-Biopython wiki page
+[Biopython wiki page](http://biopython.org/)
 
-http://biopython.org/
+[Getting started](http://biopython.org/wiki/Category%3AWiki_Documentation)
 
-Getting started
+[Biopython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#chapter:Bio.SeqIO)
 
-http://biopython.org/wiki/Category%3AWiki_Documentation
-
-Biopython tutorial
-
-ttp://biopython.org/DIST/docs/tutorial/Tutorial.html#chapter:Bio.SeqIO
-
-Complete tree of Biopython Classes
-
-http://biopython.org/DIST/docs/api/Bio-module.html
+[Complete tree of Biopython Classes](http://biopython.org/DIST/docs/api/Bio-module.html)
 
 
 
@@ -4319,7 +4360,7 @@ print('{} translates to {}'.format(seq_str,prot_str))
 produces
 
 ```
-ATGCGATCGAGC
+ATGCGATCGAGC translates to MRSS
 ```
 
 ### Bio.Alphabets
@@ -4397,7 +4438,7 @@ AGC
 
 ### Read a FASTA file
 
-We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use Python_05.fasta which looks like this
+We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/seq.nt.fa) which looks like this
 
 ```
 >seq1
@@ -4450,19 +4491,24 @@ Lets try it out!
 ...   print('ID {}'.format(record.id))
 ...   print('len {}'.format(len(record)))
 ...   print('alphabet {}'.format(record.seq.alphabet))
+...   print('translation {}'.format(record.seq.translate(to_stop=False)))
 ...
 ID seq1
 len 180
 alphabet SingleLetterAlphabet()
+translation KSSSR*CDRWR*SKCPMGHQLWCMSESLVRDSLSNCCTQ**HVEIP*ASRVVQ*NTPLVN
 ID seq2
 len 180
 alphabet SingleLetterAlphabet()
+translation ATEPRTPT*PNLT*PTV*S*P*G*EAMS*PACPNRPDLTGLT*PP*PNQANLTKP*KKES
 ID seq3
 len 98
 alphabet SingleLetterAlphabet()
+translation MKVT*RLFDA*IVQF*KLTFC*SQVLVYNIN*
 ID seq4
 len 209
 alphabet SingleLetterAlphabet()
+translation MLTKVSVRTCR*ATLKKETTCQIETINSAMEIRTTISLEIKIEITGTISLIT*CRIKGIINLIQVIRTE
 ```
 
 ![try it](images/Try-It-Now.jpg)
@@ -4617,7 +4663,7 @@ Many are straightforward, others are a little more complicated because the alpha
 #!/usr/bin/env python3
 from Bio import SeqIO
 fasta_records = SeqIO.parse("files/seq.nt.fa", "fasta")  
-tab_records = SeqIO.write(records , 'files/seqs.tab' , 'tab')
+tab_records = SeqIO.write(fasta_records , 'files/seqs.tab' , 'tab')
 ```
 
 
@@ -4665,7 +4711,7 @@ To parse the output, you'll write something like this
 
 ```
 
-
+> If you only want the information about the first HSP of each alignment add a `break` to the last loop `for hsp in alignment.hsps` 
 
 ![try it](images/Try-It-Now.jpg)
 
