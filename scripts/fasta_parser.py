@@ -19,7 +19,7 @@ for line in file:
   # remove the newline
   line = line.rstrip() 
   # use a regex to see if the line matches a FASTA header
-  header = re.search(r">(\S+)\s*(.*)",line) 
+  header = re.search(r"^>(\S+)\s*(.*)",line) 
   # if the line matches a FASTA header ...
   if header:
     # and if there is something stored in our first subpattern
@@ -38,6 +38,8 @@ for line in file:
     # if we dont already have ID in our dict, we need to add it  
     else:
       seqs[ID] = seq
+
+close(filename)
 
 ## Now you have a dictionary of all your sequences
 print(seqs)
