@@ -4147,6 +4147,48 @@ seqs['geneB']['C'] = 2
 2. Print out a list of gene names of genes with greater than 65% GC content.
 
 
+#### Building Complex Datastructures
+
+Below is an example of building a list with some values of type list and some values of type dictionary. The dictionary which is a list value has a key that has a dictionary as a value.
+
+In the interpreter:
+
+```python
+>>> new_data = []
+>>> new_data
+[]
+>>> new_data.append([1,2,3])
+>>> new_data
+[[1, 2, 3]]
+>>> new_data[0]
+[1, 2, 3]
+>>> new_data.append([4,5,6])
+>>> new_data
+[[1, 2, 3], [4, 5, 6]]
+>>> new_data[1]
+[4, 5, 6]
+>>> new_data[1][2]
+6
+>>> new_data.append({})
+>>> new_data
+[[1, 2, 3], [4, 5, 6], {}]
+>>> new_data[2]['key']='value'
+>>> new_data
+[[1, 2, 3], [4, 5, 6], {'key': 'value'}]
+>>> new_data[2]['key2']={}
+>>> new_data
+[[1, 2, 3], [4, 5, 6], {'key2': {}, 'key': 'value'}]
+>>> new_data[2]['key2']['something_new']='Yay'
+>>> new_data
+[[1, 2, 3], [4, 5, 6], {'key2': {'something_new': 'Yay'}, 'key': 'value'}]
+>>>
+```
+
+Same example in a script file: [Building Complex Datastructures](https://github.com/srobb1/evop2018/blob/master/scripts/building_datastructures.py)
+
+Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/srobb1/evop2018/blob/master/scripts/fasta_datastucture.py)
+
+
 
 ### Pipelines
 
