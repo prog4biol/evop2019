@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 ####   double ## indicate output of print
-####   single # are comments
 
 print("create a list called new_data: new_data = []")
 new_data = []        
