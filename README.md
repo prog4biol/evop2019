@@ -6,7 +6,7 @@
 [Lecture Scripts](scripts)  
 
 To download all files and scripts, run this command:  
-`git clone https://github.com/srobb1/evop2018.git`
+`git clone https://github.com/prog4biol/evop2018.git`
 
 
 Table of Contents
