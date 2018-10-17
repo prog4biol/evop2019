@@ -3231,12 +3231,12 @@ Once a subpattern matches, you can refer to it within the same regular expressio
 > This would match:
 >
 > -  "Who's afraid of the big bad woof"
-> - "Who's afraid of the big bad weef"
+> -  "Who's afraid of the big bad weef"
 > -  "Who's afraid of the big bad waaf"  
 >
 > But Not:
 >
-> - "Who's afraid of the big bad wolf"
+> -  "Who's afraid of the big bad wolf"
 > -  "Who's afraid of the big bad wife"
 
 In a similar vein, 
@@ -3313,9 +3313,9 @@ Another option for retrieving the upstream and downstream subpatterns is to put 
 > 4. The for block of code is executed  
 > 5. The `findall()` searches again  
 > 6. A match is found 
-> 7.  New subpatterns are returned and stored in the variables upstream and downstream
+> 7. New subpatterns are returned and stored in the variables upstream and downstream
 > 8. The for block of code gets executed again 
-> 9.  The `findall()` searches again, but no match is found  
+> 9. The `findall()` searches again, but no match is found  
 > 10. The for loop ends  
 
 Another way to get this done is with an iterator, use the `finditer()` function in a for loop. This allows you to not store all the matches in memory. `finditer()` also allows you to retrieve the postion of the match.
@@ -3440,7 +3440,7 @@ Or you can use a for loop to do something to each match.
 
 #### Truth and Regular Expression Matches
 
-The `search()`, `match()`, `findall()`, and `finditer()` can be used in conditional tests. If a match is not found an empty list or 'None' is returned. These both are False.
+The `search()`, `match()`, `findall()`, and `finditer()` can be used in conditional tests. If a match is not found an empty list or 'None' is returned. These are both False.
 
 ```python
   >>> found=re.search( r"(.{50})TATTATZ(.{25})"  , dna )
@@ -3484,7 +3484,7 @@ Earlier we went over how to find an **exact pattern** and replace it using the `
 
 > The `sub()` function returns "Who's afraid of the big bad goat?"  The value of variable str has not been altered  The new string can be stored in a new variable for later use.
 
-Let's save the returned new string in a variable
+Let's save the new string that is returned in a variable
 
 ```python
   >>> str = "He had a wife."
@@ -3526,7 +3526,6 @@ Sometimes you want to find a pattern and use it in the replacement.
 
 7. print "gene name\t reformatted sequence"
 
-   ​
 
 #### Regular Expression Option Modifiers
 
@@ -3565,7 +3564,7 @@ Now that we have gone over these points we can build our first FASTA parser
 
 4. [regular expressions](#regular-expressions) to match a pattern
 
-   ​
+  
 
 Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/srobb1/evop2018/blob/master/scripts/fasta_parser.py).
 
