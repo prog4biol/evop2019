@@ -2468,7 +2468,7 @@ The best way to check whether a key exists is to use `in`
 
 2. Check to see if WHTH4091, Brca1, and H4 are in your dictionary. Use the `in` operator. 
 
-   ​
+   
 
 #### Sorting Dictionary Keys
 
@@ -3933,7 +3933,7 @@ Here's a way to make a 3 x 3 table of values.
 
 2. How would you retrieve the number `8` from the third list within the list?
 
-   ​
+   
 
 Here's a way to store sequence alignment data:
 
@@ -3957,7 +3957,7 @@ aln = [
 ]
 ```
 
-Get an the full length of one sequence:
+Get the full length of one sequence:
 
 ```python
 >>> seq = aln[2]
@@ -4022,7 +4022,7 @@ records = [
 
 2. How would you retrieve and print the accession and the sequence of the 2nd record (index=1)?
 
-   ​
+   
 
 #### Dictionaries of lists
 
@@ -4052,7 +4052,6 @@ Here is a dictionary of kmers. The key is the kmer and its values is a list of p
    kmers = {'ggaa': [4, 10], 'aatt': [0, 6, 12], 'gaat': [5, 11], 'tgga' : [3, 9], 'attg': [1, 7, 13], 'ttgg': [2, 8]}
    ```
 
-   ​
 
 2. How would you retrieve and print the positions of the 'tgga' kier?
 
@@ -4116,8 +4115,6 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
    ```python
    {'gene1': {'nt_comp': {'C': 2, 'G': 1, 'A': 1, 'T': 2}, 'desc': 'something', 'len': 6, 'seq': 'TATGCC'}, 'gene2': {'nt_comp': {'C': 1, 'G': 1, 'A': 3, 'T': 1}, 'desc': 'something', 'len': 6, 'seq': 'CAAATG'}}
    ```
-
-   ​
 
 2. How would you print and retrieve the nucleotide composition of gene1?
 
