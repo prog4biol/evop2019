@@ -4476,7 +4476,7 @@ AGC
 
 ### Read a FASTA file
 
-We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/srobb1/evop2018/master/files/seq.nt.fa) which looks like this
+We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2018/master/files/seq.nt.fa) which looks like this
 
 ```
 >seq1
@@ -4627,7 +4627,6 @@ Seq('ATGCTAACCAAAGTTTCAGTTCGGACGTGTCGATGAGCGACGCTCAAAAAGGAA...GGT', SingleLetter
    ATG TTC ATC
    ```
 
-   ​
 
 4.  CHALLENGE QUESTION: Print out the codons of each sequence in all 6 frames.
 
