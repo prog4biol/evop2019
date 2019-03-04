@@ -4525,11 +4525,11 @@ Lets try it out!
 ```python
 >>> from Bio import SeqIO
 >>> filename = "files/seq.nt.fa"
->>> for record in SeqIO.parse(filename, "fasta"):
-...   print('ID {}'.format(record.id))
-...   print('len {}'.format(len(record)))
-...   print('alphabet {}'.format(record.seq.alphabet))
-...   print('translation {}'.format(record.seq.translate(to_stop=False)))
+>>> for seq_record in SeqIO.parse(filename, "fasta"):
+...   print('ID {}'.format(seq_record.id))
+...   print('len {}'.format(len(seq_record)))
+...   print('alphabet {}'.format(seq_record.seq.alphabet))
+...   print('translation {}'.format(seq_record.seq.translate(to_stop=False)))
 ...
 ID seq1
 len 180
