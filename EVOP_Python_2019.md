@@ -3430,7 +3430,7 @@ Or you can use a for loop to do something to each match.
 ![try it](images/Try-It-Now.jpg)
 
 1. Create a script in your text editor.
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/srobb1/evop2019/master/files/sequence_data.txt) 
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt) 
 3. loop through each line of the file
 4. store the gene name in a variable
 5. store the sequence in a variable
@@ -3514,7 +3514,7 @@ Sometimes you want to find a pattern and use it in the replacement.
 
 1. Create a script in your text editor.
 
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/srobb1/evop2019/master/files/sequence_data.txt) 
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt) 
 
 3. loop through each line of the file
 
@@ -3566,7 +3566,7 @@ Now that we have gone over these points we can build our first FASTA parser
 
   
 
-Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/srobb1/evop2019/blob/master/scripts/fasta_parser.py).
+Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_parser.py).
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3578,7 +3578,7 @@ Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.co
    5. check to see if the line is the seqid or sequence
    6. add sequence lines to your dictionary using the id as the key
 2. **Remember to test your code often!!** The more lines you write without running and testing are more lines to debug.
-3. Need help? [Check out my basic FASTA parser](https://github.com/srobb1/evop2019/blob/master/scripts/fasta_parser.py).
+3. Need help? [Check out my basic FASTA parser](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_parser.py).
 
 
 
@@ -3727,7 +3727,7 @@ def gc_content(dna='A'):   # give our function a name and parameter 'dna'
 ![try it](images/Try-It-Now.jpg)
 
 1. Create a script that contains a gc_content function.
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/srobb1/evop2019/master/files/sequence_data.txt)
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt)
 3. loop through each line of the file
 4. store the gene name in a variable
 5. store the sequence in a variable
@@ -4118,7 +4118,7 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 2. How would you print and retrieve the nucleotide composition of gene1?
 
-3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/srobb1/evop2019/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
 
    1. Parse the FASTA to get each complete sequence.
    2. Use `count()` to get the count of each A, T, G, C.
@@ -4180,9 +4180,9 @@ In the interpreter:
 >>>
 ```
 
-Same example in a script file: [Building Complex Datastructures](https://github.com/srobb1/evop2019/blob/master/scripts/building_datastructures.py)
+Same example in a script file: [Building Complex Datastructures](https://github.com/prog4biol/evop2019/blob/master/scripts/building_datastructures.py)
 
-Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/srobb1/evop2019/blob/master/scripts/fasta_datastucture.py)
+Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_datastucture.py)
 
 
 
@@ -4753,7 +4753,7 @@ To parse the output, you'll write something like this
 ![try it](images/Try-It-Now.jpg)
 
 1. Run BLAST with output in XML format. 
-   1. Query = [query.fa](https://raw.githubusercontent.com/srobb1/evop2019/master/files/query.fa)
+   1. Query = [query.fa](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/query.fa)
    2. Program = blastx
    3. Database = Swissprot/UniProt
       1. Already downloaded, path:
