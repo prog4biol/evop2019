@@ -4558,7 +4558,7 @@ Here's a script to read fasta records and print out some information
 
 ```python
 #!/usr/bin/env python3
-# assumes we are in the pfb2018 directory
+# assumes we are in the evop2019 directory
 from Bio import SeqIO
 for seq_record in SeqIO.parse("files/seq.nt.fa", "fasta"):   # give filename and format
   print('ID',seq_record.id)
