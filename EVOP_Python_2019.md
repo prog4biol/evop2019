@@ -2563,7 +2563,7 @@ Union, intersection, difference and symmetric difference can be done with sets
 
 The difference between two sets are the elements that are unique to the set to the left of the `-` operator, with duplicates removed.
 
-![img](https://raw.githubusercontent.com/srobb1/pfb2017/master/images//set_difference.png)
+![img](https://raw.githubusercontent.com/srobb1/pfb2018/master/images//set_difference.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2578,7 +2578,7 @@ The difference between two sets are the elements that are unique to the set to t
 
 The union between two sets is a sequence of the all the elements of the first and second sets combined, with duplicates removed.
 
-![img](https://raw.githubusercontent.com/srobb1/pfb2017/master/images//set_union.png)
+![img](https://raw.githubusercontent.com/srobb1/pfb2018/master/images//set_union.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2593,7 +2593,7 @@ The union between two sets is a sequence of the all the elements of the first an
 
 The intersection between two sets is a sequence of the elements which are in both sets, with duplicates removed.
 
-![img](https://raw.githubusercontent.com/srobb1/pfb2017/master/images//set_intersection.png)
+![img](https://raw.githubusercontent.com/srobb1/pfb2018/master/images//set_intersection.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2608,7 +2608,7 @@ The intersection between two sets is a sequence of the elements which are in bot
 
 The symmetric difference is the elements that are only in the first set plus the elements that are only in the second set, with duplicates removed.
 
-![img](https://raw.githubusercontent.com/srobb1/pfb2017/master/images//set_symmetric_difference.png)
+![img](https://raw.githubusercontent.com/srobb1/pfb2018/master/images//set_symmetric_difference.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -4558,7 +4558,7 @@ Here's a script to read fasta records and print out some information
 
 ```python
 #!/usr/bin/env python3
-# assumes we are in the pfb2017 directory
+# assumes we are in the pfb2018 directory
 from Bio import SeqIO
 for seq_record in SeqIO.parse("files/seq.nt.fa", "fasta"):   # give filename and format
   print('ID',seq_record.id)
