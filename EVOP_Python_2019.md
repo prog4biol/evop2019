@@ -81,7 +81,7 @@ or
 
 Note:
 
-- '%' indicates the command line prompt
+- '%' or '$' indicates the command line prompt
 - '>>>' indicates the interpreter 
 
 First Python Commands:
@@ -98,7 +98,7 @@ Hello, EVOP2019!
 
 
 1. Open the interactive interpreter. Type `python3` in the terminal window (`ipython` is another interactive terminal).
-2. Use the `print()` function to print something to the screen. Make sure to use parenthesis `()`, quotes `""`, and a semi-colon `;` like in the example.
+2. Use the `print()` function to print something to the screen. Make sure to use parenthesis `()`, quotes `""` like in the example.
 
 #### Python Scripts
 
@@ -202,7 +202,7 @@ def         import      try
 del         in          while
 elif        is          with
 else        lambda      yield
-except
+except      list        str
 
 ```
 
@@ -274,7 +274,7 @@ average = 2.5    # this is a float
 message = "Welcome to Python" # this is a string
 ```
 
-10, 2.5, and "Welcome to Python" are singular pieces of data being stored in an individual variables.  
+10, 2.5, and "Welcome to Python" are singular pieces of data being stored in individual variables.  
 
 Collections of data can also be stored in special data types, i.e., tuples, lists, sets, and dictionaries. Generally, you should try to store like with like, so each element in the data type should be the same kind of data, like an expression value from RNA-seq or a count of how many exons are in a gene or a read sequence.  
 
@@ -282,10 +282,9 @@ Collections of data can also be stored in special data types, i.e., tuples, list
 
 1. In the interpreter, create and assign (`=`) values to variables with the following names: 
    1. name
-   2. age
-   3. institute
-   4. birth_country (example of variable name using a_underscore)
-   5. favoriteColor (example of variable name using camelCase)
+   2. institute
+   3. birth_country (example of variable name using a_underscore)
+   4. favoriteColor (example of variable name using camelCase)
 2. Use the `print()` function to print each variable to the screen.
 
 #### Lists
@@ -425,6 +424,7 @@ friend2 = sys.argv[2] # get second command line parameter
 # now print a message to the screen
 print(friend1,'and',friend2,'are friends')
 ```
+> notice that the `print()` function takes a list of comma separated values. These values can be variables or literal strings. More about the `print()` function later
 
 The advantage of getting input from the user from the command line is that you can write a script that is general. It can print a message with any input the user provides. This makes it flexible. 
 The user also supplies all the data the script needs on the command line so the script doesn't have to ask the user to input a name and wait til the user does this. The script can run on its own with no further interaction from the user. This frees the user to work on something else. Very handy!
@@ -1160,9 +1160,9 @@ How would you include a new line, carriage return, or tab in your string?
 Let's include some escape characters in our strings and `print()` functions.
 
 ```python
->>> string_with_newline = 'this sting has a new line\nthis is the second line'
+>>> string_with_newline = 'this string has a new line\nthis is the second line'
 >>> print(string_with_newline)
-this sting has a new line
+this string has a new line
 this is the second line
 ```
 
@@ -1510,7 +1510,6 @@ Since these are methods, be sure to use in this format string.method().
    ['one', 'two', 'three', 'four', 'five and six']
    ```
 
-   ​
 
 2. Try the `join()` method. Join the list returned from your split with a string of double dashes ' - -'. Think carefully about this. `join()` is a **string method**. Is the list or the double dash a string? Which do you use to the right of the '.join'.    Need help? [Google it](http://lmgtfy.com/?q=python3+join).
 
@@ -1520,7 +1519,7 @@ Since these are methods, be sure to use in this format string.method().
 
 
 
-Strings can be formated using the  `format()` function. Pretty intuitive, but wait til you see the details! For example, if you want to include literal stings and variables in your print statement and do not want to concatenate or use multiple arguments in the `print()` function you can use string formatting.  
+Strings can be formated using the  `format()` function. Pretty intuitive, but wait til you see the details! For example, if you want to include literal strings and variables in your print statement and do not want to concatenate or use multiple arguments in the `print()` function you can use string formatting.  
 
 ```python
 >>> dna = 'TGAACATCTAAAAGATGAAGTTT'
@@ -1583,7 +1582,7 @@ Lists are data types that store a collection of data.
 
 - Tuples are used to store an ordered, *indexed* collection of data.
 - Values are separated by commas
-- Values are enclosed in square brackets '()'
+- Values are enclosed in parentheses '()'
 - Tuples can **NOT** grow or shrink
 - Values are immutable
 
@@ -1731,7 +1730,7 @@ This works in exactly the same way with lists as it does with strings. This is b
 | `min(list)`                             | returns the value with the lowest ASCII value (=earliest in ASCII alphabet) | `min(['a','A','z'])` returns `'A'`       |
 | `list(seq)`                             | converts a tuple into a list             | `list(('a','A','z'))` returns `['a', 'A', 'z']` |
 | `sorted(list, key=None, reverse=False)` | returns a sorted list based on the key provided | `sorted(['a','A','z'])` returns `['A', 'a', 'z']` |
-|                                         | `str.lower()` makes all the elements lowercase before sorting | `sorted(['a','A','z'],key=str.lower)` returns `['a', 'A', 'z']` |
+|                                         | `str.lower` makes all the elements lowercase before sorting | `sorted(['a','A','z'],key=str.lower)` returns `['a', 'A', 'z']` |
 
 ##### List Methods
 
@@ -1741,12 +1740,12 @@ For these examples use: `nums = [1,2,3]` and `codons = [ 'atg' , 'aaa' , 'agg' ]
 
 | Method                    | Description                              | Example                                  |
 | ------------------------- | ---------------------------------------- | ---------------------------------------- |
-| `list.append(obj)`        | appends an object to the end of a list   | nums.append(9) ; print(list) ; returns [1,2,3,9] |
+| `list.append(obj)`        | appends an object to the end of a list   | nums.append(9) ; print(nu,s) ; returns [1,2,3,9] |
 | `list.count(obj)`         | counts the occurrences of an object in a list | nums.count(2) returns 1                  |
 | `list.index(obj)`         | returns the lowest index where the given object is found | nums.index(2) returns 1                  |
 | `list.pop()`              | removes and returns the last value in the list. The list is now one element shorter | nums.pop() returns 3                     |
-| `list.insert(index, obj)` | inserts a value at the given index. Remember to think about the divisions between the elements | list.insert(0,100) ; print(list) returns [100, 1, 2, 3] |
-| `list.extend(new_list)`   | appends `new_list` to the end of `list`  | list.extend([7, 8]) ; print(list) returns [1, 2, 3, 7,8] |
+| `list.insert(index, obj)` | inserts a value at the given index. Remember to think about the divisions between the elements | nums.insert(0,100) ; print(nums) returns [100, 1, 2, 3] |
+| `list.extend(new_list)`   | appends `new_list` to the end of `list`  | nums.extend([7, 8]) ; print(nums) returns [1, 2, 3, 7,8] |
 | `list.pop(index)`         | removes and returns the value of the index argument. The list is now 1 value shorter | nums.pop(0) returns 1                    |
 | `list.remove(obj)`        | finds the lowest index of the given object and removes it from the list. The list is now one element shorter | codons.remove('aaa') ; print(codons) returns  [ 'atg' , 'agg' ] |
 | `list.reverse()`          | reverses the order of the list           | nums.reverse() ; print(nums) returns [3,2,1] |
@@ -1817,7 +1816,7 @@ All of the coding that we have gone over so far has been executed line by line. 
 
 Repetitive tasks: There are times when you will want to do the same set of task over and over. In this example we are printing a count, then incrementing, then printing, then incrementing.
 
-```
+```bash
 count = 0
 print("count:" , count)
 count+=1
@@ -1847,7 +1846,7 @@ The while loop will continue to execute a block of code as long as the test expr
 
 ##### While Loop Syntax
 
-```
+```python
   while expression:
     statement1
     statement2
@@ -1871,7 +1870,7 @@ Code:
 
 Output:
 
-```
+```bash
   $ python while.py
   count: 0
   count: 1
@@ -1908,7 +1907,7 @@ An infinite loop occurs when a while condition is always true. Here is an exampl
 
 Output:
 
-```
+```bash
   $ python infinite.py
   count: 0
   count: 0
@@ -1956,8 +1955,8 @@ Code:
 
 Output: 
 
-```
-  python3 list_words.py
+```bash
+  $ python3 list_words.py
   zero
   one
   two
@@ -1965,7 +1964,7 @@ Output:
   four
 ```
 
-This is next example is using a for loop to iterating over a string. Remember a string is a sequence like a list. Each character has a position. Look back at "Extracting a Substring, or Slicing" in the [Strings](#strings) section to see other ways that strings can be treated like lists.
+This next example is using a `for` loop to iterate over a string. Remember a string is a sequence like a list. Each character has a position. Look back at "Extracting a Substring, or Slicing" in the [Strings](#strings) section to see other ways that strings can be treated like lists.
 
 Code:
 
@@ -2700,10 +2699,10 @@ The most common access modes are read (r) and write (w).
 #### Open a File
 
 ```python
->>> file_object = open("seq.nt","r")
+>>> file_obj = open("seq.nt","r")
 ```
 
-> 'file_object' is a name of a variable. This can be anything, but make it a helpful name that describes what kind of file you are opening.
+> 'file_obj' is a name of a variable. This can be anything, but make it a helpful name that describes what kind of file you are opening.
 
 #### Reading the contents of a file
 
@@ -2721,14 +2720,14 @@ $
 Note the new lines. Now, lets print the contents to the screen with Python. We will use `read()` to read the entire contents of the file into a variable. 
 
 ```python
->>> file = open("seq.nt","r")
->>> contents = file.read()
+>>> file_obj = open("seq.nt","r")
+>>> contents = file_obj.read()
 seq.nt.fa
 >>> print(contents)  # note newline characters are part of the file!
 ACAAAATACGTTTTGTAAATGTTGTGCTGTTAACACTGCAAATAAACTTGGTAGCAAACACTTCCAAAAG
 ACCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGG
 
->>> file.close()
+>>> file_obj.close()
 ```
 
 > The complete contents can be retrieved with the `read()` method. Notice the newlines are maintained when `contents` is printed to the screen. `print()` adds another new line when it is finished printing.
@@ -2739,8 +2738,8 @@ Here's another way to read data in from a file. A `for` loop can be used to iter
 ```python
 ##!/usr/bin/env python3
 
-file = open("seq.nt","r")
-for line in file: # Python magic: reads in a line from file
+file_obj = open("seq.nt","r")
+for line in file_obj: # Python magic: reads in a line from file
   print(line)
 ```
 
@@ -2761,8 +2760,8 @@ Let's use `rstrip()` method to remove the newline from our file input.
 ```python
 #!/usr/bin/env python3
 
-file_object = open("seq.nt","r")
-for line in file_object:
+file_obj = open("seq.nt","r")
+for line in file_obj:
   line = line.rstrip()
   print(line)
 ```
@@ -2786,10 +2785,10 @@ Many people add this because it closes the file for you automatically. Good prog
 ```python
 #!/usr/bin/env python3
 
-with open("seq.nt","r") as file_object: #cleans up after exiting with block
-  for line in file_object:
+with open("seq.nt","r") as file_obj: #cleans up after exiting with block
+  for line in file_obj:
     line = line.rstrip()
-  	print(line)
+    print(line)
 ##file gets closed for you here.
 ```
 
@@ -2852,6 +2851,7 @@ Output:
 
 ```bash
 $ python file_read_write.py
+Wrote 'nt.counts.txt'
 $ cat nt.counts.txt
 71
 71
@@ -3039,7 +3039,7 @@ A group of characters that are allowed to be matched one time. There are a few p
 | `\w`  | Word character. Also can be written `[A-Za-z0-9_]` Note underscore is part of this class |
 | `\W`  | Not a word character, or `[^A-Za-z0-9_]`                     |
 | `\s`  | White space character. Also can be written `[ \r\t\n]`. Note the space character after the first `[` |
-| `\S`  | Not whitespace. Also `[^ \r\\t\n]`                           |
+| `\S`  | Not whitespace. Also `[^ \r\t\n]`                           |
 | `[^]` |a carat within a bracketed list of characters indicates anything but the characters that follows |
 
  
@@ -3270,10 +3270,10 @@ Example:
 ```python
   >>> dna = 'ACAAAATACGTTTTGTAAATGTTGTGCTGTTAACACTGCAAATAAACTTGGTAGCAAACACTTCCAAAAGGAATTCACCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGGATATTATCCGGTTTCCAAAGACAGTCTTCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGG'
   >>> found=re.search( r"(.{50})TATTAT(.{25})"  , dna )
-  >>> upstream = found.group(1))
+  >>> upstream = found.group(1)
   >>> print(upstream)
   TCTAATTCCTCATTAGTAATAAGTAAAATGTTTATTGTTGTAGCTCTGGA
-  >>> downstream = found.group(2))
+  >>> downstream = found.group(2)
   >>  print(downstream)
   CCGGTTTCCAAAGACAGTCTTCTAA
 ```
@@ -3379,8 +3379,8 @@ The match object contains information about the match that can be retrieved with
 By default, regular expressions are "greedy".  They try to match as much as they can. Use the quantifier '?' to make the match not greedy. The not greedy match is called 'lazy' 
 
 ```python
-  >>> str = 'The fox ate my box of doughnuts'
-  >>> found = re.search(r"(f.+x)",str)
+  >>> s = 'The fox ate my box of doughnuts'
+  >>> found = re.search(r"(f.+x)",s)
   >>> print(found.group(1))
   fox ate my box
 ```
@@ -3390,7 +3390,7 @@ By default, regular expressions are "greedy".  They try to match as much as they
 Let's make this match lazy by using '?'
 
 ```python
-  >>> found = re.search(r"(f.+?x)",str)
+  >>> found = re.search(r"(f.+?x)",s)
   >>> print(found.group(1))
   fox
 ```
@@ -3475,23 +3475,23 @@ Nest it!
 Earlier we went over how to find an **exact pattern** and replace it using the `replace()` method. To find a pattern, or inexact match, and make a replacement the regular expression `sub()` function is used. This function takes the pattern, the replacement, the string to be searched, the number of times to do the replacement, and flags.
 
 ```python
-  >>> str = "Who's afraid of the big bad wolf?"
-  >>> re.sub(r'w.+f' , 'goat', str)
+  >>> s = "Who's afraid of the big bad wolf?"
+  >>> re.sub(r'w.+f' , 'goat', s)
   "Who's afraid of the big bad goat?"
-  >>> print(str)
+  >>> print(s)
   Who's afraid of the big bad wolf?
 ```
 
-> The `sub()` function returns "Who's afraid of the big bad goat?"  The value of variable str has not been altered  The new string can be stored in a new variable for later use.
+> The `sub()` function returns "Who's afraid of the big bad goat?"  The value of variable `s` has not been altered  The new string can be stored in a new variable for later use.
 
 Let's save the new string that is returned in a variable
 
 ```python
-  >>> str = "He had a wife."
-  >>> new_str = re.sub(r'w.+f' , 'goat', str)
+  >>> s = "He had a wife."
+  >>> new_s = re.sub(r'w.+f' , 'goat', s)
   >>> print(new_str)
   He had a goate.
-  >>> print(str)
+  >>> print(s)
   He had a wife.
 ```
 
@@ -3502,8 +3502,8 @@ Let's save the new string that is returned in a variable
 Sometimes you want to find a pattern and use it in the replacement. 
 
 ```python
-  >>> str = "Who's afraid of the big bad wolf?"
-  >>> new_str = re.sub(r"(\w+) (\w+) wolf" , r"\2 \1 wolf" , str)
+  >>> s = "Who's afraid of the big bad wolf?"
+  >>> new_str = re.sub(r"(\w+) (\w+) wolf" , r"\2 \1 wolf" , s)
   >>> print(new_str)
   Who's afraid of the bad big wolf?
 ```
